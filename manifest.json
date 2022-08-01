@@ -1,0 +1,13 @@
+{
+    "name": "Link's Awakening Remake Randomizer",
+    "game_name": "Link's Awakening Randomizer",
+    "package_version": "1.0.0",
+    "package_uid": "lasr_jim_brooty",
+    "author": "j_im/brooty",
+    "platform": "Switch",
+    "variants": {
+        "tracker": {
+            "display_name": "Map Tracker"
+        }
+    }
+}

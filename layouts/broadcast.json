@@ -1,0 +1,35 @@
+{
+    "tracker_broadcast": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "1,1",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "1,1",
+                "item_size": 36,
+                "rows": [
+                    ["sword", "shield", "lift1", "boots", "flippers", "boomerang"],
+                    ["mushroom", "powder", "feather", "bombs", "shovel", "shells"],
+                    ["ocarina", "hookshot", "bow", "rod", "rooster", "bowwow"],
+                    ["tail", "slime", "angler", "face", "bird", "lens"],
+                    ["ballad", "manbo", "frog", "bottles", "goldleaf", "armor1"]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "item_margin": "-8",
+                "item_size": 58,
+                "rows": [
+                    ["cello","conch"],
+                    ["bell","harp"],
+                    ["marimba","triangle"],
+                    ["organ","drum"]
+                ]
+            }
+        ]
+    }
+}

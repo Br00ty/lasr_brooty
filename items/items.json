@@ -1,0 +1,790 @@
+[
+	{
+		"name": "Sword",
+		"type": "progressive",
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/items/buttonitems/sword1.png",
+				"codes": "sword, sword1"
+			},
+			{
+				"img": "images/items/buttonitems/sword2.png",
+				"codes": "sword2"
+			}
+		]
+	}, 
+    {
+		"name": "Feather",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/feather.png",
+		"codes": "feather"
+    },
+    {
+        "name": "Bow",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/items/buttonitems/bow.png",
+		"codes": "bow"
+    },
+	{
+		"name": "Hookshot",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/hookshot.png",
+		"codes": "hookshot, hs"
+	},
+	{
+		"name": "Mushroom",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/mushroom.png",
+		"codes": "mushroom"
+	},
+	{
+		"name": "Powder",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/powder.png",
+		"codes": "powder"
+	},
+	{
+		"name": "Shovel",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/shovel.png",
+		"codes": "shovel"
+	},
+	{
+		"name": "Boomerang",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/boomerang.png",
+		"codes": "boomerang"
+	},
+	{
+		"name": "Bombs",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/bombs.png",
+		"codes": "bomb, bombs"
+	},
+	{
+		"name": "Ocarina",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/ocarina.png",
+		"codes": "flute, ocarina"
+	},
+	{
+		"name": "Magical Rod",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/rod.png",
+		"codes": "firerod, rod"
+    },
+	{
+		"name": "Bottle",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/bottle.png",
+		"codes": "bottle1"
+	},
+	{
+		"name": "Bottle",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/bottle.png",
+		"codes": "bottle2"
+	},
+	{
+		"name": "Bottle",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/bottle.png",
+		"codes": "bottle3"
+	},
+	{
+		"name": "Bottles",
+		"type": "consumable",
+		"codes": "bottles",
+		"max_quantity": 3,
+		"img": "images/items/buttonitems/bottle.png"
+	},
+	{
+		"name": "Clothes",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [{
+				"img": "images/green_mail.png",
+				"codes": "greenmail, armor1,"
+			},
+			{
+				"img": "images/red_mail.png",
+				"codes": "armor2,redmail",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/blue_mail.png",
+				"codes": "armor3, bluemail",
+				"inherit_codes": true
+			}
+		]
+	}, 
+	{
+		"name": "Shield",
+		"type": "progressive",
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/items/keyitems/shield1.png",
+				"codes": "shield,shield1"
+			},
+			{
+				"img": "images/items/keyitems/shield2.png",
+				"codes": "shield2, mirrorshield, mirror"
+			}
+		]
+	}, 
+	{
+		"name": "Zora's Flippers",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/keyitems/flippers.png",
+		"codes": "flippers"
+	}, 
+	{
+		"name": "Pegasus Boots",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/keyitems/boots.png",
+		"codes": "boots"
+	}, 
+	{
+		"name": "Bracelet",
+		"type": "progressive",
+		"loop": true,
+		"stages": [{
+				"img": "images/items/keyitems/powerbracelet.png",
+				"codes": "bracelet,lift1"
+			},
+			{
+				"img": "images/items/keyitems/powerbracelet2.png",
+				"codes": "bracelet2,lift2"
+			}
+		]
+	},
+	{
+		"name": "Yoshi",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/trade/yoshi.png",
+		"codes": "yoshi"
+	},
+	{
+		"name": "Ribbon",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/trade/ribbon.png",
+		"codes": "ribbon"
+	},
+	{
+		"name": "Dog Food",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/trade/dogfood.png",
+		"codes": "food"
+	},
+	{
+		"name": "Banana",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/trade/banana.png",
+		"codes": "bananas"
+	},
+	{
+		"name": "Stick",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/trade/stick.png",
+		"codes": "stick"
+	},
+	{
+		"name": "Beehive",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/trade/beehive.png",
+		"codes": "honey,beehive,hive"
+	},
+	{
+		"name": "Pineapple",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/trade/pineapple.png",
+		"codes": "pineapple"
+	},
+	{
+		"name": "Hibiscus",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/trade/hibiscus.png",
+		"codes": "flower"
+	},
+	{
+		"name": "Letter",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/trade/letter.png",
+		"codes": "letter"
+	},
+	{
+		"name": "Broom",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/trade/broom.png",
+		"codes": "broom"
+	},
+	{
+		"name": "Hook",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/trade/hook.png",
+		"codes": "hook"
+	},
+	{
+		"name": "Necklace",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/trade/necklace.png",
+		"codes": "necklace"
+	},
+	{
+		"name": "Scale",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/trade/scale.png",
+		"codes": "scale"
+	},
+	{
+		"name": "Lens",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/trade/lens.png",
+		"codes": "lens"
+	},
+    {
+		"name": "Full Moon Cello",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/instruments/cello.png",
+		"codes": "cello,tc"
+    },
+    {
+		"name": "Conch Horn",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/instruments/conch.png",
+		"codes": "conch,bg"
+	}, 
+	{
+		"name": "Sea Lily's Bell",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/instruments/bell.png",
+		"codes": "bell,kc"
+	}, 
+	{
+		"name": "Surf Harp",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/instruments/harp.png",
+		"codes": "harp,at"
+	}, 
+	{
+		"name": "Wind Marimba",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/instruments/marimba.png",
+		"codes": "marimba,cm"
+	}, 
+	{
+		"name": "Coral Triangle",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/instruments/triangle.png",
+		"codes": "triangle,fs"
+	},
+	{
+		"name": "Organ of Evening Calm",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/instruments/organ.png",
+		"codes": "organ,et"
+	}, 
+	{
+		"name": "Thunder Drum",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/instruments/drum.png",
+		"codes": "drum,tr"
+    },
+	{
+		"name": "Fairy Queen",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/instruments/fairyqueen.png",
+		"codes": "fairyq"
+    },
+	{
+		"name": "Tail Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/keyitems/tailkey.png",
+		"codes": "tail,tailkey"
+    },
+	{
+		"name": "Slime Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/keyitems/slimekey.png",
+		"codes": "slime,slimekey"
+	},
+    {
+        "name": "Golden Leaves",
+        "type": "consumable",
+        "img": "images/items/keyitems/goldleaf.png",
+        "codes": "goldleaf",
+        "max_quantity": 5
+    },
+	{
+		"name": "Angler Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/keyitems/anglerkey.png",
+		"codes": "angler,anglerkey"
+	},
+	{
+		"name": "Face Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/keyitems/facekey.png",
+		"codes": "face,facekey"
+	},
+	{
+		"name": "Bird Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/keyitems/birdkey.png",
+		"codes": "eagle, birdkey, bird"
+	},
+	{
+		"name": "Ballad of the Wind Fish",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/marinsong.png",
+		"codes": "marin,ballad"
+	}, 
+	{
+		"name": "Manbo's Mambo",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/manbo.png",
+		"codes": "fish,manbo,mambo"
+	}, 
+	{
+		"name": "Frog's Song of Soul",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/mamu.png",
+		"codes": "frog,soul"
+    },
+    {
+		"name": "Piece of Heart",
+		"type": "consumable",
+		"img": "images/items/hp.png",
+		"codes": "poh,heartpiece",
+		"max_quantity": 32
+    },
+    {
+        "name": "Heart Containers",
+        "type": "consumable",
+        "img": "images/items/heartcontainer.png",
+        "codes": "heartcontainer",
+        "max_quantity": 12
+    },
+	{
+		"name": "Chamber Stones",
+		"type": "consumable",
+		"img": "images/items/chamber.png",
+		"codes": "chamberstones, stones",
+		"max_quantity": 14
+	},
+	{
+		"name": "Secret Medicine",
+		"type": "toggle",
+		"img": "images/items/medicine.png",
+		"codes": "medicine"
+	},
+	{
+		"name": "Marin Follower",
+		"type": "toggle",
+		"img": "images/marinfollow.png",
+		"codes": "marinfollow"
+	},
+	{
+		"name": "Bowwow Follower",
+		"type": "toggle",
+		"img": "images/bowwowfollow.png",
+		"codes": "bowwow"
+	},
+	{
+		"name": "Flying Rooster Follower",
+		"type": "toggle",
+		"img": "images/flyingrooster.png",
+		"codes": "flyingrooster,rooster"
+	},
+	{
+		"name": "Shells",
+		"type": "consumable",
+		"img": "images/items/shell.png",
+		"codes": "shells,shell",
+		"max_quantity": 50
+    },
+	{
+		"name": "Seashell Sensor",
+		"type": "toggle",
+		"img": "images/items/keyitems/sensor.png",
+		"codes": "sensor"
+	},
+    {
+        "name": "Figurines",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": false,
+        "stages": [
+            {
+                "img": "images/items/figurines/ciaociao.png",
+                "codes": "ciaociao",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/goomba.png",
+                "codes": "goomba",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/cheepcheep.png",
+                "codes": "cheepcheep",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/spiny.png",
+                "codes": "spiny",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/boo.png",
+                "codes": "boo",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/blooper.png",
+                "codes": "blooper",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/shyguy.png",
+                "codes": "shyguy",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/piranhaplant.png",
+                "codes": "piranhaplant",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/pokey.png",
+                "codes": "pokey",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/bowwow.png",
+                "codes": "bowwowfig",
+                "inherit_codes": false
+            }
+        ]
+    },
+	{
+		"name": "D1 Small Keys",
+		"type": "consumable",
+		"codes": "d1sk",
+		"max_quantity": 3,
+		"img": "images/items/smallkey.png"
+	},
+	{
+		"name": "D2 Small Keys",
+		"type": "consumable",
+		"codes": "d2sk",
+		"max_quantity": 5,
+		"img": "images/items/smallkey.png"
+	},
+	{
+		"name": "D3 Small Keys",
+		"type": "consumable",
+		"codes": "d3sk",
+		"max_quantity": 9,
+		"img": "images/items/smallkey.png"
+	},
+	{
+		"name": "D4 Small Keys",
+		"type": "consumable",
+		"codes": "d4sk",
+		"max_quantity": 5,
+		"img": "images/items/smallkey.png"
+	},
+	{
+		"name": "D5 Small Keys",
+		"type": "consumable",
+		"codes": "d5sk",
+		"max_quantity": 3,
+		"img": "images/items/smallkey.png"
+	},
+	{
+		"name": "D6 Small Keys",
+		"type": "consumable",
+		"codes": "d6sk",
+		"max_quantity": 3,
+		"img": "images/items/smallkey.png"
+	},
+	{
+		"name": "D7 Small Keys",
+		"type": "consumable",
+		"codes": "d7sk",
+		"max_quantity": 3,
+		"img": "images/items/smallkey.png"
+	},
+	{
+		"name": "D8 Small Keys",
+		"type": "consumable",
+		"codes": "d8sk",
+		"max_quantity": 7,
+		"img": "images/items/smallkey.png"
+	},
+	{
+		"name": "D0 Small Keys",
+		"type": "consumable",
+		"codes": "d0sk",
+		"max_quantity": 3,
+		"img": "images/items/smallkey.png"
+	},
+	{
+		"name": "D1 Nightmare Key",
+		"type": "toggle",
+		"codes": "d1bk",
+		"img": "images/items/bosskey.png"
+	},
+	{
+		"name": "D2 Nightmare Key",
+		"type": "toggle",
+		"codes": "d2bk",
+		"img": "images/items/bosskey.png"
+	},
+	{
+		"name": "D3 Nightmare Key",
+		"type": "toggle",
+		"codes": "d3bk",
+		"img": "images/items/bosskey.png"
+	},
+	{
+		"name": "D4 Nightmare Key",
+		"type": "toggle",
+		"codes": "d4bk",
+		"img": "images/items/bosskey.png"
+	},
+	{
+		"name": "D5 Nightmare Key",
+		"type": "toggle",
+		"codes": "d5bk",
+		"img": "images/items/bosskey.png"
+	},
+	{
+		"name": "D6 Nightmare Key",
+		"type": "toggle",
+		"codes": "d6bk",
+		"img": "images/items/bosskey.png"
+	},
+	{
+		"name": "D7 Nightmare Key",
+		"type": "toggle",
+		"codes": "d7bk",
+		"img": "images/items/bosskey.png"
+	},
+	{
+		"name": "D8 Nightmare Key",
+		"type": "toggle",
+		"codes": "d8bk",
+		"img": "images/items/bosskey.png"
+	},
+	{
+		"name": "D0 Nightmare Key",
+		"type": "toggle",
+		"codes": "d0bk",
+		"img": "images/items/bosskey.png"
+	},
+	{
+		"name": "D1 Stone Beak",
+		"type": "toggle",
+		"codes": "d1beak",
+		"img": "images/items/stonebeak.png"
+	},
+	{
+		"name": "D2 Stone Beak",
+		"type": "toggle",
+		"codes": "d2beak",
+		"img": "images/items/stonebeak.png"
+	},
+	{
+		"name": "D3 Stone Beak",
+		"type": "toggle",
+		"codes": "d3beak",
+		"img": "images/items/stonebeak.png"
+	},
+	{
+		"name": "D4 Stone Beak",
+		"type": "toggle",
+		"codes": "d4beak",
+		"img": "images/items/stonebeak.png"
+	},
+	{
+		"name": "D5 Stone Beak",
+		"type": "toggle",
+		"codes": "d5beak",
+		"img": "images/items/stonebeak.png"
+	},
+	{
+		"name": "D6 Stone Beak",
+		"type": "toggle",
+		"codes": "d6beak",
+		"img": "images/items/stonebeak.png"
+	},
+	{
+		"name": "D7 Stone Beak",
+		"type": "toggle",
+		"codes": "d7beak",
+		"img": "images/items/stonebeak.png"
+	},
+	{
+		"name": "D8 Stone Beak",
+		"type": "toggle",
+		"codes": "d8beak",
+		"img": "images/items/stonebeak.png"
+	},
+	{
+		"name": "D0 Stone Beak",
+		"type": "toggle",
+		"codes": "d0beak",
+		"img": "images/items/stonebeak.png"
+	},
+	{
+		"name": "Freestanding Heart Pieces",
+		"type": "toggle",
+		"codes": "s_hp",
+		"img": "images/items/hp.png",
+		"loop": true
+	},
+	{
+		"name": "Freestanding Seashells",
+		"type": "toggle",
+		"codes": "s_ss",
+		"img": "images/items/shell.png",
+		"loop": true
+	},
+	{
+		"name": "Trade Quest",
+		"type": "toggle",
+		"codes": "s_tq",
+		"img": "images/items/trade/yoshi.png",
+		"loop": true
+	},
+	{
+		"name": "Logic Level",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Basic",
+				"codes": "l_bas",
+				"img": "images/b.png"
+			},
+			{
+				"name": "Advanced",
+				"codes": "l_adv",
+				"img": "images/a.png"
+			},
+			{
+				"name": "Glitched",
+				"codes": "l_gli",
+				"img": "images/g.png"
+			}
+		]
+	},
+	{
+		"name": "Mabe Shop",
+		"type": "toggle",
+		"loop": true,
+		"codes": "shop",
+		"img": "images/shop.png"
+	},
+	{
+		"name": "Fishing Pond",
+		"type": "toggle",
+		"loop": true,
+		"codes": "fishing",
+		"img": "images/fishing.png"
+	},
+	{
+		"name": "Mad Batter",
+		"type": "toggle",
+		"loop": true,
+		"codes": "batter",
+		"img": "images/batter.png"
+	},
+	{
+		"name": "Seashell Mansion",
+		"type": "toggle",
+		"loop": true,
+		"codes": "mansion",
+		"img": "images/mansion.png"
+	},
+	{
+		"name": "Trendy Game",
+		"type": "toggle",
+		"loop": true,
+		"codes": "trendy",
+		"img": "images/trendy.png"
+	},
+	{
+		"name": "Rapids Race",
+		"type": "toggle",
+		"loop": true,
+		"codes": "rapids",
+		"img": "images/rapids.png"
+	},
+	{
+		"name": "Dampe Chambers",
+		"type": "toggle",
+		"loop": true,
+		"codes": "dampe",
+		"img": "images/dampe.png"
+	},
+	{
+		"name": "Blupsanity",
+		"type": "toggle",
+		"loop": true,
+		"codes": "d0rupee",
+		"img": "images/bluerupee.png"
+	}
+]

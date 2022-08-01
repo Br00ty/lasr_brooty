@@ -1,0 +1,4398 @@
+[
+    {
+        "name": "World",
+        "chest_unopened_img": "images/chest.png",
+        "chest_opened_img": "images/chest_gray.png",
+        "children": [
+            {
+                "name": "Mabe Village",
+                "children": [
+                    {
+                        "name": "Dream Shrine",
+                        "access_rules": [
+                            "$dreamshrine",
+                            "[l_gli],$dreamshrine_g"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Dream Shrine Right",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$k_mimic"
+                                ]
+                            },
+                            {
+                                "name": "Dream Shrine Left",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$k_mimic,$obstacle"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 620,
+                                "y": 880
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Marin's House",
+                        "sections": [
+                            {
+                                "name": "Tarin",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 500,
+                                "y": 1050
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Marin",
+                        "sections": [
+                            {
+                                "name": "Ocarina with Marin",
+                                "access_rules": [
+                                    "ocarina"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 555,
+                                "y": 1000
+                            },
+                            {
+                                "map": "map",
+                                "x": 2160,
+                                "y": 1284
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mamasha",
+                        "sections": [
+                            {
+                                "name": "Trade Yoshi Doll",
+                                "access_rules": [
+                                    "yoshi"
+                                ],
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "s_tq"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 523,
+                                "y": 866
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Madam MeowMeow",
+                        "sections": [
+                            {
+                                "name": "Trade Ribbon",
+                                "access_rules": [
+                                    "ribbon"
+                                ],
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "s_tq"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 314,
+                                "y": 1042
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mabe Shop",
+                        "access_rules": [
+                            "$farm"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Slot3 1st",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Slot3 2nd",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Slot5 1st/2nd",
+                                "item_count": 2,
+                                "access_rules": [
+                                    "fairyq",
+                                    "o_shop"
+                                ],
+                                "visibility_rules": [
+                                    "shop"
+                                ],
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Slot5 3rd",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "triangle",
+                                    "o_shop"
+                                ],
+                                "visibility_rules": [
+                                    "shop"
+                                ]
+                            },
+                            {
+                                "name": "Slot5 4-7",
+                                "item_count": 4,
+                                "access_rules": [
+                                    "drum",
+                                    "o_shop"
+                                ],
+                                "visibility_rules": [
+                                    "shop"
+                                ],
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Slot6",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "shop"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 660,
+                                "y": 980
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mabe Garden",
+                        "sections": [
+                            {
+                                "name": "Mabe Bushes",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "access_rules": [
+                                    "$bush"
+                                ],
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 673,
+                                "y": 1045
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Doghouse",
+                        "sections": [
+                            {
+                                "name": "Doghouse Dig",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "access_rules": [
+                                    "shovel"
+                                ],
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 351,
+                                "y": 1047
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Well",
+                        "sections": [
+                            {
+                                "name": "Mabe Well",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/hp.png",
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "access_rules": [
+                                    "$bush"
+                                ],
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 177,
+                                "y": 1061
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fishing Hole",
+                        "access_rules": [
+                            "$farm"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Fishing Any",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/hp.png",
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "visibility_rules": [
+                                    "fishing"
+                                ]
+                            },
+                            {
+                                "name": "Fishing 50",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/hp.png",
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "visibility_rules": [
+                                    "fishing"
+                                ]
+                            },
+                            {
+                                "name": "Fishing 100",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "access_rules": [
+                                    "o_fish",
+                                    "triangle",
+                                    "marimba"
+                                ],
+                                "visibility_rules": [
+                                    "fishing"
+                                ]
+                            },
+                            {
+                                "name": "Fishing 150",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/chamber.png",
+                                "chest_opened_img": "images/items/chamber_gray.png",
+                                "access_rules": [
+                                    "o_fish",
+                                    "triangle"
+                                ],
+                                "visibility_rules": [
+                                    "fishing"
+                                ]
+                            },
+                            {
+                                "name": "Fishing Cheep Cheep",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "access_rules": [
+                                    "o_fish",
+                                    "harp"
+                                ],
+                                "visibility_rules": [
+                                    "fishing"
+                                ]
+                            },
+                            {
+                                "name": "Fishing ol Baron",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/chamber.png",
+                                "chest_opened_img": "images/items/chamber_gray.png",
+                                "access_rules": [
+                                    "o_fish",
+                                    "triangle"
+                                ],
+                                "visibility_rules": [
+                                    "fishing"
+                                ]
+                            },
+                            {
+                                "name": "Fishing Loose",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/bottle.png",
+                                "chest_opened_img": "images/items/bottle_gray.png",
+                                "visibility_rules": [
+                                    "fishing"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 350,
+                                "y": 885
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Outside Tail Cave",
+                        "sections": [
+                            {
+                                "name": "Tail Cave Bonk Tree",
+                                "access_rules": [
+                                    "boots"
+                                ],
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 481,
+                                "y": 1307
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Beach Tree",
+                        "sections": [
+                            {
+                                "name": "beach Bonk Tree",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "boots"
+                                ],
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 249,
+                                "y": 1417
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Trendy Store",
+                        "access_rules": [
+                            "$farm"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Trendy Prizes 1-3",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "trendy"
+                                ],
+                                "clear_as_group": false
+                            },
+                            {
+                                "name": "Trendy Prize 4",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "conch",
+                                    "o_trendy"
+                                ],
+                                "visibility_rules": [
+                                    "trendy"
+                                ]
+                            },
+                            {
+                                "name": "Trendy Prize 5",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "bell",
+                                    "o_trendy"
+                                ],
+                                "visibility_rules": [
+                                    "trendy"
+                                ]
+                            },
+                            {
+                                "name": "Trendy Prize 6",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "harp",
+                                    "o_trendy"
+                                ],
+                                "visibility_rules": [
+                                    "trendy"
+                                ]
+                            },
+                            {
+                                "name": "Trendy Prize Final",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$instruments",
+                                    "o_trendy"
+                                ],
+                                "visibility_rules": [
+                                    "trendy"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 672,
+                                "y": 1130
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Weathervane",
+                        "sections": [
+                            {
+                                "name": "Rooster",
+                                "hosted_item": "rooster",
+                                "access_rules": [
+                                    "ocarina,soul,bracelet2"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 506,
+                                "y": 984
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Toronbo Shores",
+                "access_rules": [
+                    "$beach"
+                ],
+                "children": [
+                    {
+                        "name": "East Beach",
+                        "sections": [
+                            {
+                                "name": "Beach Chest",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "bracelet"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1050,
+                                "y": 1380
+                            }
+                        ]
+                    },
+                    {
+                        "name": "West Beach",
+                        "sections": [
+                            {
+                                "name": "Washed Up",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 480,
+                                "y": 1500
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Beach Sand",
+                        "sections": [
+                            {
+                                "name": "Beach Dig",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "shovel"
+                                ],
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 920,
+                                "y": 1500
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Goryia Cave",
+                        "access_rules": [
+                            "bombs,lens"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Boomerang Trade",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$goriya"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 754,
+                                "y": 1416
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Crocodile Sale",
+                        "sections": [
+                            {
+                                "name": "Trade Dog Food",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "food"
+                                ],
+                                "visibility_rules": [
+                                    "s_tq"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 671,
+                                "y": 1375
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ghost House",
+                "access_rules": [
+                    "$ghosthouse"
+                ],
+                "sections": [
+                    {
+                        "name": "Ghost House Pot",
+                        "access_rules": [
+                            "$pot"
+                        ],
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/shell.png",
+                        "chest_opened_img": "images/items/shell_gray.png",
+                        "visibility_rules": [
+                            "s_ss"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1180,
+                        "y": 1450
+                    }
+                ]
+            },
+            {
+                "name": "Mysterious Woods",
+                "access_rules": [
+                    "$woods"
+                ],
+                "children": [
+                    {
+                        "name": "Woods Crossing Cave",
+                        "sections": [
+                            {
+                                "name": "Woods Crossing Cave Chest",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$crystal"
+                                ]
+                            },
+                            {
+                                "name": "Woods Crossing Cave Loose",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$skull"
+                                ],
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "chest_unopened_img": "images/items/hp.png",
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 540,
+                                "y": 726
+                            },
+                            {
+                                "map": "map",
+                                "x": 225,
+                                "y": 641
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Toadstool",
+                        "sections": [
+                            {
+                                "name": "Toadstool Spot",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 129,
+                                "y": 640
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Woods North Cave",
+                        "access_rules": [
+                            "bracelet"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Woods North Cave Chest",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "feather",
+                                    "rooster",
+                                    "hookshot"
+                                ]
+                            },
+                            {
+                                "name": "Woods North Cave Loose",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "hookshot",
+                                    "rooster"
+                                ],
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "chest_unopened_img": "images/items/hp.png",
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 474,
+                                "y": 568
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Woods Batter",
+                        "access_rules": [
+                            "bracelet,powder"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Mad Batter Woods",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "batter"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 537,
+                                "y": 633
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Woods South",
+                        "sections": [
+                            {
+                                "name": "Woods South Chest",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "bracelet"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 318,
+                                "y": 808
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Woods North",
+                        "access_rules": [
+                            "$bush"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Woods North Chest",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "powder",
+                                    "rooster",
+                                    "feather",
+                                    "bracelet"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 320,
+                                "y": 562
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Woods West",
+                        "access_rules": [
+                            "shovel"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Woods West Dig",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "powder",
+                                    "rooster",
+                                    "feather",
+                                    "bracelet"
+                                ],
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "chest_unopened_img": "images/items/shell.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 167,
+                                "y": 539
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Woods East",
+                        "sections": [
+                            {
+                                "name": "Woods East Dig",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "shovel"
+                                ],
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "chest_unopened_img": "images/items/shell.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 488,
+                                "y": 656
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Holes Everywhere!",
+                        "sections": [
+                            {
+                                "name": "Heart Piece of Shame",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "feather",
+                                    "rooster",
+                                    "hookshot"
+                                ],
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 819,
+                                "y": 570
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Witch's Hut",
+                        "sections": [
+                            {
+                                "name": "Witch's Hut",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "mushroom"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 984,
+                                "y": 701
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Taltal East",
+                "access_rules": [
+                    "$wasteland"
+                ],
+                "children": [
+                    {
+                        "name": "Taltal Entrance Cave",
+                        "sections": [
+                            {
+                                "name": "Taltal Entrance Chest",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "hookshot,$crystal",
+                                    "rooster,$crystal"
+                                ]
+                            },
+                            {
+                                "name": "Taltal Entrance Blocks",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$crystal"
+                                ],
+                                "chest_unopened_img": "images/items/hp.png",
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1300,
+                                "y": 280
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Taltal East Exterior",
+                        "sections": [
+                            {
+                                "name": "Taltal East Left Chest",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$crystal"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1480,
+                                "y": 280
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Tabahl Wasteland",
+                "children": [
+                    {
+                        "name": "Wasteland Soil",
+                        "sections": [
+                            {
+                                "name": "Wasteland Dig",
+                                "access_rules": [
+                                    "$wasteland,shovel"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "chest_unopened_img": "images/items/shell.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1360,
+                                "y": 600
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wasteland",
+                        "sections": [
+                            {
+                                "name": "North Wasteland",
+                                "access_rules": [
+                                    "$bush,feather",
+                                    "$bush,hookshot",
+                                    "$bush,rooster"
+                                ],
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/hp.png",
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1335,
+                                "y": 540
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Taltal Heights Swamp Side",
+                "access_rules": [
+                    "$wasteland"
+                ],
+                "children": [
+                    {
+                        "name": "Moblin Cave",
+                        "sections": [
+                            {
+                                "name": "Save Bowwow",
+                                "access_rules": [
+                                    "cello,sword"
+                                ],
+                                "hosted_item": "bowwow"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1017,
+                                "y": 508
+                            }
+                        ]
+                    },
+                    {
+                        "name": "North Heights",
+                        "sections": [
+                            {
+                                "name": "North of Moblin Cave",
+                                "access_rules": [
+                                    "bracelet"
+                                ],
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1000,
+                                "y": 400
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Taltal Heights River Side",
+                "access_rules": [
+                    "$heights",
+                    "[l_gli],$heights_g"
+                ],
+                "children": [
+                    {
+                        "name": "Heights Hole",
+                        "sections": [
+                            {
+                                "name": "Taltal Heights Hole",
+                                "access_rules": [
+                                    "bombs"
+                                ],
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2240,
+                                "y": 430
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Dampe",
+                "access_rules": [
+                    "$wasteland"
+                ],
+                "sections": [
+                    {
+                        "name": "Dampe Page 1",
+                        "access_rules": [
+                            "$dampe11,$dampe12,$dampe13,$dampe14"
+                        ],
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "dampe"
+                        ]
+                    },
+                    {
+                        "name": "Dampe Heart Challenge",
+                        "access_rules": [
+                            "$dampe14"
+                        ],
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "dampe"
+                        ]
+                    },
+                    {
+                        "name": "Dampe Page 2",
+                        "access_rules": [
+                            "$dampe21,$dampe22,$dampe23,$dampe24"
+                        ],
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "dampe"
+                        ]
+                    },
+                    {
+                        "name": "Dampe Bottle Challenge",
+                        "access_rules": [
+                            "$dampe32"
+                        ],
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "dampe"
+                        ]
+                    },
+                    {
+                        "name": "Dampe Final",
+                        "access_rules": [
+                            "$dampe11,$dampe12,$dampe13,$dampe14,$dampe21,$dampe22,$dampe23,$dampe24,$dampe31,$dampe32,$dampe33,$dampe34"
+                        ],
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "dampe"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1313,
+                        "y": 453
+                    }
+                ]
+            },
+            {
+                "name": "Desert",
+                "access_rules": [
+                    "$desert"
+                ],
+                "children": [
+                    {
+                        "name": "Sandpit",
+                        "sections": [
+                            {
+                                "name": "Lanmola",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$k_lanmola"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2480,
+                                "y": 1220
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Desert Cave",
+                        "sections": [
+                            {
+                                "name": "Desert Cave",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "bombs"
+                                ],
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "chest_unopened_img": "images/items/hp.png",
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2687,
+                                "y": 1200
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Desert Sand",
+                        "sections": [
+                            {
+                                "name": "Desert Dig",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "shovel"
+                                ],
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2620,
+                                "y": 1225
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Desert Rock",
+                        "sections": [
+                            {
+                                "name": "Desert South",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "bracelet"
+                                ],
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2653,
+                                "y": 1446
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Walrus",
+                        "sections": [
+                            {
+                                "name": "Walrus",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "ocarina,ballad"
+                                ],
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2370,
+                                "y": 1450
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Armos Maze",
+                "access_rules": [
+                    "bracelet,hookshot",
+                    "bracelet,$obstacle",
+                    "bracelet,$water"
+                ],
+                "children": [
+                    {
+                        "name": "Maze Cave",
+                        "sections": [
+                            {
+                                "name": "Armos Cave",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2470,
+                                "y": 1080
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Armos Shrine",
+                        "sections": [
+                            {
+                                "name": "Armos Knight",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$k_armos"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2160,
+                                "y": 1050
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rock Maze",
+                        "sections": [
+                            {
+                                "name": "Rock Maze",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "access_rules": [
+                                    "bracelet"
+                                ],
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2585,
+                                "y": 944
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Goponga Swamp West",
+                "access_rules": [
+                    "$write"
+                ],
+                "children": [
+                    {
+                        "name": "Goponga Cave",
+                        "sections": [
+                            {
+                                "name": "Goponga Cave Left",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "feather",
+                                    "[l_adv],hookshot"
+                                ]
+                            },
+                            {
+                                "name": "Goponga Cave Right",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$skull"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 250,
+                                "y": 410
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Goponga West",
+                        "sections": [
+                            {
+                                "name": "Goponga West Dig",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$bush,shovel"
+                                ],
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 375,
+                                "y": 420
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mr. Write",
+                        "sections": [
+                            {
+                                "name": "Trade Letter",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$write,letter"
+                                ],
+                                "visibility_rules": [
+                                    "s_tq"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 209,
+                                "y": 466
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Koholint Prairie",
+                "children": [
+                    {
+                        "name": "Ghost's Grave",
+                        "sections": [
+                            {
+                                "name": "Ghost Reward",
+                                "access_rules": [
+                                    "$ghostgrave,harp"
+                                ],
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/bottle.png",
+                                "chest_opened_img": "images/items/bottle_gray.png"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 786,
+                                "y": 740
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ghost Grave Pit",
+                        "sections": [
+                            {
+                                "name": "Ghost Grave Dig",
+                                "access_rules": [
+                                    "$ghostgrave,shovel,$bush"
+                                ],
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 852,
+                                "y": 810
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Graveyard Cave",
+                        "sections": [
+                            {
+                                "name": "Graveyard Cave",
+                                "access_rules": [
+                                    "$ghostgrave,bracelet,feather,bombs,hookshot",
+                                    "[l_adv],$ghostgrave,feather"
+                                ],
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "chest_unopened_img": "images/items/hp.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 968,
+                                "y": 806
+                            },
+                            {
+                                "map": "map",
+                                "x": 1184,
+                                "y": 787
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ukuku Prairie",
+                "access_rules": [
+                    "$plains"
+                ],
+                "children": [
+                    {
+                        "name": "Ukuku West Cave",
+                        "sections": [
+                            {
+                                "name": "Ukuku Cave West Chest",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Ukuku Cave West Loose",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/hp.png",
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "access_rules": [
+                                    "$skull"
+                                ],
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 900,
+                                "y": 920
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ukuku East",
+                        "access_rules": [
+                            "bombs"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Ukuku Cave East Chest",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$obstacle"
+                                ]
+                            },
+                            {
+                                "name": "Ukuku Cave East Loose",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/hp.png",
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "access_rules": [
+                                    "bombs,$obstacle"
+                                ],
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1100,
+                                "y": 900
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kanalet Moat Ledge",
+                        "access_rules": [
+                            "bracelet"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Kanalet South Cave",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "hookshot,flippers",
+                                    "hookshot,ocarina,mambo",
+                                    "[l_adv],hookshot,feather",
+                                    "[l_adv],hookshot,bombs",
+                                    "rooster,flippers",
+                                    "rooster,ocarina,mambo",
+                                    "[l_adv],rooster,feather",
+                                    "[l_adv],rooster,bombs"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1440,
+                                "y": 860
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kanalet Moat",
+                        "access_rules": [
+                            "$river"
+                        ],
+                        "children": [
+                            {
+                                "name": "North Moat",
+                                "sections": [
+                                    {
+                                        "name": "Kanalet Moat North",
+                                        "access_rules": [
+                                            "flippers"
+                                        ],
+                                        "item_count": 1,
+                                        "chest_unopened_img": "images/items/shell.png",
+                                        "chest_opened_img": "images/items/shell_gray.png",
+                                        "visibility_rules": [
+                                            "s_ss"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "map",
+                                        "x": 1497,
+                                        "y": 555
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "South Moat",
+                                "sections": [
+                                    {
+                                        "name": "Kanalet Moat South",
+                                        "access_rules": [
+                                            "flippers"
+                                        ],
+                                        "item_count": 1,
+                                        "chest_opened_img": "images/items/hp_gray.png",
+                                        "chest_unopened_img": "images/items/hp.png",
+                                        "visibility_rules": [
+                                            "s_hp"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "map",
+                                        "x": 1578,
+                                        "y": 848
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Slime Pond",
+                        "sections": [
+                            {
+                                "name": "Pond Island",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$bush,$water",
+                                    "$bush,$dashjump,[l_adv]"
+                                ],
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1183,
+                                "y": 1055
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Seashell Mansion Ext",
+                        "sections": [
+                            {
+                                "name": "Beside Seashell Mansion",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "access_rules": [
+                                    "$bush"
+                                ],
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1968,
+                                "y": 912
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tarin",
+                        "sections": [
+                            {
+                                "name": "Trade Stick",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "stick"
+                                ],
+                                "visibility_rules": [
+                                    "s_tq"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1323,
+                                "y": 892
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kiki the Monkey",
+                        "sections": [
+                            {
+                                "name": "Trade Bananas",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "bananas"
+                                ],
+                                "visibility_rules": [
+                                    "s_tq"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1977,
+                                "y": 859
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Atop D3",
+                        "sections": [
+                            {
+                                "name": "Above D3",
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$water,shovel",
+                                    "feather,shovel"
+                                ],
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1001,
+                                "y": 1043
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Skull Rock",
+                        "sections": [
+                            {
+                                "name": "Under Skull Rock",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "bombs,shovel"
+                                ],
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1330,
+                                "y": 975
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ukuku Tree",
+                        "sections": [
+                            {
+                                "name": "Ukuku Bonk Tree",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "boots"
+                                ],
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 862,
+                                "y": 1041
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Seashell Mansion",
+                        "sections": [
+                            {
+                                "name": "5 Seashells",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "shell:5"
+                                ],
+                                "visibility_rules": [
+                                    "mansion"
+                                ]
+                            },
+                            {
+                                "name": "15 Seashells",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "shell:15"
+                                ],
+                                "visibility_rules": [
+                                    "mansion"
+                                ]
+                            },
+                            {
+                                "name": "30 Seashells",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "shell:30"
+                                ],
+                                "visibility_rules": [
+                                    "mansion"
+                                ]
+                            },
+                            {
+                                "name": "40 Seashells",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "shell:40"
+                                ],
+                                "visibility_rules": [
+                                    "mansion"
+                                ]
+                            },
+                            {
+                                "name": "50 Seashells",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "shell:50"
+                                ],
+                                "visibility_rules": [
+                                    "mansion"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1826,
+                                "y": 906
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Kanalet Castle",
+                "access_rules": [
+                    "$kanalet_out"
+                ],
+                "children": [
+                    {
+                        "name": "Kanalet West",
+                        "sections": [
+                            {
+                                "name": "Kanalet Crow",
+                                "item_count": 1,
+                                "chest_opened_img": "images/items/goldleaf_gray.png",
+                                "chest_unopened_img": "images/items/goldleaf.png",
+                                "access_rules": [
+                                    "$k_crow,bomb",
+                                    "$k_crow,bracelet"
+                                ],
+                                "visibility_rules": [
+                                    "kanalet"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1440,
+                                "y": 666
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kanalet East",
+                        "sections": [
+                            {
+                                "name": "Kanalet Mad Bomber",
+                                "item_count": 1,
+                                "chest_opened_img": "images/items/goldleaf_gray.png",
+                                "chest_unopened_img": "images/items/goldleaf.png",
+                                "access_rules": [
+                                    "$k_bomber"
+                                ],
+                                "visibility_rules": [
+                                    "kanalet"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1827,
+                                "y": 690
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kanalet Castle",
+                        "access_rules": [
+                            "$kanalet"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Kanalet Kill Room",
+                                "item_count": 1,
+                                "chest_opened_img": "images/items/goldleaf_gray.png",
+                                "chest_unopened_img": "images/items/goldleaf.png",
+                                "access_rules": [
+                                    "$k_darknut,$k_zolr"
+                                ],
+                                "visibility_rules": [
+                                    "kanalet"
+                                ]
+                            },
+                            {
+                                "name": "Kanalet Bombed Guard",
+                                "item_count": 1,
+                                "chest_opened_img": "images/items/goldleaf_gray.png",
+                                "chest_unopened_img": "images/items/goldleaf.png",
+                                "access_rules": [
+                                    "$k_darknut,bombs"
+                                ],
+                                "visibility_rules": [
+                                    "kanalet"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1660,
+                                "y": 770
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kanalet Top Floor",
+                        "access_rules": [
+                            "$kanalet"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Kanalet Final Guard",
+                                "item_count": 1,
+                                "chest_opened_img": "images/items/goldleaf_gray.png",
+                                "chest_unopened_img": "images/items/goldleaf.png",
+                                "access_rules": [
+                                    "$k_darknut,bracelet"
+                                ],
+                                "visibility_rules": [
+                                    "kanalet"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1660,
+                                "y": 670
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Rapids",
+                "access_rules": [
+                    "$rapids"
+                ],
+                "children": [
+                    {
+                        "name": "Rapids West",
+                        "sections": [
+                            {
+                                "name": "Rapids West Island",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "hookshot"
+                                ],
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "chest_unopened_img": "images/items/hp.png",
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2150,
+                                "y": 640
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rapids Middle",
+                        "sections": [
+                            {
+                                "name": "Rapids Middle Island",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2340,
+                                "y": 640
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rapids East",
+                        "sections": [
+                            {
+                                "name": "Rapids East Island",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "shovel"
+                                ],
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "chest_unopened_img": "images/items/shell.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2456,
+                                "y": 675
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rapids Race",
+                        "sections": [
+                            {
+                                "name": "Rapids Race 45",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "rapids"
+                                ]
+                            },
+                            {
+                                "name": "Rapids Race 35",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "hookshot"
+                                ],
+                                "visibility_rules": [
+                                    "rapids"
+                                ]
+                            },
+                            {
+                                "name": "Rapids Race 30",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "hookshot"
+                                ],
+                                "visibility_rules": [
+                                    "rapids"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2603,
+                                "y": 478
+                            },
+                            {
+                                "map": "map",
+                                "x": 2622,
+                                "y": 897
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rapids Cave",
+                        "sections": [
+                            {
+                                "name": "Rapids Ascent Cave",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "hookshot,$water"
+                                ],
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "chest_unopened_img": "images/items/hp.png",
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2551,
+                                "y": 898
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Rapids From D6",
+                "access_rules": [
+                    "$faceshrine,$switchfar,$pot,bracelet2",
+                    "[l_gli],$faceshrine_g1,$switchfar,$pot,bracelet2",
+                    "[l_gli],$faceshrine_g2"
+                ],
+                "sections": [
+                    {
+                        "name": "Rapids South Island",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 2124,
+                        "y": 740
+                    }
+                ]
+            },
+            {
+                "name": "Signpost Maze",
+                "access_rules": [
+                    "bracelet,hookshot",
+                    "bracelet,rooster"
+                ],
+                "sections": [
+                    {
+                        "name": "Mamu",
+                        "item_count": 1,
+                        "access_rules": [
+                            "ocarina,$farm"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 880,
+                        "y": 1300
+                    }
+                ]
+            },
+            {
+                "name": "Goponga Swamp",
+                "access_rules": [
+                    "$swamp"
+                ],
+                "sections": [
+                    {
+                        "name": "Swamp Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_flowerbig"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 770,
+                        "y": 470
+                    }
+                ]
+            },
+            {
+                "name": "Tal Tal East",
+                "children": [
+                    {
+                        "name": "Papahl's Cave",
+                        "access_rules": [
+                            "$taltal_east_0",
+                            "[l_adv],$taltal_east_0_a",
+                            "[l_gli],$taltal_east_0_g"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Tal Tal Left Ascent Cave",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1710,
+                                "y": 310
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Papahl",
+                        "sections": [
+                            {
+                                "name": "Trade Pineapple",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$taltal_east_0, pineapple",
+                                    "[l_adv],$taltal_east_0_a, pineapple",
+                                    "[l_gli],$taltal_east_0_g, pineapple"
+                                ],
+                                "visibility_rules": [
+                                    "s_tq"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1649,
+                                "y": 273
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Taltal Bomb Hole",
+                        "access_rules": [
+                            "$taltal_east_1",
+                            "[l_adv],$taltal_east_1_a",
+                            "[l_gli],$taltal_east_1_g"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Taltal Bomb Hole",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "access_rules": [
+                                    "bombs",
+                                    "[l_gli],bombs"
+                                ],
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1719,
+                                "y": 217
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Taltal Rooster Cave",
+                        "access_rules": [
+                            "$taltal_east_1",
+                            "[l_adv],$taltal_east_1_a",
+                            "[l_gli],$taltal_east_1_g"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Taltal Rooster Cave",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "rooster",
+                                    "[l_gli],rooster"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1860,
+                                "y": 250
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Taltal Crossing",
+                        "access_rules": [
+                            "$taltal_east_1,$bush",
+                            "[l_adv],$taltal_east_1_a,$bush",
+                            "[l_gli],$taltal_east_1_g"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Taltal Crossing Cave",
+                                "item_count": 1,
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "chest_unopened_img": "images/items/hp.png",
+                                "access_rules": [
+                                    "bombs",
+                                    "[l_gli],bombs"
+                                ],
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1300,
+                                "y": 212
+                            },
+                            {
+                                "map": "map",
+                                "x": 1053,
+                                "y": 309
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tal Tal East Upper",
+                        "access_rules": [
+                            "$taltal_east_1",
+                            "[l_adv],$taltal_east_1_a",
+                            "[l_gli],$taltal_east_1_g"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Taltal East Bridge",
+                                "access_rules": [
+                                    "feather,bracelet",
+                                    "rooster,bracelet",
+                                    "[l_gli],feather,bracelet",
+                                    "[l_gli],rooster,bracelet"
+                                ],
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2207,
+                                "y": 185
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Taltal Water",
+                        "access_rules": [
+                            "$taltal_east_1",
+                            "[l_adv],$taltal_east_1_a",
+                            "[l_gli],$taltal_east_1_g"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Taltal Sunken",
+                                "item_count": 1,
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "chest_unopened_img": "images/items/shell.png",
+                                "access_rules": [
+                                    "flippers",
+                                    "[l_gli],flippers"
+                                ],
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2175,
+                                "y": 333
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tal Tal Ledge",
+                        "access_rules": [
+                            "$taltal_east_2",
+                            "[l_adv],$taltal_east_1_a",
+                            "[l_gli],$taltal_east_1_g"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Taltal 5 Chest Puzzle",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "bombs",
+                                    "[l_adv],bombs",
+                                    "[l_gli],bombs"
+                                ]
+                            },
+                            {
+                                "name": "Taltal Ledge Chest",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "bombs",
+                                    "[l_adv],bombs",
+                                    "[l_gli],bombs"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2290,
+                                "y": 280
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Taltal River",
+                "access_rules": [
+                    "$taltal_river"
+                ],
+                "children": [
+                    {
+                        "name": "Manbo's Cave",
+                        "sections": [
+                            {
+                                "name": "Manbo",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "flippers,ocarina"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1840,
+                                "y": 410
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Taltal River Cave",
+                        "sections": [
+                            {
+                                "name": "Taltal East Drop",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "flippers"
+                                ],
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "chest_unopened_img": "images/items/hp.png",
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2489,
+                                "y": 408
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Taltal West",
+                "children": [
+                    {
+                        "name": "Taltal West",
+                        "access_rules": [
+                            "$taltal_west_0",
+                            "[l_adv],$taltal_west_0_a",
+                            "[l_gli],$taltal_west_0_g"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Taltal West Chest",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 830,
+                                "y": 210
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Taltal West Cave",
+                        "access_rules": [
+                            "$taltal_west_0",
+                            "[l_adv],$taltal_west_0_a",
+                            "[l_gli],$taltal_west_0_g"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Mad Batter Taltal",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "bracelet,powder"
+                                ],
+                                "visibility_rules": [
+                                    "batter"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 855,
+                                "y": 241
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Taltal West Ext",
+                        "access_rules": [
+                            "$taltal_west_0",
+                            "[l_adv],$taltal_west_0_a",
+                            "[l_gli],$taltal_west_0_g"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Taltal West Rock",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "bracelet"
+                                ],
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "chest_unopened_img": "images/items/shell.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1021,
+                                "y": 208
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Taltal West Lower",
+                        "access_rules": [
+                            "$taltal_west_1",
+                            "[l_adv],$taltal_west_0_a",
+                            "[l_gli],$taltal_west_1_g"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Taltal West Escape",
+                                "item_count": 1,
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "chest_unopened_img": "images/items/hp.png",
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 398,
+                                "y": 338
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Taltal West 2",
+                        "access_rules": [
+                            "$taltal_west_2",
+                            "[l_adv],$taltal_west_2_a",
+                            "[l_gli],$taltal_west_2_g"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Taltal West Dig",
+                                "item_count": 1,
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "chest_unopened_img": "images/items/shell.png",
+                                "access_rules": [
+                                    "shovel"
+                                ],
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 542,
+                                "y": 256
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Taltal Peak",
+                        "access_rules": [
+                            "$turtlerock",
+                            "[l_adv],$turtlerock_a",
+                            "[l_gli],$turtlerock_g"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Above Turtle Rock",
+                                "item_count": 1,
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "chest_unopened_img": "images/items/hp.png",
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 161,
+                                "y": 143
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Martha's Bay",
+                "access_rules": [
+                    "$plains"
+                ],
+                "children": [
+                    {
+                        "name": "South Bay",
+                        "sections": [
+                            {
+                                "name": "South Bay Dig",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$animal,shovel"
+                                ],
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1812,
+                                "y": 1316
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Southwest Bay",
+                        "sections": [
+                            {
+                                "name": "Southwest Bay Bush",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$bush"
+                                ],
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1611,
+                                "y": 1407
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fisherman under the Bridge",
+                        "sections": [
+                            {
+                                "name": "Trade Hook",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "flippers,hook"
+                                ],
+                                "visibility_rules": [
+                                    "s_tq"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1841,
+                                "y": 1379
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mermaid",
+                        "sections": [
+                            {
+                                "name": "Trade Necklace",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "flippers,necklace"
+                                ],
+                                "visibility_rules": [
+                                    "s_tq"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1730,
+                                "y": 1218
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mermaid Statue",
+                        "sections": [
+                            {
+                                "name": "Move Statue",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "hookshot,scale",
+                                    "[l_gli],rooster,scale"
+                                ],
+                                "visibility_rules": [
+                                    "s_tq"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1679,
+                                "y": 1368
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bay Coast",
+                        "sections": [
+                            {
+                                "name": "Small Coast Island",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$bush,$water"
+                                ],
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1482,
+                                "y": 1455
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bay Plateau",
+                        "sections": [
+                            {
+                                "name": "Above Cave Dig",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "access_rules": [
+                                    "bombs,feather,shovel",
+                                    "bombs,rooster,shovel"
+                                ],
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1481,
+                                "y": 1071
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bay Cove",
+                        "access_rules": [
+                            "$water,powder"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Mad Batter Bay",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "rooster,boomerang",
+                                    "rooster,rod",
+                                    "feather,boomerang",
+                                    "feather,rod",
+                                    "feather,sword",
+                                    "[l_adv],feather",
+                                    "[l_adv],rooster"
+                                ],
+                                "visibility_rules": [
+                                    "batter"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1200,
+                                "y": 1360
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bay Passage",
+                        "access_rules": [
+                            "flippers"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bay Passage Sunken",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/hp.png",
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "access_rules": [
+                                    "rooster,boomerang",
+                                    "rooster,rod",
+                                    "feather,boomerang",
+                                    "feather,rod",
+                                    "feather,sword",
+                                    "[l_adv],feather,bombs",
+                                    "[l_adv],feather,powder",
+                                    "[l_adv],rooster,bombs",
+                                    "[l_adv],rooster,powder",
+                                    "[l_adv],rooster,sword"
+                                ],
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1695,
+                                "y": 1470
+                            }
+                        ]
+                    },
+                    {
+                        "name": "River Crossing",
+                        "sections": [
+                            {
+                                "name": "River Crossing Cave",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/hp.png",
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "access_rules": [
+                                    "$bush,flippers"
+                                ],
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1875,
+                                "y": 1081
+                            },
+                            {
+                                "map": "map",
+                                "x": 2028,
+                                "y": 1085
+                            }
+                        ]
+                    },
+                    {
+                        "name": "South Bay Pond",
+                        "sections": [
+                            {
+                                "name": "South Bay Sunken",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/hp.png",
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "access_rules": [
+                                    "flippers"
+                                ],
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1680,
+                                "y": 1415
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bay Maze",
+                        "sections": [
+                            {
+                                "name": "Plains Rock Maze",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "access_rules": [
+                                    "bracelet"
+                                ],
+                                "visibility_rules": [
+                                    "s_ss"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1645,
+                                "y": 1147
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Animal Village",
+                "access_rules": [
+                    "$animal"
+                ],
+                "children": [
+                    {
+                        "name": "Animal Village Outskirts",
+                        "sections": [
+                            {
+                                "name": "Animal Village Northwest",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$bush"
+                                ],
+                                "chest_unopened_img": "images/items/hp.png",
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2090,
+                                "y": 1200
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Animal Village Cave",
+                        "sections": [
+                            {
+                                "name": "Animal Village Cave",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$bush,bombs,hookshot,feather",
+                                    "$bush,bombs,rooster"
+                                ],
+                                "chest_unopened_img": "images/items/hp.png",
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2370,
+                                "y": 1200
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Christine's House",
+                        "sections": [
+                            {
+                                "name": "Christine Grateful (come back after trading letter)",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$write,flower,letter"
+                                ],
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "chest_unopened_img": "images/items/shell.png",
+                                "visibility_rules": [
+                                    "s_tq"
+                                ]
+                            },
+                            {
+                                "name": "Trade Flower",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "flower"
+                                ],
+                                "visibility_rules": [
+                                    "s_tq"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2274,
+                                "y": 1220
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pond House",
+                        "sections": [
+                            {
+                                "name": "Invizible Zora",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "access_rules": [
+                                    "lens"
+                                ]
+                            },
+                            {
+                                "name": "Trade Broom to Grandma Outside",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "broom"
+                                ],
+                                "visibility_rules": [
+                                    "s_tq"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2320,
+                                "y": 1220
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chef Bear",
+                        "sections": [
+                            {
+                                "name": "Trade Honeycomb",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "honey"
+                                ],
+                                "visibility_rules": [
+                                    "s_tq"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2323,
+                                "y": 1281
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pothole Field",
+                "access_rules": [
+                    "$pothole"
+                ],
+                "children": [
+                    {
+                        "name": "Villa Cave",
+                        "sections": [
+                            {
+                                "name": "Villa Cave",
+                                "access_rules": [
+                                    "feather,$pothole2",
+                                    "rooster,$pothole2",
+                                    "hookshot,$pothole2",
+                                    "[l_gli],feather,powder,sword",
+                                    "[l_gli],rooster,sword",
+                                    "[l_gli],rooster,powder",
+                                    "[l_gli],rooster,bombs",
+                                    "[l_gli],rooster,boomerang",
+                                    "[l_gli],rooster,rod"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1130,
+                                "y": 1230
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pothole Field",
+                        "sections": [
+                            {
+                                "name": "Pothole North",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "rooster,boomerang,$pothole2",
+                                    "rooster,rod,$pothole2",
+                                    "rooster,bombs,$pothole2",
+                                    "feather,boomerang,$pothole2",
+                                    "feather,rod,$pothole2",
+                                    "feather,sword,$pothole2",
+                                    "feather,bombs,$pothole2",
+                                    "[l_gli],feather,powder,sword",
+                                    "[l_gli],rooster,sword",
+                                    "[l_gli],rooster,bombs",
+                                    "[l_gli],rooster,boomerang",
+                                    "[l_gli],rooster,rod"
+                                ],
+                                "chest_opened_img": "images/items/hp_gray.png",
+                                "chest_unopened_img": "images/items/hp.png",
+                                "visibility_rules": [
+                                    "s_hp"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1314,
+                                "y": 1166
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pothole Owl",
+                        "sections": [
+                            {
+                                "name": "Pothole Final",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "rooster,boomerang,$pothole2,shovel",
+                                    "rooster,rod,$pothole2,shovel",
+                                    "rooster,bombs,$pothole2,shovel",
+                                    "feather,boomerang,$pothole2,shovel",
+                                    "feather,rod,$pothole2,shovel",
+                                    "feather,sword,$pothole2,shovel",
+                                    "feather,bombs,$pothole2,shovel",
+                                    "[l_gli],feather,powder,sword,shovel",
+                                    "[l_gli],rooster,sword,shovel",
+                                    "[l_gli],rooster,powder,shovel",
+                                    "[l_gli],rooster,bombs,shovel",
+                                    "[l_gli],rooster,boomerang,shovel",
+                                    "[l_gli],rooster,rod,shovel"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 1200,
+                                "y": 1207
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "D1 - Tail Cave",
+                "access_rules": [
+                    "$tailcave"
+                ],
+                "sections": [
+                    {
+                        "name": "Hardhat Beetles",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_hardhat",
+                            "$k_hardhat_pit"
+                        ]
+                    },
+                    {
+                        "name": "Compass Chest",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Button",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Map Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_stalfos_pit,$k_keese"
+                        ]
+                    },
+                    {
+                        "name": "Spark Guarded Chest",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill the Moldorms",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_minimoldorm"
+                        ]
+                    },
+                    {
+                        "name": "Bombable Wall",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bombs"
+                        ]
+                    },
+                    {
+                        "name": "Feather Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_spiny,d1sk:1,[d1sk:3]"
+                        ]
+                    },
+                    {
+                        "name": "3 of a Kind",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_3oak,d1sk:1,[d1sk:3]"
+                        ]
+                    },
+                    {
+                        "name": "Nightmare Key",
+                        "item_count": 1,
+                        "access_rules": [
+                            "feather,d1sk:1,[d1sk:3]"
+                        ]
+                    },
+                    {
+                        "name": "Moldorm",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_moldorm,feather,d1bk,d1sk:1,[d1sk:3]"
+                        ]
+                    },
+                    {
+                        "name": "Instrument",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_moldorm,feather,d1bk,d1sk:1,[d1sk:3]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 690,
+                        "y": 1280
+                    }
+                ]
+            },
+            {
+                "name": "D2 - Bottle Grotto",
+                "access_rules": [
+                    "$bottlegrotto",
+                    "[l_gli],$bottlegrotto_g"
+                ],
+                "sections": [
+                    {
+                        "name": "Entrance Pot Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bracelet"
+                        ]
+                    },
+                    {
+                        "name": "Kill the Stalfos",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_stalfosyellow,$k_stalfosred,powder",
+                            "$k_stalfosyellow,$k_stalfosred,rod"
+                        ]
+                    },
+                    {
+                        "name": "Surrounded by Blocks",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$switch,powder",
+                            "$switch,rod"
+                        ]
+                    },
+                    {
+                        "name": "Button across the room",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$switch,feather,powder",
+                            "$switch,feather,rod"
+                        ]
+                    },
+                    {
+                        "name": "Kill the Shyguys",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$switch,$k_shyguy,powder,feather",
+                            "$switch,$k_shyguy,rod,feather"
+                        ]
+                    },
+                    {
+                        "name": "Chest across the gap",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_keese,feather,d2sk:1,[d2sk:3]",
+                            "$k_keese,feather,d2sk:1,[d2sk:3]",
+                            "$k_keese,hookshot,d2sk:1,[d2sk:3]",
+                            "$k_keese,hookshot,d2sk:1,[d2sk:3]"
+                        ]
+                    },
+                    {
+                        "name": "Compass Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "powder,d2sk:1,[d2sk:3]",
+                            "rod,d2sk:1,[d2sk:3]"
+                        ]
+                    },
+                    {
+                        "name": "Map Chest in Vacuum Room",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$switch,$k_hinox,feather,powder,d2sk:1,[d2sk:3]",
+                            "$switch,$k_hinox,feather,rod,d2sk:1,[d2sk:3]"
+                        ]
+                    },
+                    {
+                        "name": "The Lonely Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$switch,$k_hinox,feather,powder,d2sk:1,[d2sk:3]",
+                            "$switch,$k_hinox,feather,rod,d2sk:1,[d2sk:3]"
+                        ]
+                    },
+                    {
+                        "name": "Blocks Everywhere!",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$switch,$k_hinox,feather,bracelet,powder,d2sk:1,[d2sk:3]",
+                            "$switch,$k_hinox,feather,bracelet,rod,d2sk:1,[d2sk:3]"
+                        ]
+                    },
+                    {
+                        "name": "Just a couple Boos",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$switch,$k_hinox,feather,powder,d2sk:2,[d2sk:5]",
+                            "$switch,$k_hinox,feather,rod,d2sk:2,[d2sk:5]"
+                        ]
+                    },
+                    {
+                        "name": "Pols Voice, Keese, then the Hooded Stalfos",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$switch,$k_hinox,$k_pol_heavy,$k_keese,$k_stalfosspear,feather,powder,d2sk:1,[d2sk:3]",
+                            "$switch,$k_hinox,$k_pol_heavy,$k_keese,$k_stalfosspear,feather,rod,d2sk:1,[d2sk:3]"
+                        ]
+                    },
+                    {
+                        "name": "Mad Genie",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$switch,$k_hinox,$k_pol_heavy,$k_genie,feather,powder,d2bk,d2sk:2,[d2sk:5]",
+                            "$switch,$k_hinox,$k_pol_heavy,$k_genie,feather,rod,d2bk,d2sk:2,[d2sk:5]"
+                        ]
+                    },
+                    {
+                        "name": "Conch Horn",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$switch,$k_hinox,$k_pol_heavy,$k_genie,feather,powder,d2bk,d2sk:2,[d2sk:5]",
+                            "$switch,$k_hinox,$k_pol_heavy,$k_genie,feather,rod,d2bk,d2sk:2,[d2sk:5]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 802,
+                        "y": 394
+                    }
+                ]
+            },
+            {
+                "name": "D3 - Key Cavern",
+                "access_rules": [
+                    "$keycavern"
+                ],
+                "sections": [
+                    {
+                        "name": "East of Entrance",
+                        "item_count": 1,
+                        "access_rules": [
+                            "boots",
+                            "[l_adv],hookshot"
+                        ]
+                    },
+                    {
+                        "name": "First Room North",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,bracelet"
+                        ]
+                    },
+                    {
+                        "name": "Kill the Zols",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,bracelet",
+                            "$obstacle,$k_zolg,bracelet"
+                        ]
+                    },
+                    {
+                        "name": "Kill the Stalfos & the Zol",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$obstacle,$k_stalfosyellow,$k_zolg,bracelet",
+                            "$obstacle,$k_zolr,$k_stalfosyellow,bracelet"
+                        ]
+                    },
+                    {
+                        "name": "North Ceiling Key",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_stalfosyellow,$k_stalfosspear,$switch,bracelet,d3sk:1,[d3sk:4]",
+                            "$obstacle,$k_zolr,$k_stalfosyellow,$k_stalfosspear,$switch,bracelet,d3sk:1,[d3sk:4]"
+                        ]
+                    },
+                    {
+                        "name": "Beak Chest around Blocks",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$switch,bracelet,d3sk:1,[d3sk:4]",
+                            "$obstacle,$k_zolr,$switch,bracelet,d3sk:1,[d3sk:4]"
+                        ]
+                    },
+                    {
+                        "name": "Map Chest back by the 4 Zols",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$switch,bracelet,d3sk:1,[d3sk:4]",
+                            "$obstacle,$k_zolr,$switch,$k_zolg,bracelet,d3sk:1,[d3sk:4]"
+                        ]
+                    },
+                    {
+                        "name": "West Ceiling Key",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,bracelet,feather,d3sk:1,[d3sk:4]",
+                            "$obstacle,$k_zolr,$k_zolg,$k_pairodd,feather,bracelet,d3sk:1,[d3sk:4]"
+                        ]
+                    },
+                    {
+                        "name": "South Ceiling Key",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,$k_stalfosspear,bracelet,d3sk:1,[d3sk:4]",
+                            "$obstacle,$k_zolr,$k_zolg,$k_pairodd,$k_stalfosspear,bracelet,d3sk:1,[d3sk:4]"
+                        ]
+                    },
+                    {
+                        "name": "Kill the Zols!",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,bracelet,d3sk:1,[d3sk:4]",
+                            "$obstacle,$k_zolr,$k_zolg,bracelet,d3sk:1,[d3sk:4]"
+                        ]
+                    },
+                    {
+                        "name": "Pairodd Ceiling Key",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,bracelet,d3sk:1,[d3sk:4]",
+                            "$obstacle,$k_zolr,$k_zolg,$k_pairodd,bracelet,d3sk:1,[d3sk:4]"
+                        ]
+                    },
+                    {
+                        "name": "Kill the Zols and Stalfos",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,$k_stalfosyellow,bracelet,d3sk:1,[d3sk:4]",
+                            "$obstacle,$k_zolr,$k_zolg,$k_pairodd,$k_stalfosyellow,bracelet,d3sk:1,[d3sk:4]"
+                        ]
+                    },
+                    {
+                        "name": "Chest after Dodongos",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_dodongo,bracelet,d3sk:1,[d3sk:4]",
+                            "$obstacle,$k_zolr,$k_dodongo,bracelet,d3sk:1,[d3sk:4]"
+                        ]
+                    },
+                    {
+                        "name": "East Ledge",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,bombs,boots,feather,bracelet,d3sk:1,[d3sk:4]",
+                            "$obstacle,$k_zolr,bombs,boots,feather,bracelet,d3sk:1,[d3sk:4]",
+                            "[l_adv],$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$skew,bracelet,d3sk:1,[d3sk:4]"
+                        ]
+                    },
+                    {
+                        "name": "After the Bombites",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_bombgreen,bracelet,d3sk:1,[d3sk:4]",
+                            "$obstacle,$k_zolr,$k_zolg,$k_bombgreen,bracelet,d3sk:1,[d3sk:4]"
+                        ]
+                    },
+                    {
+                        "name": "Bombwall Room with Bombites",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_bombgreen,bomb,bracelet,d3sk:1,[d3sk:4]",
+                            "$obstacle,$k_zolr,$k_zolg,$k_bombgreen,$k_bombred,bombs,bracelet,d3sk:1,[d3sk:4]"
+                        ]
+                    },
+                    {
+                        "name": "Conveyor Keese Mayhem",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,$k_keese,boots,feather,bracelet,d3sk:5,[d3sk:8]",
+                            "$obstacle,$k_zolr,$k_pairodd,$k_keese,boots,feather,bracelet,d3sk:5,[d3sk:8]",
+                            "[l_gli]$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,$k_keese,boots,feather,bracelet,bombs,d3sk:1,[d3sk:4],",
+                            "[l_gli],$obstacle,$k_zolr,$k_pairodd,$k_keese,boots,feather,bracelet,bombs,d3sk:1,[d3sk:4]"
+                        ]
+                    },
+                    {
+                        "name": "Slime Eye",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,$k_slimeeye,boots,feather,bracelet,d3bk,d3sk:5,[d3sk:8]",
+                            "$obstacle,$k_zolr,$k_pairodd,$k_slimeeye,boots,feather,bracelet,d3bk,d3sk:5,[d3sk:8]",
+                            "[l_gli]$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,$k_slimeeyeboots,feather,bracelet,bombs,d3bk,d3sk:1,[d3sk:4],",
+                            "[l_gli],$obstacle,$k_zolr,$k_pairodd,$k_slimeeye,boots,feather,bracelet,bombs,d3bk,d3sk:1,[d3sk:4]"
+                        ]
+                    },
+                    {
+                        "name": "Sea Lily's Bell",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,$k_slimeeye,boots,feather,bracelet,d3bk,d3sk:5,[d3sk:8]",
+                            "$obstacle,$k_zolr,$k_pairodd,$k_slimeeye,boots,feather,bracelet,d3bk,d3sk:5,[d3sk:8]",
+                            "[l_gli]$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,$k_slimeeyeboots,feather,bracelet,bombs,d3bk,d3sk:1,[d3sk:4],",
+                            "[l_gli],$obstacle,$k_zolr,$k_pairodd,$k_slimeeye,boots,feather,bracelet,bombs,d3bk,d3sk:1,[d3sk:4]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1016,
+                        "y": 1116
+                    }
+                ]
+            },
+            {
+                "name": "D4 - Angler Tunnel",
+                "access_rules": [
+                    "$anglertunnel",
+                    "[l_gli],$anglertunnel_g"
+                ],
+                "sections": [
+                    {
+                        "name": "Beak Chest",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Map Chest",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "First Water Room Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "boots,feather,bombs",
+                            "[l_adv],$skew,bombs"
+                        ]
+                    },
+                    {
+                        "name": "Second Water Room Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "boots,feather,bombs",
+                            "[l_adv],$skew,bombs"
+                        ]
+                    },
+                    {
+                        "name": "East Entrance Room",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr"
+                        ]
+                    },
+                    {
+                        "name": "Crystal Maze Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_spiny"
+                        ]
+                    },
+                    {
+                        "name": "East Chest on the Island",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,flippers,d4sk:2,[d4sk:2]",
+                            "[l_adv],$k_zolr,dash,feather,bow,bombs,d4sk:2,[d4sk:2]",
+                            "[l_gli],boots,feather,sword,bombs"
+                        ]
+                    },
+                    {
+                        "name": "Key drop in the hole",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,boots,feather,flippers,d4sk:3,[d4sk:3]",
+                            "[l_adv],$k_zolr,feather,hookshot,flippers,d4sk:3,[d4sk:3]",
+                            "[l_gli],$k_zolr,boots,feather,sword,bombs,flippers"
+                        ]
+                    },
+                    {
+                        "name": "Flippers Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_octopus,boots,feather,d4sk:4,[d4sk:5]",
+                            "$k_zolr,flippers,boots,feather,d4sk:3,[d4sk:3]",
+                            "[l_adv],$k_zolr,$k_octopus,feather,hookshot,d4sk:4,[d4sk:5]",
+                            "[l_adv],$k_zolr,feather,hookshot,flippers,d4sk:3,[d4sk:4]",
+                            "[l_gli],$k_octopus,boots,feather,bombs,d4sk:1,[d4sk:5]",
+                            "[l_gli],$k_zolr,boots,feather,sword,bombs,flippers"
+                        ]
+                    },
+                    {
+                        "name": "Chest between the two tile rooms",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_octopus,boots,feather,d4sk:4,[d4sk:5]",
+                            "$k_zolr,flippers,boots,feather,d4sk:3,[d4sk:3]",
+                            "[l_adv],$k_zolr,$k_octopus,hookshot,feather,d4sk:4,[d4sk:5]",
+                            "[l_adv],$k_zolr,feather,hookshot,flippers,d4sk:3,[d4sk:4]",
+                            "[l_gli],$k_octopus,boots,feather,bombs,d4sk:1,[d4sk:5]",
+                            "[l_gli],$k_zolr,boots,feather,sword,bombs,flippers"
+                        ]
+                    },
+                    {
+                        "name": "Through the stairs in the tile room",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,flippers,boots,feather,d4sk:3,[d4sk:3]",
+                            "[l_adv],$k_zolr,$k_octopus,feather,boots,d4sk:4,[d4sk:5]",
+                            "[l_adv],$k_zolr,feather,hookshot,flippers,d4sk:3,[d4sk:4]",
+                            "[l_gli],boots,feather,sword,bombs"
+                        ]
+                    },
+                    {
+                        "name": "Chest guarded by Stalfos",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,flippers,boots,feather,d4sk:3,[d4sk:3]",
+                            "[l_adv],$k_zolr,feather,hookshot,d4sk:3,[d4sk:3]",
+                            "[l_gli],boots,feather,sword,bombs"
+                        ]
+                    },
+                    {
+                        "name": "Chest surrounded by water",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,flippers,boots,feather,d4sk:3,[d4sk:3]",
+                            "[l_adv],$k_zolr,feather,hookshot,d4sk:3,[d4sk:3]",
+                            "[l_gli],boots,feather,sword,bombs"
+                        ]
+                    },
+                    {
+                        "name": "Angler Fish",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_angler,flippers,boots,feather,d4bk,d4sk:4,[d4sk:5]",
+                            "[l_adv],$k_zolr,$k_angler,flippers,feather,hookshot,d4bk,d4sk:3,[d4sk:3]",
+                            "[l_adv],$k_zolr,$k_angler,flippers,feather,bow,bombs,d4bk,d4sk:3,[d4sk:3]",
+                            "[l_adv],$k_zolr,$k_angler,flippers,feather,sword2,d4bk,d4sk:3,[d4sk:3]",
+                            "[l_gli],$k_angler,flippers,boots,feather,sword,bombs,bow,d4bk",
+                            "[l_gli],$k_angler,flippers,boots,feather,sword,bombs,d4bk,d4sk:1,[d4sk:3]"
+                        ]
+                    },
+                    {
+                        "name": "Surf Harp",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_zolr,$k_angler,flippers,boots,feather,d4bk,d4sk:4,[d4sk:5]",
+                            "[l_adv],$k_zolr,$k_angler,flippers,feather,hookshot,d4bk,d4sk:3,[d4sk:3]",
+                            "[l_adv],$k_zolr,$k_angler,flippers,feather,bow,bombs,d4bk,d4sk:3,[d4sk:3]",
+                            "[l_adv],$k_zolr,$k_angler,flippers,feather,sword2,d4bk,d4sk:3,[d4sk:3]",
+                            "[l_gli],$k_angler,flippers,boots,feather,sword,bombs,bow,d4bk",
+                            "[l_gli],$k_angler,flippers,boots,feather,sword,bombs,d4bk,d4sk:1,[d4sk:3]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1976,
+                        "y": 404
+                    }
+                ]
+            },
+            {
+                "name": "D5 - Catfish Maw",
+                "access_rules": [
+                    "$catfishmaw",
+                    "[l_gli],$catfishmaw_g"
+                ],
+                "sections": [
+                    {
+                        "name": "First Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "hookshot"
+                        ]
+                    },
+                    {
+                        "name": "Compass Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_helmasaur,$k_keese"
+                        ]
+                    },
+                    {
+                        "name": "Stone Beak",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_helmasaur,$k_keese,d5sk:1,[d5sk:1]"
+                        ]
+                    },
+                    {
+                        "name": "Chest across the gap",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_helmasaur,$k_keese,hookshot,d5sk:1,[d5sk:1]",
+                            "[l_adv],$k_helmasaur,$k_keese,$dashjump,d5sk:1,[d5sk:1]"
+                        ]
+                    },
+                    {
+                        "name": "Chest after Round 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,d5sk:1,[d5sk:1]"
+                        ]
+                    },
+                    {
+                        "name": "Hookshot Chest 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,feather,hookshot,d5sk:1,[d5sk:1]",
+                            "[l_adv],$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,$dashjump,d5sk:1,[d5sk:1]"
+                        ]
+                    },
+                    {
+                        "name": "Hookshot Chest 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,hookshot,feather,d5sk:1,[d5sk:1]"
+                        ]
+                    },
+                    {
+                        "name": "Hookshot Chest 3",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,hookshot,feather,d5sk:1,[d5sk:1]"
+                        ]
+                    },
+                    {
+                        "name": "After Round 3",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,feather,d5sk:1,[d5sk:1]"
+                        ]
+                    },
+                    {
+                        "name": "Nightmare Key through the water",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,hookshot,flippers,d5sk:1,[d5sk:1]"
+                        ]
+                    },
+                    {
+                        "name": "Ceiling Key near Round 4",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,$crystal,feather"
+                        ]
+                    },
+                    {
+                        "name": "Master Stalfos Round 4",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,$crystal,feather,d5sk:1,[d5sk:1]"
+                        ]
+                    },
+                    {
+                        "name": "Slime Eel",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,$k_star,$k_slimeeel,feather,d5bk,d5sk:1,[d5sk:1]"
+                        ]
+                    },
+                    {
+                        "name": "Wind Marimba",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,$k_star,$k_slimeeel,feather,d5bk,d5sk:1,[d5sk:1]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1662,
+                        "y": 1310
+                    }
+                ]
+            },
+            {
+                "name": "D6 - Face Shrine",
+                "access_rules": [
+                    "$faceshrine",
+                    "[l_gli],$faceshrine_g1",
+                    "[l_gli],$faceshrine_g2"
+                ],
+                "sections": [
+                    {
+                        "name": "Kill the Wizzrobes",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_wizzrobe"
+                        ]
+                    },
+                    {
+                        "name": "Use the Elephant",
+                        "item_count": 1,
+                        "access_rules": [
+                            "bracelet2"
+                        ]
+                    },
+                    {
+                        "name": "Power Bracelet 2 Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_wizzrobe,$k_minimoldorm,$k_zolg,bombs,feather",
+                            "[l_gli],bombs,bracelet2"
+                        ]
+                    },
+                    {
+                        "name": "More Wizzrobe Killing",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_wizzrobe,$switchfar,$pot"
+                        ]
+                    },
+                    {
+                        "name": "Beak Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$switchfar,$pot",
+                            "[l_gli],$faceshrine_g2,bracelet",
+                            "[l_gli],$faceshrine_g2,bombs"
+                        ]
+                    },
+                    {
+                        "name": "Compass Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$switchfar,$pot",
+                            "[l_gli],$faceshrine_g2,bracelet",
+                            "[l_gli],$faceshrine_g2,bombs"
+                        ]
+                    },
+                    {
+                        "name": "North Wizzrobe Blocks",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$switchfar,$pot",
+                            "[l_gli],$faceshrine_g2,$switch,$k_wizzrobe,bracelet",
+                            "[l_gli],$faceshrine_g2,$k_wizzrobe,bombs"
+                        ]
+                    },
+                    {
+                        "name": "Northwest Horsehead",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$switchfar,$pot,bracelet2",
+                            "[l_gli],$faceshrine_g2"
+                        ]
+                    },
+                    {
+                        "name": "Southeast Blade Trap",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_wizzrobe,$switch,bracelet2,feather",
+                            "[l_gli],$faceshrine_g2,$dashjump,bombs",
+                            "[l_gli],$faceshrine_g1,$dashjump,bombs,$switchfar,bracelet2"
+                        ]
+                    },
+                    {
+                        "name": "Key drop in tile room",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_rover,bombs,bracelet2,feather,d6sk:1,[d6sk:1]",
+                            "[l_gli],$faceshrine_g2,$dashjump,bombs",
+                            "[l_gli],$faceshrine_g1,$dashjump,bombs,$switchfar,bracelet2"
+                        ]
+                    },
+                    {
+                        "name": "Northeast Horsehead",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_rover,$k_pol,bombs,bracelet2,feather,d6sk:2,[d6sk:2]",
+                            "[l_gli],$faceshrine_g2,$dashjump,bombs",
+                            "[l_gli],$faceshrine_g1,$dashjump,bombs,$switchfar,bracelet2"
+                        ]
+                    },
+                    {
+                        "name": "North Pot Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_rover,$k_pol,$k_dodongo,hookshot,bombs,bracelet2,feather,d6sk:3,[d6sk:3]",
+                            "[l_gli],$faceshrine_g2,$dashjump,bombs",
+                            "[l_gli],$faceshrine_g1,$dashjump,bombs,$switchfar,bracelet2"
+                        ]
+                    },
+                    {
+                        "name": "Chest in the water",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_wizzrobe,bracelet2",
+                            "[l_gli],$faceshrine_g2,$dashjump,bombs",
+                            "[l_gli],$faceshrine_g1,$dashjump,bombs,$switchfar,bracelet2"
+                        ]
+                    },
+                    {
+                        "name": "Facade",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_rover,$k_facade,$k_wizzrobe,$k_zolg,bombs,bracelet2,feather,d6bk,d6sk:1,[d6sk:1]",
+                            "[l_gli],$faceshrine_g2,$k_facade,$dashjump,bombs",
+                            "[l_gli],$faceshrine_g1,$k_facade,$dashjump,bombs,$switchfar,bracelet2"
+                        ]
+                    },
+                    {
+                        "name": "Coral Triangle",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_rover,$k_facade,$k_wizzrobe,$k_zolg,bombs,bracelet2,feather,d6bk,d6sk:1,[d6sk:1]",
+                            "[l_gli],$faceshrine_g2,$dashjump,bombs",
+                            "[l_gli],$faceshrine_g1,$dashjump,bombs,$switchfar,bracelet2"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 2128,
+                        "y": 894
+                    }
+                ]
+            },
+            {
+                "name": "D7 - Eagle Tower",
+                "access_rules": [
+                    "$eagletower",
+                    "[l_adv],$eagletower_a",
+                    "[l_gli],$eagletower_g"
+                ],
+                "sections": [
+                    {
+                        "name": "Like Like Key",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_likelike"
+                        ]
+                    },
+                    {
+                        "name": "Mirror Shield Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d7_2d,$switch"
+                        ]
+                    },
+                    {
+                        "name": "East Ledge",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d7_2d,$switch"
+                        ]
+                    },
+                    {
+                        "name": "Horseheads",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d7_2d"
+                        ]
+                    },
+                    {
+                        "name": "Three-of-a-kind",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d7_2d,$k_3oak,feather",
+                            "d7_2d,$k_3oak,$switch"
+                        ]
+                    },
+                    {
+                        "name": "Hinox",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d7_2d,$k_hinox,$switch"
+                        ]
+                    },
+                    {
+                        "name": "West Ledge",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d7_2d,$switch"
+                        ]
+                    },
+                    {
+                        "name": "Stone Beak",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d7_2d"
+                        ]
+                    },
+                    {
+                        "name": "Three-of-a-kind Hookshot Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d7_2d,$switch,$k_3oak,bombs,hookshot"
+                        ]
+                    },
+                    {
+                        "name": "Grim Creeper (Not Sans Undertale)",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d7_2d,$switch,$k_grimcreeper"
+                        ]
+                    },
+                    {
+                        "name": "Conveyor Horseheads",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d7_2f"
+                        ]
+                    },
+                    {
+                        "name": "Evil Eagle",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d7_2f,$k_evileagle"
+                        ]
+                    },
+                    {
+                        "name": "Organ of Evening Calm",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d7_2f,$k_evileagle"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 2500,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "D8 - Turtle Rock",
+                "access_rules": [
+                    "$turtlerock",
+                    "[l_adv],$turtlerock_a",
+                    "[l_gli],$turtlerock_g"
+                ],
+                "sections": [
+                    {
+                        "name": "After Hinox Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_6b"
+                        ]
+                    },
+                    {
+                        "name": "Light Torches",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_6b,rod"
+                        ]
+                    },
+                    {
+                        "name": "Sparks Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_6b,feather",
+                            "$d8_6b,hookshot"
+                        ]
+                    },
+                    {
+                        "name": "West Vire",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_6b,$k_bones,$k_vire"
+                        ]
+                    },
+                    {
+                        "name": "Southwest Vacuum Zol Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_6b,$k_bones"
+                        ]
+                    },
+                    {
+                        "name": "East of Pots",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_8d,feather",
+                            "$d8_8d,$pot,$k_vire"
+                        ]
+                    },
+                    {
+                        "name": "East Roomba",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_8d,$dashjump"
+                        ]
+                    },
+                    {
+                        "name": "Far Southeast",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_8d,$k_smasher,bombs",
+                            "$d8_8d,$k_smasher,$pot"
+                        ]
+                    },
+                    {
+                        "name": "Surrounded by blocks",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_8d,feather"
+                        ]
+                    },
+                    {
+                        "name": "Arrow Statue",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_4c,bow"
+                        ]
+                    },
+                    {
+                        "name": "Beamos Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_4c"
+                        ]
+                    },
+                    {
+                        "name": "Norht Hookshot Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_4c,feather,hookshot",
+                            "$d8_8d,feather,hookshot,k_zolg,d8sk:1,[d8sk:2]"
+                        ]
+                    },
+                    {
+                        "name": "Dodongos",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_4c,bombs"
+                        ]
+                    },
+                    {
+                        "name": "Gibdos Key Drop",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_4c,$k_gibdo",
+                            "$d8_8d,$k_zolg,$k_gibdo,feather,d8sk:1,[d8sk:2]"
+                        ]
+                    },
+                    {
+                        "name": "North Hookshot Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_4c,feather,hookshot",
+                            "d8_8d,$k_zolg,feather,hookshot,d8sk:1,[d8sk:2]"
+                        ]
+                    },
+                    {
+                        "name": "Rod Chest after Blaino",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_8d,$k_blaino,feather,bombs,hookshot,d8sk:1,[d8sk:7]"
+                        ]
+                    },
+                    {
+                        "name": "Northwest Roomba after Cueball",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_8d,$k_cueball,feather,rod,d8sk:1,[d8sk:7]"
+                        ]
+                    },
+                    {
+                        "name": "Hothead",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_8d,$k_hothead,feather,rod,d8bk"
+                        ]
+                    },
+                    {
+                        "name": "Thunder Drum",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d8_8d,$k_hothead,feather,rod,d8bk"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 178,
+                        "y": 238
+                    }
+                ]
+            },
+            {
+                "name": "D0 - Color Dungeon",
+                "access_rules": [
+                    "$colordungeon"
+                ],
+                "sections": [
+                    {
+                        "name": "Match the Colors",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d0_8c,$k_goblin_heavy,$switch"
+                        ]
+                    },
+                    {
+                        "name": "Rupee Hype Room",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "d0rupee"
+                        ],
+                        "access_rules": [
+                            "$d0_8c,$k_goblin_heavy,bombs"
+                        ]
+                    },
+                    {
+                        "name": "Orb Enemey Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d0_8c,$k_goblin_heavy,$k_orb"
+                        ]
+                    },
+                    {
+                        "name": "South Loop Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d0_8c,$k_goblin_heavy"
+                        ]
+                    },
+                    {
+                        "name": "Match More Colors",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d0_8c,$k_goblin_heavy,$switch"
+                        ]
+                    },
+                    {
+                        "name": "After Blob Boss",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d0_8c,$k_goblin_heavy,$k_blob,d0sk:1,[d0sk:2]"
+                        ]
+                    },
+                    {
+                        "name": "Zol Pot Room Chest",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d0_8c,$k_goblin_heavy,$k_stonehinox,$k_zolr_heavy,$k_zolg_heavy,$pot,d0sk:1,[d0sk:2]"
+                        ]
+                    },
+                    {
+                        "name": "Four Orb Enemies",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$d0_8c,$k_goblin_heavy,$k_stonehinox,$k_zolr_heavy,$k_zolg_heavy,$k_orb,$pot,d0sk:1,[d0sk:2]"
+                        ]
+                    },
+                    {
+                        "name": "Fairy Queen",
+                        "item_count": 2,
+                        "access_rules": [
+                            "$d0_8c,$k_goblin_heavy,$k_stonehinox,$pot,$switch,$k_evilorb,d0bk,d0sk:2,[d0sk:3]"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1362,
+                        "y": 770
+                    }
+                ]
+            },
+            {
+                "name": "Egg",
+                "access_rules": [
+                    "$egg"
+                ],
+                "sections": [
+                    {
+                        "name": "Wind Fish's Egg",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$k_nightmare"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1166,
+                        "y": 102
+                    }
+                ]
+            }
+        ]
+    }
+]
