@@ -23,7 +23,7 @@ function shield()
 end
 
 function mirror()
-  return has("mirror")
+  return has("shield2")
 end
 
 function bracelet()
@@ -709,7 +709,7 @@ function taltal_west_2()
 end
 
 function taltal_west_2_a()
-  return (taltal_west_0() or (bracelet() and crystal() and hookshot() and feather() and mirror() and water() and has("angler")))
+  return (taltal_west_2() or (bracelet() and crystal() and hookshot() and feather() and mirror() and water() and has("angler")))
 end
 
 function taltal_west_2_g()

@@ -37,8 +37,9 @@
     "items2": {
         "type": "itemgrid",
         "h_alignment": "center",
-        "item_margin": "1,1",
-        "item_size": 30,
+        "margin": "8,0,8,0",
+        "item_margin": "2,-1",
+        "item_size": 29,
         "rows": [
             [
                 "ballad",
@@ -55,6 +56,7 @@
     "items3": {
         "type": "itemgrid",
         "h_alignment": "center",
+        "margin": "3,5,3,0",
         "item_margin": "1,1",
         "item_size": 37,
         "rows": [
@@ -82,317 +84,145 @@
         "type": "array",
         "orientation": "vertical",
         "content": [
-            {
-                "type": "canvas",
-                "h_alignment": "center",
-                "v_alignment": "top",
-                "height": 300,
-                "width": 300,
-                "content": [
-                    {
-                        "type": "item",
-                        "item": "drum",
-                        "height": 54,
-                        "width": 54,
-                        "canvas_top": 0,
-                        "canvas_left": 87
-                    },
-                    {
-                        "type": "item",
-                        "item": "d8beak",
-                        "height": 14,
-                        "width": 14,
-                        "canvas_top": 57,
-                        "canvas_left": 90
-                    },
-                    {
-                        "type": "item",
-                        "item": "d8sk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 57,
-                        "canvas_left": 105
-                    },
-                    {
-                        "type": "item",
-                        "item": "d8bk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 57,
-                        "canvas_left": 120
-                    },
-                    {
-                        "type": "item",
-                        "item": "cello",
-                        "height": 54,
-                        "width": 54,
-                        "canvas_top": 0,
-                        "canvas_left": 160
-                    },
-                    {
-                        "type": "item",
-                        "item": "d1beak",
-                        "height": 14,
-                        "width": 14,
-                        "canvas_top": 57,
-                        "canvas_left": 165
-                    },
-                    {
-                        "type": "item",
-                        "item": "d1sk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 57,
-                        "canvas_left": 180
-                    },
-                    {
-                        "type": "item",
-                        "item": "d1bk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 57,
-                        "canvas_left": 195
-                    },
-                    {
-                        "type": "item",
-                        "item": "fairyq",
-                        "height": 54,
-                        "width": 54,
-                        "canvas_top": 100,
-                        "canvas_left": 130
-                    },
-                    {
-                        "type": "item",
-                        "item": "d0beak",
-                        "height": 14,
-                        "width": 14,
-                        "canvas_top": 157,
-                        "canvas_left": 125
-                    },
-                    {
-                        "type": "item",
-                        "item": "d0sk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 157,
-                        "canvas_left": 140
-                    },
-                    {
-                        "type": "item",
-                        "item": "d0bk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 157,
-                        "canvas_left": 155
-                    },
-                    {
-                        "type": "item",
-                        "item": "organ",
-                        "height": 54,
-                        "width": 54,
-                        "canvas_top": 65,
-                        "canvas_left": 35
-                    },
-                    {
-                        "type": "item",
-                        "item": "d7beak",
-                        "height": 14,
-                        "width": 14,
-                        "canvas_top": 115,
-                        "canvas_left": 40
-                    },
-                    {
-                        "type": "item",
-                        "item": "d7sk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 115,
-                        "canvas_left": 55
-                    },
-                    {
-                        "type": "item",
-                        "item": "d7bk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 115,
-                        "canvas_left": 70
-                    },
-                    {
-                        "type": "item",
-                        "item": "conch",
-                        "height": 54,
-                        "width": 54,
-                        "canvas_top": 65,
-                        "canvas_left": 200
-                    },
-                    {
-                        "type": "item",
-                        "item": "d2beak",
-                        "height": 14,
-                        "width": 14,
-                        "canvas_top": 115,
-                        "canvas_left": 205
-                    },
-                    {
-                        "type": "item",
-                        "item": "d2sk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 115,
-                        "canvas_left": 220
-                    },
-                    {
-                        "type": "item",
-                        "item": "d2bk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 115,
-                        "canvas_left": 235
-                    },
-                    {
-                        "type": "item",
-                        "item": "triangle",
-                        "height": 54,
-                        "width": 54,
-                        "canvas_top": 140,
-                        "canvas_left": 35
-                    },
-                    {
-                        "type": "item",
-                        "item": "d6beak",
-                        "height": 14,
-                        "width": 14,
-                        "canvas_top": 190,
-                        "canvas_left": 40
-                    },
-                    {
-                        "type": "item",
-                        "item": "d6sk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 190,
-                        "canvas_left": 55
-                    },
-                    {
-                        "type": "item",
-                        "item": "d6bk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 190,
-                        "canvas_left": 70
-                    },
-                    {
-                        "type": "item",
-                        "item": "bell",
-                        "height": 54,
-                        "width": 54,
-                        "canvas_top": 140,
-                        "canvas_left": 200
-                    },
-                    {
-                        "type": "item",
-                        "item": "d3beak",
-                        "height": 14,
-                        "width": 14,
-                        "canvas_top": 190,
-                        "canvas_left": 205
-                    },
-                    {
-                        "type": "item",
-                        "item": "d3sk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 190,
-                        "canvas_left": 220
-                    },
-                    {
-                        "type": "item",
-                        "item": "d3bk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 190,
-                        "canvas_left": 235
-                    },
-                    {
-                        "type": "item",
-                        "item": "marimba",
-                        "height": 54,
-                        "width": 54,
-                        "canvas_top": 200,
-                        "canvas_left": 85
-                    },
-                    {
-                        "type": "item",
-                        "item": "d5beak",
-                        "height": 14,
-                        "width": 14,
-                        "canvas_top": 248,
-                        "canvas_left": 90
-                    },
-                    {
-                        "type": "item",
-                        "item": "d5sk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 248,
-                        "canvas_left": 105
-                    },
-                    {
-                        "type": "item",
-                        "item": "d5bk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 248,
-                        "canvas_left": 120
-                    },
-                    {
-                        "type": "item",
-                        "item": "harp",
-                        "height": 54,
-                        "width": 54,
-                        "canvas_top": 200,
-                        "canvas_left": 160
-                    },
-                    {
-                        "type": "item",
-                        "item": "d4beak",
-                        "height": 14,
-                        "width": 14,
-                        "canvas_top": 248,
-                        "canvas_left": 165
-                    },
-                    {
-                        "type": "item",
-                        "item": "d4sk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 248,
-                        "canvas_left": 180
-                    },
-                    {
-                        "type": "item",
-                        "item": "d4bk",
-                        "height": 22,
-                        "width": 13,
-                        "canvas_top": 248,
-                        "canvas_left": 195
-                    }
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "20,-5,-2,0",
+            "content": [
+              {
+                "type": "itemgrid",
+                "item_margin": "-7,-1",
+                "item_size": 60,
+                "dock": "left",
+                "rows": [
+                  [
+                    "cello",
+                    "conch",
+                    "bell",
+                    "harp",
+                    "marimba"
+                  ]
                 ]
-            }
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "20,-9,-2,0",
+            "content": [
+              {
+                "type": "itemgrid",
+                "dock": "left",
+                "item_margin": "0,2",
+                "item_size": 15,
+                "rows": [
+                  [
+                    "d1sk",
+                    "d1bk",
+                    "d1beak",
+                    "d2sk",
+                    "d2bk",
+                    "d2beak",
+                    "d3sk",
+                    "d3bk",
+                    "d3beak",
+                    "d4sk",
+                    "d4bk",
+                    "d4beak",
+                    "d5sk",
+                    "d5bk",
+                    "d5beak"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "45,-5,-2,0",
+            "content": [
+              {
+                "type": "itemgrid",
+                "item_margin": "-7,-1",
+                "item_size": 60,
+                "dock": "left",
+                "rows": [
+                  [
+                    "triangle",
+                    "organ",
+                    "drum",
+                    "fairyq"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "40,-9,-2,0",
+            "content": [
+              {
+                "type": "itemgrid",
+                "dock": "left",
+                "item_margin": "0,2",
+                "item_size": 15,
+                "rows": [
+                  [
+                    "d6sk",
+                    "d6bk",
+                    "d6beak",
+                    "d7sk",
+                    "d7bk",
+                    "d7beak",
+                    "d8sk",
+                    "d8bk",
+                    "d8beak",
+                    "d0sk",
+                    "d0bk",
+                    "d0beak"
+                  ]
+                ]
+              }
+            ]
+          }
         ]
-    },
-    "options": {
+      },
+    "settings_popup": {
         "type": "array",
         "orientation": "vertical",
         "content": [
             {
-                "type": "itemgrid",
-                "h_alignment": "center",
-                "item_margin": "5",
-                "rows": [
-                    ["s_hp", "s_ss", "s_tq", "l_bas"],
-                    ["shop", "fishing", "batter", "mansion"],
-                    ["trendy", "rapids", "dampe", "d0rupee"]
+                "type": "group",
+                "header": "Settings",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "h_alignment": "center",
+                        "item_margin": "5",
+                        "rows": [
+                            [
+                                "s_hp",
+                                "s_ss",
+                                "s_tq",
+                                "l_bas"
+                            ],
+                            [
+                                "shop",
+                                "fishing",
+                                "batter",
+                                "mansion"
+                            ],
+                            [
+                                "trendy",
+                                "rapids",
+                                "dampe",
+                                "d0rupee"
+                            ]
+                        ]
+                    }
                 ]
             }
         ]

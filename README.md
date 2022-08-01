@@ -1,6 +1,6 @@
-# LASR Tracker Pack for Emotracker
+# LASR Tracker Pack for Poptracker
 
-This is a Link's Awakening Switch Remake map tracker package for Emotracker.
+This is a Link's Awakening Switch Remake map tracker package for Poptracker.
 
 ## Installation
 
