@@ -1,0 +1,4 @@
+{
+  "disabled_image_filter": "dim_halfdim,grayscale",
+  "allow_resize": false
+}

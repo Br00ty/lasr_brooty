@@ -565,7 +565,7 @@ function faceshrine()
 end
 
 function faceshrine_g1()
-  return (faceshrine() or (bracelet() and boots() and feather() and sword() and has("face")))
+  return (faceshrine() or (armosmaze() and bracelet() and boots() and feather() and sword() and has("face")))
 end
 
 function faceshrine_g2()

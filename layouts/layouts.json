@@ -55,9 +55,100 @@
                     "type": "dock",
                     "content": [
                         {
-                            "type": "map",
-                            "maps": [
-                                "map"
+                            "type": "tabbed",
+                            "dock": "top",
+                            "tabs": [
+                                {
+                                    "title": "Overworld",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "map"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Tail Cave",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "d1"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Bottle Grotto",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "d2"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Key Cavern",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "d3"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Angler's Tunnel",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "d4"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Catfish Maw",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "d5"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Face Shrine",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "d6"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Eagle Tower",
+                                    "background": "#00FFFFFF",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "d7"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Turtle Rock",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "d8"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Color Dungeon",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "d0"
+                                        ]
+                                    }
+                                }
                             ]
                         }
                     ]

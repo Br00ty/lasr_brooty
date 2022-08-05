@@ -8,6 +8,9 @@
     "variants": {
         "tracker": {
             "display_name": "Map Tracker"
+        },
+        "var_itemsonly": {
+            "display_name": "Items Only"
         }
     }
 }

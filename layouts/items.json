@@ -1,252 +1,252 @@
 {
-    "items": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1,1",
-        "item_size": 36,
-        "rows": [
-            [
-                "sword",
-                "shield",
-                "lift1",
-                "boots",
-                "flippers",
-                "mushroom",
-                "powder"
-            ],
-            [
-                "feather",
-                "bombs",
-                "shovel",
-                "ocarina",
-                "hookshot",
-                "bow",
-                "rod"
-            ],
-            [
-                "boomerang",
-                "rooster",
-                "bowwow",
-                "bottles",
-                "shells",
-                "goldleaf",
-                "armor1"
-            ]
-        ]
-    },
-    "items2": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "margin": "8,0,8,0",
-        "item_margin": "2,-1",
-        "item_size": 29,
-        "rows": [
-            [
-                "ballad",
-                "manbo",
-                "frog",
-                "tail",
-                "slime",
-                "angler",
-                "face",
-                "bird"
-            ]
-        ]
-    },
-    "items3": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "margin": "3,5,3,0",
-        "item_margin": "1,1",
-        "item_size": 37,
-        "rows": [
-            [
-                "yoshi",
-                "ribbon",
-                "food",
-                "bananas",
-                "stick",
-                "honey",
-                "pineapple"
-            ],
-            [
-                "flower",
-                "letter",
-                "broom",
-                "hook",
-                "necklace",
-                "scale",
-                "lens"
-            ]
-        ]
-    },
-    "instruments": {
+  "items": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,1",
+    "item_size": 36,
+    "rows": [
+      [
+        "sword",
+        "shield",
+        "lift1",
+        "boots",
+        "flippers",
+        "mushroom",
+        "powder"
+      ],
+      [
+        "feather",
+        "bombs",
+        "shovel",
+        "ocarina",
+        "hookshot",
+        "bow",
+        "rod"
+      ],
+      [
+        "boomerang",
+        "rooster",
+        "bowwow",
+        "bottles",
+        "shells",
+        "goldleaf",
+        "armor1"
+      ]
+    ]
+  },
+  "items2": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "margin": "8,0,8,0",
+    "item_margin": "2,-1",
+    "item_size": 29,
+    "rows": [
+      [
+        "ballad",
+        "manbo",
+        "frog",
+        "tail",
+        "slime",
+        "angler",
+        "face",
+        "bird"
+      ]
+    ]
+  },
+  "items3": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "margin": "3,5,3,0",
+    "item_margin": "1,1",
+    "item_size": 37,
+    "rows": [
+      [
+        "yoshi",
+        "ribbon",
+        "food",
+        "bananas",
+        "stick",
+        "honey",
+        "pineapple"
+      ],
+      [
+        "flower",
+        "letter",
+        "broom",
+        "hook",
+        "necklace",
+        "scale",
+        "lens"
+      ]
+    ]
+  },
+  "instruments": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
         "type": "array",
-        "orientation": "vertical",
+        "orientation": "horizontal",
+        "margin": "20,-5,-2,0",
         "content": [
           {
-            "type": "array",
-            "orientation": "horizontal",
-            "margin": "20,-5,-2,0",
-            "content": [
-              {
-                "type": "itemgrid",
-                "item_margin": "-7,-1",
-                "item_size": 60,
-                "dock": "left",
-                "rows": [
-                  [
-                    "cello",
-                    "conch",
-                    "bell",
-                    "harp",
-                    "marimba"
-                  ]
-                ]
-              }
-            ]
-          },
-          {
-            "type": "array",
-            "orientation": "horizontal",
-            "margin": "20,-9,-2,0",
-            "content": [
-              {
-                "type": "itemgrid",
-                "dock": "left",
-                "item_margin": "0,2",
-                "item_size": 15,
-                "rows": [
-                  [
-                    "d1sk",
-                    "d1bk",
-                    "d1beak",
-                    "d2sk",
-                    "d2bk",
-                    "d2beak",
-                    "d3sk",
-                    "d3bk",
-                    "d3beak",
-                    "d4sk",
-                    "d4bk",
-                    "d4beak",
-                    "d5sk",
-                    "d5bk",
-                    "d5beak"
-                  ]
-                ]
-              }
-            ]
-          },
-          {
-            "type": "array",
-            "orientation": "horizontal",
-            "margin": "45,-5,-2,0",
-            "content": [
-              {
-                "type": "itemgrid",
-                "item_margin": "-7,-1",
-                "item_size": 60,
-                "dock": "left",
-                "rows": [
-                  [
-                    "triangle",
-                    "organ",
-                    "drum",
-                    "fairyq"
-                  ]
-                ]
-              }
-            ]
-          },
-          {
-            "type": "array",
-            "orientation": "horizontal",
-            "margin": "40,-9,-2,0",
-            "content": [
-              {
-                "type": "itemgrid",
-                "dock": "left",
-                "item_margin": "0,2",
-                "item_size": 15,
-                "rows": [
-                  [
-                    "d6sk",
-                    "d6bk",
-                    "d6beak",
-                    "d7sk",
-                    "d7bk",
-                    "d7beak",
-                    "d8sk",
-                    "d8bk",
-                    "d8beak",
-                    "d0sk",
-                    "d0bk",
-                    "d0beak"
-                  ]
-                ]
-              }
+            "type": "itemgrid",
+            "item_margin": "-7,-1",
+            "item_size": 60,
+            "dock": "left",
+            "rows": [
+              [
+                "cello",
+                "conch",
+                "bell",
+                "harp",
+                "marimba"
+              ]
             ]
           }
         ]
       },
-    "settings_popup": {
+      {
         "type": "array",
-        "orientation": "vertical",
+        "orientation": "horizontal",
+        "margin": "20,-9,-2,0",
         "content": [
-            {
-                "type": "group",
-                "header": "Settings",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "h_alignment": "center",
-                        "item_margin": "5",
-                        "rows": [
-                            [
-                                "s_hp",
-                                "s_ss",
-                                "s_tq",
-                                "l_bas"
-                            ],
-                            [
-                                "shop",
-                                "fishing",
-                                "batter",
-                                "mansion"
-                            ],
-                            [
-                                "trendy",
-                                "rapids",
-                                "dampe",
-                                "d0rupee"
-                            ]
-                        ]
-                    }
-                ]
-            }
+          {
+            "type": "itemgrid",
+            "dock": "left",
+            "item_margin": "0,2",
+            "item_size": 15,
+            "rows": [
+              [
+                "d1sk",
+                "d1bk",
+                "d1beak",
+                "d2sk",
+                "d2bk",
+                "d2beak",
+                "d3sk",
+                "d3bk",
+                "d3beak",
+                "d4sk",
+                "d4bk",
+                "d4beak",
+                "d5sk",
+                "d5bk",
+                "d5beak"
+              ]
+            ]
+          }
         ]
-    },
-    "item_grid": {
+      },
+      {
         "type": "array",
-        "orientation": "vertical",
+        "orientation": "horizontal",
+        "margin": "45,-5,-2,0",
         "content": [
-            {
-                "type": "layout",
-                "key": "items"
-            },
-            {
-                "type": "layout",
-                "key": "items2"
-            },
-            {
-                "type": "layout",
-                "key": "items3"
-            },
-            {
-                "type": "layout",
-                "key": "instruments"
-            }
+          {
+            "type": "itemgrid",
+            "item_margin": "-7,-1",
+            "item_size": 60,
+            "dock": "left",
+            "rows": [
+              [
+                "triangle",
+                "organ",
+                "drum",
+                "fairyq"
+              ]
+            ]
+          }
         ]
-    }
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "40,-9,-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "dock": "left",
+            "item_margin": "0,2",
+            "item_size": 15,
+            "rows": [
+              [
+                "d6sk",
+                "d6bk",
+                "d6beak",
+                "d7sk",
+                "d7bk",
+                "d7beak",
+                "d8sk",
+                "d8bk",
+                "d8beak",
+                "d0sk",
+                "d0bk",
+                "d0beak"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "settings_popup": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "group",
+        "header": "Settings",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "5",
+            "rows": [
+              [
+                "s_hp",
+                "s_ss",
+                "s_tq",
+                "l_bas"
+              ],
+              [
+                "shop",
+                "fishing",
+                "batter",
+                "mansion"
+              ],
+              [
+                "trendy",
+                "rapids",
+                "dampe",
+                "d0rupee"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "layout",
+        "key": "items"
+      },
+      {
+        "type": "layout",
+        "key": "items2"
+      },
+      {
+        "type": "layout",
+        "key": "items3"
+      },
+      {
+        "type": "layout",
+        "key": "instruments"
+      }
+    ]
+  }
 }
