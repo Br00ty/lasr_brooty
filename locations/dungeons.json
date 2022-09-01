@@ -2116,7 +2116,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_8d,$dashjump"
+                                    "$d8_8d,feather,bombs","[l_adv],$d8_8d,$dashjump"
                                 ]
                             }
                         ],
@@ -2202,7 +2202,7 @@
                         ]
                     },
                     {
-                        "name": "North Hookshot Chest",
+                        "name": "Left Exit Hookshot Chest",
                         "sections": [
                             {
                                 "item_count": 1,
@@ -2258,7 +2258,7 @@
                         ]
                     },
                     {
-                        "name": "North Hookshot Chest",
+                        "name": "North Hookshot Ledge",
                         "sections": [
                             {
                                 "item_count": 1,
