@@ -739,7 +739,7 @@
 		"img": "images/shop.png"
 	},
 	{
-		"name": "Fishing Pond",
+		"name": "Fast Fishing",
 		"type": "toggle",
 		"loop": true,
 		"codes": "fishing",
@@ -786,5 +786,12 @@
 		"loop": true,
 		"codes": "d0rupee",
 		"img": "images/bluerupee.png"
+	},
+	{
+		"name": "Owl Statues",
+		"type": "toggle",
+		"loop": true,
+		"codes": "owlstatue",
+		"img": "images/items/owl.png"
 	}
 ]

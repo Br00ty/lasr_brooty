@@ -641,6 +641,10 @@ function swamp()
     return ((bush() and (feather() or rooster() or powder())) or bracelet())
 end
 
+function swamp_adv()
+    return ((bush() and (feather() or rooster() or powder())) or bracelet())
+end
+
 function tailcave()
     return has("tail")
 end

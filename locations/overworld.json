@@ -268,19 +268,13 @@
                                 "name": "Fishing Any",
                                 "item_count": 1,
                                 "chest_unopened_img": "images/items/hp.png",
-                                "chest_opened_img": "images/items/hp_gray.png",
-                                "visibility_rules": [
-                                    "fishing"
-                                ]
+                                "chest_opened_img": "images/items/hp_gray.png"
                             },
                             {
                                 "name": "Fishing 50",
                                 "item_count": 1,
                                 "chest_unopened_img": "images/items/hp.png",
-                                "chest_opened_img": "images/items/hp_gray.png",
-                                "visibility_rules": [
-                                    "fishing"
-                                ]
+                                "chest_opened_img": "images/items/hp_gray.png"
                             },
                             {
                                 "name": "Fishing 100",
@@ -288,11 +282,8 @@
                                 "chest_unopened_img": "images/items/shell.png",
                                 "chest_opened_img": "images/items/shell_gray.png",
                                 "access_rules": [
-                                    "o_fish",
                                     "triangle",
-                                    "marimba"
-                                ],
-                                "visibility_rules": [
+                                    "marimba",
                                     "fishing"
                                 ]
                             },
@@ -302,10 +293,7 @@
                                 "chest_unopened_img": "images/items/chamber.png",
                                 "chest_opened_img": "images/items/chamber_gray.png",
                                 "access_rules": [
-                                    "o_fish",
-                                    "triangle"
-                                ],
-                                "visibility_rules": [
+                                    "triangle",
                                     "fishing"
                                 ]
                             },
@@ -315,10 +303,7 @@
                                 "chest_unopened_img": "images/items/shell.png",
                                 "chest_opened_img": "images/items/shell_gray.png",
                                 "access_rules": [
-                                    "o_fish",
-                                    "harp"
-                                ],
-                                "visibility_rules": [
+                                    "harp",
                                     "fishing"
                                 ]
                             },
@@ -328,10 +313,7 @@
                                 "chest_unopened_img": "images/items/chamber.png",
                                 "chest_opened_img": "images/items/chamber_gray.png",
                                 "access_rules": [
-                                    "o_fish",
-                                    "triangle"
-                                ],
-                                "visibility_rules": [
+                                    "triangle",
                                     "fishing"
                                 ]
                             },
@@ -339,10 +321,7 @@
                                 "name": "Fishing Loose",
                                 "item_count": 1,
                                 "chest_unopened_img": "images/items/bottle.png",
-                                "chest_opened_img": "images/items/bottle_gray.png",
-                                "visibility_rules": [
-                                    "fishing"
-                                ]
+                                "chest_opened_img": "images/items/bottle_gray.png"
                             }
                         ],
                         "map_locations": [
@@ -407,6 +386,10 @@
                             "$farm"
                         ],
                         "sections": [
+                            {
+                                "name": "Yoshi Doll",
+                                "hosted_item": "yoshi"
+                            },
                             {
                                 "name": "Trendy Prizes 1-3",
                                 "item_count": 3,
@@ -776,7 +759,8 @@
                                     "powder",
                                     "rooster",
                                     "feather",
-                                    "bracelet"
+                                    "bracelet",
+                                    "[l_adv],hookshot"
                                 ]
                             }
                         ],
@@ -871,7 +855,8 @@
                         "sections": [
                             {
                                 "name": "Witch's Hut",
-                                "item_count": 1,
+                                //"item_count": 1,
+                                "hosted_item": "powder",
                                 "access_rules": [
                                     "mushroom"
                                 ]
@@ -1353,6 +1338,7 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "feather",
+                                    "rooster",
                                     "[l_adv],hookshot"
                                 ]
                             },
@@ -1626,31 +1612,31 @@
                                         "y": 555
                                     }
                                 ]
-                            },
-                            {
-                                "name": "South Moat",
-                                "sections": [
-                                    {
-                                        "name": "Kanalet Moat South",
-                                        "access_rules": [
-                                            "flippers"
-                                        ],
-                                        "item_count": 1,
-                                        "chest_opened_img": "images/items/hp_gray.png",
-                                        "chest_unopened_img": "images/items/hp.png",
-                                        "visibility_rules": [
-                                            "s_hp"
-                                        ]
-                                    }
-                                ],
-                                "map_locations": [
-                                    {
-                                        "map": "map",
-                                        "x": 1578,
-                                        "y": 848
-                                    }
-                                ]
                             }
+                            //{
+                            //    "name": "South Moat",
+                            //    "sections": [
+                            //        {
+                            //            "name": "Kanalet Moat South",
+                            //            "access_rules": [
+                            //                "flippers"
+                            //            ],
+                            //            "item_count": 1,
+                            //            "chest_opened_img": "images/items/hp_gray.png",
+                            //            "chest_unopened_img": "images/items/hp.png",
+                            //            "visibility_rules": [
+                            //               "s_hp"
+                            //            ]
+                            //        }
+                            //    ],
+                            //    "map_locations": [
+                            //        {
+                            //            "map": "map",
+                            //            "x": 1578,
+                            //            "y": 848
+                            //        }
+                            //    ]
+                            //}
                         ]
                     },
                     {
@@ -2042,13 +2028,22 @@
                             {
                                 "name": "Rapids Middle Island",
                                 "item_count": 1
+                            },
+                            {
+                                "name": "Owl Statue",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/owl.png",
+                                "chest_opened_img": "images/items/owl_gray.png",
+                                "visibility_rules": [
+                                    "owlstatue"
+                                ]
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "map",
-                                "x": 2340,
-                                "y": 640
+                                "x": 2306,
+                                "y": 627
                             }
                         ]
                     },
@@ -2473,31 +2468,31 @@
                                 "y": 410
                             }
                         ]
-                    },
-                    {
-                        "name": "Taltal River Cave",
-                        "sections": [
-                            {
-                                "name": "Taltal East Drop",
-                                "item_count": 1,
-                                "access_rules": [
-                                    "flippers"
-                                ],
-                                "chest_opened_img": "images/items/hp_gray.png",
-                                "chest_unopened_img": "images/items/hp.png",
-                                "visibility_rules": [
-                                    "s_hp"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map",
-                                "x": 2489,
-                                "y": 408
-                            }
-                        ]
                     }
+                    //{
+                    //   "name": "Taltal River Cave",
+                    //    "sections": [
+                    //        {
+                    //            "name": "Taltal East Drop",
+                    //            "item_count": 1,
+                    //            "access_rules": [
+                    //                "flippers"
+                    //            ],
+                    //            "chest_opened_img": "images/items/hp_gray.png",
+                    //            "chest_unopened_img": "images/items/hp.png",
+                    //            "visibility_rules": [
+                    //                "s_hp"
+                    //            ]
+                    //        }
+                    //    ],
+                    //    "map_locations": [
+                    //        {
+                    //            "map": "map",
+                    //            "x": 2489,
+                    //            "y": 408
+                    //        }
+                    //    ]
+                    //}
                 ]
             },
             {
@@ -2683,6 +2678,18 @@
                                 "visibility_rules": [
                                     "s_ss"
                                 ]
+                            },
+                            {
+                                "name": "Owl Statue",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$animal"
+                                ],
+                                "chest_unopened_img": "images/items/owl.png",
+                                "chest_opened_img": "images/items/owl_gray.png",
+                                "visibility_rules": [
+                                    "owlstatue"
+                                ]
                             }
                         ],
                         "map_locations": [
@@ -2823,6 +2830,19 @@
                                 "visibility_rules": [
                                     "s_ss"
                                 ]
+                            },
+                            {
+                                "name": "Owl Statue",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "bombs,feather",
+                                    "bombs,rooster"
+                                ],
+                                "chest_unopened_img": "images/items/owl.png",
+                                "chest_opened_img": "images/items/owl_gray.png",
+                                "visibility_rules": [
+                                    "owlstatue"
+                                ]
                             }
                         ],
                         "map_locations": [
@@ -2864,95 +2884,95 @@
                             }
                         ]
                     },
-                    {
-                        "name": "Bay Passage",
-                        "access_rules": [
-                            "flippers"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Bay Passage Sunken",
-                                "item_count": 1,
-                                "chest_unopened_img": "images/items/hp.png",
-                                "chest_opened_img": "images/items/hp_gray.png",
-                                "access_rules": [
-                                    "rooster,boomerang",
-                                    "rooster,rod",
-                                    "feather,boomerang",
-                                    "feather,rod",
-                                    "feather,sword",
-                                    "[l_adv],feather,bombs",
-                                    "[l_adv],feather,powder",
-                                    "[l_adv],rooster,bombs",
-                                    "[l_adv],rooster,powder",
-                                    "[l_adv],rooster,sword"
-                                ],
-                                "visibility_rules": [
-                                    "s_hp"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map",
-                                "x": 1695,
-                                "y": 1470
-                            }
-                        ]
-                    },
-                    {
-                        "name": "River Crossing",
-                        "sections": [
-                            {
-                                "name": "River Crossing Cave",
-                                "item_count": 1,
-                                "chest_unopened_img": "images/items/hp.png",
-                                "chest_opened_img": "images/items/hp_gray.png",
-                                "access_rules": [
-                                    "$bush,flippers"
-                                ],
-                                "visibility_rules": [
-                                    "s_hp"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map",
-                                "x": 1875,
-                                "y": 1081
-                            },
-                            {
-                                "map": "map",
-                                "x": 2028,
-                                "y": 1085
-                            }
-                        ]
-                    },
-                    {
-                        "name": "South Bay Pond",
-                        "sections": [
-                            {
-                                "name": "South Bay Sunken",
-                                "item_count": 1,
-                                "chest_unopened_img": "images/items/hp.png",
-                                "chest_opened_img": "images/items/hp_gray.png",
-                                "access_rules": [
-                                    "flippers"
-                                ],
-                                "visibility_rules": [
-                                    "s_hp"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map",
-                                "x": 1680,
-                                "y": 1415
-                            }
-                        ]
-                    },
+                    //{
+                    //    "name": "Bay Passage",
+                    //    "access_rules": [
+                    //        "flippers"
+                    //    ],
+                    //    "sections": [
+                    //        {
+                    //            "name": "Bay Passage Sunken",
+                    //            "item_count": 1,
+                    //            "chest_unopened_img": "images/items/hp.png",
+                    //            "chest_opened_img": "images/items/hp_gray.png",
+                    //            "access_rules": [
+                    //                "rooster,boomerang",
+                    //                "rooster,rod",
+                    //                "feather,boomerang",
+                    //                "feather,rod",
+                    //                "feather,sword",
+                    //                "[l_adv],feather,bombs",
+                    //                "[l_adv],feather,powder",
+                    //                "[l_adv],rooster,bombs",
+                    //                "[l_adv],rooster,powder",
+                    //                "[l_adv],rooster,sword"
+                    //            ],
+                    //            "visibility_rules": [
+                    //                "s_hp"
+                    //            ]
+                    //        }
+                    //    ],
+                    //    "map_locations": [
+                    //        {
+                    //            "map": "map",
+                    //            "x": 1695,
+                    //            "y": 1470
+                    //        }
+                    //    ]
+                    //},
+                    //{
+                    //    "name": "River Crossing",
+                    //    "sections": [
+                    //        {
+                    //            "name": "River Crossing Cave",
+                    //            "item_count": 1,
+                    //            "chest_unopened_img": "images/items/hp.png",
+                    //            "chest_opened_img": "images/items/hp_gray.png",
+                    //            "access_rules": [
+                    //                "$bush,flippers"
+                    //            ],
+                    //            "visibility_rules": [
+                    //                "s_hp"
+                    //            ]
+                    //        }
+                    //    ],
+                    //    "map_locations": [
+                    //        {
+                    //            "map": "map",
+                    //            "x": 1875,
+                    //            "y": 1081
+                    //        },
+                    //        {
+                    //            "map": "map",
+                    //            "x": 2028,
+                    //            "y": 1085
+                    //        }
+                    //    ]
+                    //},
+                    //{
+                    //    "name": "South Bay Pond",
+                    //    "sections": [
+                    //        {
+                    //            "name": "South Bay Sunken",
+                    //            "item_count": 1,
+                    //            "chest_unopened_img": "images/items/hp.png",
+                    //            "chest_opened_img": "images/items/hp_gray.png",
+                    //            "access_rules": [
+                    //                "flippers"
+                    //            ],
+                    //            "visibility_rules": [
+                    //                "s_hp"
+                    //            ]
+                    //        }
+                    //    ],
+                    //    "map_locations": [
+                    //        {
+                    //            "map": "map",
+                    //            "x": 1680,
+                    //            "y": 1415
+                    //        }
+                    //    ]
+                    //},
                     {
                         "name": "Bay Maze",
                         "sections": [
@@ -3138,7 +3158,7 @@
                                     "feather,$pothole2",
                                     "rooster,$pothole2",
                                     "hookshot,$pothole2",
-                                    "[l_gli],feather,powder,sword",
+                                    //"[l_gli],feather,powder,sword",
                                     "[l_gli],rooster,sword",
                                     "[l_gli],rooster,powder",
                                     "[l_gli],rooster,bombs",
@@ -3160,7 +3180,7 @@
                         "name": "Pothole Field",
                         "sections": [
                             {
-                                "name": "Pothole North",
+                                "name": "Heart Piece",
                                 "item_count": 1,
                                 "access_rules": [
                                     "rooster,boomerang,$pothole2",
@@ -3170,7 +3190,7 @@
                                     "feather,rod,$pothole2",
                                     "feather,sword,$pothole2",
                                     "feather,bombs,$pothole2",
-                                    "[l_gli],feather,powder,sword",
+                                    //"[l_gli],feather,powder,sword",
                                     "[l_gli],rooster,sword",
                                     "[l_gli],rooster,bombs",
                                     "[l_gli],rooster,boomerang",
@@ -3192,10 +3212,10 @@
                         ]
                     },
                     {
-                        "name": "Pothole Owl",
+                        "name": "Pothole Field",
                         "sections": [
                             {
-                                "name": "Pothole Final",
+                                "name": "Slime Key",
                                 "item_count": 1,
                                 "access_rules": [
                                     "rooster,boomerang,$pothole2,shovel",
@@ -3205,12 +3225,36 @@
                                     "feather,rod,$pothole2,shovel",
                                     "feather,sword,$pothole2,shovel",
                                     "feather,bombs,$pothole2,shovel",
-                                    "[l_gli],feather,powder,sword,shovel",
+                                    //"[l_gli],feather,powder,sword,shovel",
                                     "[l_gli],rooster,sword,shovel",
                                     "[l_gli],rooster,powder,shovel",
                                     "[l_gli],rooster,bombs,shovel",
                                     "[l_gli],rooster,boomerang,shovel",
                                     "[l_gli],rooster,rod,shovel"
+                                ]
+                            },
+                            {
+                                "name": "Owl Statue",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "rooster,boomerang,$pothole2",
+                                    "rooster,rod,$pothole2",
+                                    "rooster,bombs,$pothole2",
+                                    "feather,boomerang,$pothole2",
+                                    "feather,rod,$pothole2",
+                                    "feather,sword,$pothole2",
+                                    "feather,bombs,$pothole2",
+                                    //"[l_gli],feather,powder,sword",
+                                    "[l_gli],rooster,sword",
+                                    "[l_gli],rooster,powder",
+                                    "[l_gli],rooster,bombs",
+                                    "[l_gli],rooster,boomerang",
+                                    "[l_gli],rooster,rod"
+                                ],
+                                "chest_unopened_img": "images/items/owl.png",
+                                "chest_opened_img": "images/items/owl_gray.png",
+                                "visibility_rules": [
+                                    "owlstatue"
                                 ]
                             }
                         ],
@@ -3422,6 +3466,137 @@
                                 "map": "map",
                                 "x": 1362,
                                 "y": 770
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Overworld Owls",
+                "children": [
+                    {
+                        "name": "Taltal Heights",
+                        "sections": [
+                            {
+                                "name": "Moblin Cave Owl Statue",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$wasteland"
+                                ],
+                                "chest_unopened_img": "images/items/owl.png",
+                                "chest_opened_img": "images/items/owl_gray.png",
+                                "visibility_rules": [
+                                    "owlstatue"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 967,
+                                "y": 499
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Goponga Swamp",
+                        "sections": [
+                            {
+                                "name": "Owl Statue below D8",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "feather",
+                                    "rooster",
+                                    "[l_adv],hookshot"
+                                ],
+                                "chest_unopened_img": "images/items/owl.png",
+                                "chest_opened_img": "images/items/owl_gray.png",
+                                "visibility_rules": [
+                                    "owlstatue"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 275,
+                                "y": 315
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Yarna Desert",
+                        "access_rules": [
+                            "$desert"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Owl Statue",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/owl.png",
+                                "chest_opened_img": "images/items/owl_gray.png",
+                                "visibility_rules": [
+                                    "owlstatue"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2620,
+                                "y": 1188
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ancient Ruins",
+                        "access_rules": [
+                            "bracelet,hookshot",
+                            "bracelet,$obstacle",
+                            "bracelet,$water"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Owl Statue",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/owl.png",
+                                "chest_opened_img": "images/items/owl_gray.png",
+                                "visibility_rules": [
+                                    "owlstatue"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2686,
+                                "y": 914
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Taltal Mountains",
+                        "access_rules": [
+                            "$taltal_east_1",
+                            "[l_adv],$taltal_east_1_a",
+                            "[l_gli],$taltal_east_1_g"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Owl Statue",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/owl.png",
+                                "chest_opened_img": "images/items/owl_gray.png",
+                                "visibility_rules": [
+                                    "owlstatue"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map",
+                                "x": 2422,
+                                "y": 295
                             }
                         ]
                     }
