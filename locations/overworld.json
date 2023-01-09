@@ -713,10 +713,7 @@
                         "sections": [
                             {
                                 "name": "Mad Batter Woods",
-                                "item_count": 1,
-                                "visibility_rules": [
-                                    "batter"
-                                ]
+                                "item_count": 1
                             }
                         ],
                         "map_locations": [
@@ -2532,9 +2529,6 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "bracelet,powder"
-                                ],
-                                "visibility_rules": [
-                                    "batter"
                                 ]
                             }
                         ],
@@ -2870,9 +2864,6 @@
                                     "feather,sword",
                                     "[l_adv],feather",
                                     "[l_adv],rooster"
-                                ],
-                                "visibility_rules": [
-                                    "batter"
                                 ]
                             }
                         ],
