@@ -15,6 +15,7 @@
                     "content": [
                         {
                             "type": "group",
+                            "background": "#212121",
                             "header": "Items",
                             "dock": "top",
                             "content": {
@@ -24,6 +25,7 @@
                         },
                         {
                             "type": "group",
+                            "background": "#212121",
                             "header": "Settings",
                             "dock": "bottom",
                             "content": {
@@ -37,6 +39,7 @@
                         },
                         {
                             "type": "group",
+                            "background": "#212121",
                             //"header": "Pinned Locations",
                             "content": {
                                 "type": "recentpins",
@@ -121,7 +124,6 @@
                                 },
                                 {
                                     "title": "Eagle Tower",
-                                    "background": "#00FFFFFF",
                                     "content": {
                                         "type": "map",
                                         "maps": [
