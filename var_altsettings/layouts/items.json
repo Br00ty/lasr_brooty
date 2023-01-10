@@ -190,7 +190,7 @@
       }
     ]
   },
-  "settings_popup": {
+  "settings_grid": {
     "type": "array",
     "orientation": "vertical",
     "content": [

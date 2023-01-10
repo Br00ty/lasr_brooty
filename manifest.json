@@ -9,6 +9,9 @@
         "tracker": {
             "display_name": "Map Tracker"
         },
+        "var_altsettings": {
+            "display_name": "Map Tracker (No Settings Popup)"
+        },
         "var_itemsonly": {
             "display_name": "Items Only"
         }

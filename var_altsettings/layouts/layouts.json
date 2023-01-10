@@ -23,33 +23,33 @@
                                 "key": "item_grid"
                             }
                         },
-                        //{
-                        //    "type": "group",
-                        //    "background": "#212121",
-                        //    "header": "Settings",
-                        //    "dock": "bottom",
-                        //    "content": {
-                        //        "type": "layout",
-                        //        //"v_alignment": "stretch",
-                        //        "key": "settings_grid",
-                        //        "h_alignment": "stretch",
-                        //        "v_alignment": "stretch",
-                        //        "orientation": "vertical"
-                        //    }
-                        //},
-                        //{
-                        //    "type": "group",
-                        //    "background": "#212121",
-                        //    //"header": "Pinned Locations",
-                        //    "content": {
-                        //        "type": "recentpins",
-                        //        "style": "wrap",
-                        //        "h_alignment": "stretch",
-                        //        "v_alignment": "stretch",
-                        //        "orientation": "vertical",
-                        //        "compact": true
-                        //    }
-                        //}
+                        {
+                            "type": "group",
+                            "background": "#212121",
+                            "header": "Settings",
+                            "dock": "bottom",
+                            "content": {
+                                "type": "layout",
+                                //"v_alignment": "stretch",
+                                "key": "settings_grid",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "vertical"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "background": "#212121",
+                            //"header": "Pinned Locations",
+                            "content": {
+                                "type": "recentpins",
+                                "style": "wrap",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "vertical",
+                                "compact": true
+                            }
+                        }
                     ]
                 },
                 {
