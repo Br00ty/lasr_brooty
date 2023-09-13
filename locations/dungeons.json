@@ -3,11 +3,13 @@
         "name": "Dungeons",
         "chest_unopened_img": "images/chest.png",
         "chest_opened_img": "images/chest_gray.png",
+        //"visibility_rules": ["dungeon_er_off"],
         "children": [
             {
                 "name": "D1 - Tail Cave",
                 "access_rules": [
-                    "$tailcave"
+                    "dungeon_er_off,$tailcave",
+                    "dungeon_er_on,$tc_dungeon"
                 ],
                 "children": [
                     {
@@ -217,14 +219,74 @@
                                 "y": 87
                             }
                         ]
+                    },
+                    {
+                        "name": "Owl (Long Hallway)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "d1beak,d1sk:1,[d1sk:3]"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d1",
+                                "x": 196,
+                                "y": 138
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl (Spinies)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "d1beak,d1sk:1,[d1sk:3]"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d1",
+                                "x": 128,
+                                "y": 138
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl (3-of-a-Kind)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "d1beak,d1sk:1,[d1sk:3]"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d1",
+                                "x": 449,
+                                "y": 202
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "name": "D2 - Bottle Grotto",
                 "access_rules": [
-                    "$bottlegrotto",
-                    "[l_gli],$bottlegrotto_g"
+                    "dungeon_er_off,classic_off,$bottlegrotto",
+                    "[l_adv],dungeon_er_off,classic_off,$bottlegrotto_adv",
+                    "dungeon_er_off,classic_on,$bottlegrotto_classic",
+                    "[l_adv],dungeon_er_off,classic_on,$bottlegrotto_classic_adv",
+                    "dungeon_er_on,$bg_dungeon"
                 ],
                 "children": [
                     {
@@ -493,13 +555,72 @@
                                 "y": 216
                             }
                         ]
+                    },
+                    {
+                        "name": "Owl (First Switch)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$d2_7d,d2beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d2",
+                                "x": 288,
+                                "y": 396
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl (Push Puzzle)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$d2_7d,d2beak,feather,$crystal_switch,d2sk:1,[d2sk:3]",
+                                    "$d2_7d,d2beak,rooster,badpets,$crystal_switch,d2sk:1,[d2sk:3]"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d2",
+                                "x": 503,
+                                "y": 332
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl (Past Hinox)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$d2_4c,d2beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d2",
+                                "x": 208,
+                                "y": 204
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "name": "D3 - Key Cavern",
                 "access_rules": [
-                    "$keycavern"
+                    "dungeon_er_off,$keycavern",
+                    "dungeon_er_on,$kc_dungeon"
                 ],
                 "children": [
                     {
@@ -578,21 +699,30 @@
                         ]
                     },
                     {
-                        "name": "North Ceiling Key",
+                        "name": "North Basement Room",
                         "sections": [
                             {
+                                "name": "Ceiling Key",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_stalfosyellow,$k_stalfosspear,$switch,bracelet,d3sk:1,[d3sk:4]",
                                     "$obstacle,$k_zolr,$k_stalfosyellow,$k_stalfosspear,$switch,bracelet,d3sk:1,[d3sk:4]"
+                                ]
+                            },
+                            {
+                                "name": "Owl (Basement North)",
+                                "item_count": 1,
+                                "visibility_rules": ["owlstatue"],
+                                "access_rules": [
+                                    "$d3_3g,d3beak"
                                 ]
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "d3",
-                                "x": 714,
-                                "y": 159
+                                "x": 630,
+                                "y": 161
                             }
                         ]
                     },
@@ -648,8 +778,8 @@
                         "map_locations": [
                             {
                                 "map": "d3",
-                                "x": 641,
-                                "y": 221
+                                "x": 548,
+                                "y": 220
                             }
                         ]
                     },
@@ -667,7 +797,7 @@
                         "map_locations": [
                             {
                                 "map": "d3",
-                                "x": 717,
+                                "x": 623,
                                 "y": 291
                             }
                         ]
@@ -756,7 +886,7 @@
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,bombs,boots,feather,bracelet,d3sk:1,[d3sk:4]",
                                     "$obstacle,$k_zolr,bombs,boots,feather,bracelet,d3sk:1,[d3sk:4]",
-                                    "[l_adv],$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$skew,bracelet,d3sk:1,[d3sk:4]"
+                                    "[l_adv],$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$skew,bombs,bracelet,d3sk:1,[d3sk:4]"
                                 ]
                             }
                         ],
@@ -822,7 +952,7 @@
                         "map_locations": [
                             {
                                 "map": "d3",
-                                "x": 716,
+                                "x": 625,
                                 "y": 473
                             }
                         ]
@@ -843,7 +973,7 @@
                         "map_locations": [
                             {
                                 "map": "d3",
-                                "x": 739,
+                                "x": 646,
                                 "y": 420
                             }
                         ]
@@ -864,8 +994,46 @@
                         "map_locations": [
                             {
                                 "map": "d3",
-                                "x": 739,
+                                "x": 646,
                                 "y": 345
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl (Arrow)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$d3_4c,d3beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d3",
+                                "x": 436,
+                                "y": 75
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl (Northwest)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$d3_4c,d3beak,$k_zolr,$k_stalfos"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d3",
+                                "x": 197,
+                                "y": 11
                             }
                         ]
                     }
@@ -874,8 +1042,9 @@
             {
                 "name": "D4 - Angler Tunnel",
                 "access_rules": [
-                    "$anglertunnel",
-                    "[l_gli],$anglertunnel_g"
+                    "dungeon_er_off,$anglertunnel",
+                    "[l_gli],dungeon_er_off,$anglertunnel_g",
+                    "dungeon_er_on,$at_dungeon"
                 ],
                 "children": [
                     {
@@ -1010,6 +1179,7 @@
                                 "access_rules": [
                                     "$k_zolr,boots,feather,flippers,d4sk:3,[d4sk:3]",
                                     "[l_adv],$k_zolr,feather,hookshot,flippers,d4sk:3,[d4sk:3]",
+                                    "[l_adv],$k_zolr,$skew,flippers,d4sk:3,[d4sk:3]",
                                     "[l_gli],$k_zolr,boots,feather,sword,bombs,flippers"
                                 ]
                             }
@@ -1174,14 +1344,36 @@
                                 "y": 152
                             }
                         ]
+                    },
+                    {
+                        "name": "Owl",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$d4_4e,d4beak",
+                                    "[l_adv],$d4_4e_adv",
+                                    "[l_gli],$d4_4e_gli"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d4",
+                                "x": 363,
+                                "y": 280
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "name": "D5 - Catfish Maw",
                 "access_rules": [
-                    "$catfishmaw",
-                    "[l_gli],$catfishmaw_g"
+                    "dungeon_er_off,$catfishmaw",
+                    "[l_gli],dungeon_er_off,$catfishmaw_g",
+                    "dungeon_er_on,$cm_dungeon"
                 ],
                 "children": [
                     {
@@ -1281,7 +1473,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,feather,hookshot,d5sk:1,[d5sk:1]",
+                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,hookshot,d5sk:1,[d5sk:1]",
                                     "[l_adv],$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,$dashjump,d5sk:1,[d5sk:1]"
                                 ]
                             }
@@ -1300,7 +1492,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,hookshot,feather,d5sk:1,[d5sk:1]"
+                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,hookshot,d5sk:1,[d5sk:1]"
                                 ]
                             }
                         ],
@@ -1318,7 +1510,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,hookshot,feather,d5sk:1,[d5sk:1]"
+                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,hookshot,d5sk:1,[d5sk:1]"
                                 ]
                             }
                         ],
@@ -1336,7 +1528,8 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,feather,d5sk:1,[d5sk:1]"
+                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,feather,d5sk:1,[d5sk:1]",
+                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,hookshot,d5sk:1,[d5sk:1]"
                                 ]
                             }
                         ],
@@ -1377,7 +1570,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,$crystal,feather"
+                                    "$crystal,feather,$k_keese,$k_helmasaur"
                                 ]
                             }
                         ],
@@ -1442,15 +1635,54 @@
                                 "y": 24
                             }
                         ]
+                    },
+                    {
+                        "name": "Owl (Triple Stalfos)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$d5_7f,d5beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d5",
+                                "x": 468,
+                                "y": 332
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl (Before Slime Eel)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$d5_5g,feather,d5beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d5",
+                                "x": 212,
+                                "y": 140
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "name": "D6 - Face Shrine",
                 "access_rules": [
-                    "$faceshrine",
-                    "[l_gli],$faceshrine_g1",
-                    "[l_gli],$faceshrine_g2"
+                    "dungeon_er_off,$faceshrine",
+                    "[l_gli],dungeon_er_off,$faceshrine_g1",
+                    "[l_gli],dungeon_er_off,$faceshrine_g2",
+                    "dungeon_er_on,$fs_dungeon"
                 ],
                 "children": [
                     {
@@ -1744,15 +1976,74 @@
                                 "y": 152
                             }
                         ]
+                    },
+                    {
+                        "name": "Owl (Ledge)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "d6beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d6",
+                                "x": 291,
+                                "y": 246
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl (Southeast)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "bracelet2,k_wizzrobe,d6beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d6",
+                                "x": 500,
+                                "y": 460
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl (Canal)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$d6_4h,bombs,hookshot,d6sk:2,[d6sk:3],d6beak",
+                                    "[l_gli],$d6_4h,feather,bombs,d6beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d6",
+                                "x": 530,
+                                "y": 139
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "name": "D7 - Eagle Tower",
                 "access_rules": [
-                    "$eagletower",
-                    "[l_adv],$eagletower_a",
-                    "[l_gli],$eagletower_g"
+                    "dungeon_er_off,$eagletower",
+                    "dungeon_er_off,[l_adv],$eagletower_a",
+                    "dungeon_er_off,[l_gli],$eagletower_g",
+                    "dungeon_er_on,$et_dungeon"
                 ],
                 "children": [
                     {
@@ -1834,7 +2125,7 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d7_2d,$k_3oak,feather",
-                                    "d7_2d,$k_3oak,$switch"
+                                    "$d7_2d,$k_3oak,$switch"
                                 ]
                             }
                         ],
@@ -1989,15 +2280,73 @@
                                 "y": 189
                             }
                         ]
+                    },
+                    {
+                        "name": "Owl (Ball)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$d7_2d,d7beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d7",
+                                "x": 845,
+                                "y": 760
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl (Kirbys)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$d7_2d,d7beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d7",
+                                "x": 508,
+                                "y": 95
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl (Hookshot Chest)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$crystal_switch,bombs,d7beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d7",
+                                "x": 593,
+                                "y": 959
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "name": "D8 - Turtle Rock",
                 "access_rules": [
-                    "$turtlerock",
-                    "[l_adv],$turtlerock_a",
-                    "[l_gli],$turtlerock_g"
+                    "dungeon_er_off,$turtlerock",
+                    "[l_adv],dungeon_er_off,$turtlerock_a",
+                    "[l_gli],dungeon_er_off,$turtlerock_g",
+                    "dungeon_er_on,$tr_dungeon"
                 ],
                 "children": [
                     {
@@ -2006,7 +2355,8 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_6b"
+                                    "$d8_6b",
+                                    "[l_adv],$d8_6b_adv"
                                 ]
                             }
                         ],
@@ -2024,7 +2374,8 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_6b,rod"
+                                    "$d8_6b,rod",
+                                    "[l_adv],$d8_6b_adv,rod"
                                 ]
                             }
                         ],
@@ -2043,7 +2394,9 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_6b,feather",
-                                    "$d8_6b,hookshot"
+                                    "[l_adv],$d8_6b_adv,feather",
+                                    "$d8_6b,hookshot",
+                                    "[l_adv],$d8_6b_adv,hookshot"
                                 ]
                             }
                         ],
@@ -2061,7 +2414,8 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_6b,$k_bones,$k_vire"
+                                    "$d8_6b,$k_bones,$k_vire",
+                                    "[l_adv],$d8_6b_adv,$k_bones,$k_vire"
                                 ]
                             }
                         ],
@@ -2079,7 +2433,8 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_6b,$k_bones"
+                                    "$d8_6b,$k_bones",
+                                    "[l_adv],$d8_6b_adv,$k_bones"
                                 ]
                             }
                         ],
@@ -2097,8 +2452,8 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_8d,feather",
-                                    "$d8_8d,$pot,$k_vire"
+                                    "feather",
+                                    "$pot,$k_vire"
                                 ]
                             }
                         ],
@@ -2116,7 +2471,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_8d,feather,bombs","[l_adv],$d8_8d,$dashjump"
+                                    "feather,bombs","[l_adv],$dashjump"
                                 ]
                             }
                         ],
@@ -2134,8 +2489,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_8d,$k_smasher,bombs",
-                                    "$d8_8d,$k_smasher,$pot"
+                                    "feather,bombs","feather,$k_smasher","[l_adv],$dashjump"
                                 ]
                             }
                         ],
@@ -2153,7 +2507,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_8d,feather"
+                                    "feather"
                                 ]
                             }
                         ],
@@ -2171,7 +2525,8 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_4c,bow"
+                                    "$d8_4c,bow",
+                                    "[l_adv],$d8_4c_adv,bow"
                                 ]
                             }
                         ],
@@ -2189,7 +2544,8 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_4c"
+                                    "$d8_4c",
+                                    "[l_adv],$d8_4c_adv"
                                 ]
                             }
                         ],
@@ -2208,7 +2564,8 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_4c,feather,hookshot",
-                                    "$d8_8d,feather,hookshot,k_zolg,d8sk:1,[d8sk:2]"
+                                    "[l_adv],$d8_4c_adv,feather,hookshot",
+                                    "feather,hookshot,k_zolg,d8sk:1,[d8sk:2]"
                                 ]
                             }
                         ],
@@ -2226,7 +2583,8 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_4c,bombs"
+                                    "$d8_4c,bombs",
+                                    "[l_adv],$d8_4c_adv,bombs"
                                 ]
                             }
                         ],
@@ -2245,7 +2603,8 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_4c,$k_gibdo",
-                                    "$d8_8d,$k_zolg,$k_gibdo,feather,d8sk:1,[d8sk:2]"
+                                    "[l_adv],$d8_4c_adv,$k_gibdo",
+                                    "$k_zolg,$k_gibdo,feather,d8sk:1,[d8sk:2]"
                                 ]
                             }
                         ],
@@ -2264,7 +2623,8 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_4c,feather,hookshot",
-                                    "d8_8d,$k_zolg,feather,hookshot,d8sk:1,[d8sk:2]"
+                                    "[l_adv],$d8_4c_adv,feather,hookshot",
+                                    "$k_zolg,feather,hookshot,d8sk:1,[d8sk:2]"
                                 ]
                             }
                         ],
@@ -2282,7 +2642,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_8d,$k_blaino,feather,bombs,hookshot,d8sk:1,[d8sk:7]"
+                                    "$k_blaino,feather,bombs,hookshot,d8sk:1,[d8sk:7]"
                                 ]
                             }
                         ],
@@ -2300,7 +2660,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_8d,$k_cueball,feather,rod,d8sk:1,[d8sk:7]"
+                                    "$k_cueball,feather,rod,d8sk:1,[d8sk:7]"
                                 ]
                             }
                         ],
@@ -2318,7 +2678,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_8d,$k_hothead,feather,rod,d8bk"
+                                    "$k_hothead,feather,rod,d8bk"
                                 ]
                             }
                         ],
@@ -2336,7 +2696,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_8d,$k_hothead,feather,rod,d8bk"
+                                    "$k_hothead,feather,rod,d8bk"
                                 ]
                             }
                         ],
@@ -2347,13 +2707,73 @@
                                 "y": 25
                             }
                         ]
+                    },
+                    {
+                        "name": "Owl (Above Smasher)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$d8_owl_smasher",
+                                    "[l_adv],$dashjump,$k_smasher,d8beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d8",
+                                "x": 580,
+                                "y": 369
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl (Below Gibdos)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "feather,d8sk:1,[d8sk:2],d8beak",
+                                    "rooster,badpets,d8sk:1,[d8sk:2],d8beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d8",
+                                "x": 545,
+                                "y": 204
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl (Eye Statue)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$d8_4c,d8beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d8",
+                                "x": 224,
+                                "y": 204
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "name": "D0 - Color Dungeon",
                 "access_rules": [
-                    "$colordungeon"
+                    "dungeon_er_off,$colordungeon",
+                    "dungeon_er_on,$cd_dungeon"
                 ],
                 "children": [
                     {
@@ -2519,6 +2939,63 @@
                                 "map": "d0",
                                 "x": 207,
                                 "y": 217
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl (First Switches)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$k_goblin_heavy,d0beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d0",
+                                "x": 287,
+                                "y": 397
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl (Nine Switches)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$d0_6d,d0sk:1,[d0sk:2],d0beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d0",
+                                "x": 192,
+                                "y": 332
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Owl (Before Mini Boss)",
+                        "visibility_rules": ["owlstatue"],
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$k_goblin_heavy,d0beak"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d0",
+                                "x": 447,
+                                "y": 268
                             }
                         ]
                     }

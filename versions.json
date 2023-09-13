@@ -1,0 +1,18 @@
+{
+    "versions": [
+        {
+            "package_version": "0.3",
+            "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3/lasr_brooty.zip",
+            "sha256": "510FDE4E8E2E005C4E9261AB307A4ED6253E13A67D4E9958C3F89863F19D5FD8",
+            "changelog": [
+                "added files necessary for auto-updating through poptracker",
+                "added new settings toggles for Dungeon ER, Classic D2, Gold Feathers, Open Castle",
+                "adjusted logic to work with entrance rando tracking",
+                "added entrance tracker",
+                "added Gold Feather and Owl locations to overworld-dungeons",
+                "added dampe tablets to item tracker, as they were missing before",
+                "this release will most likely have some logic bugs"
+            ]
+        }
+    ]
+}

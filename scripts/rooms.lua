@@ -20,11 +20,11 @@ function d1_8d()
 end
 
 function d2_2f()
-    return (d2_4c() and pot() and feather())
+    return (d2_4c() and pot() and (feather() or (rooster() and has("badpets"))))
 end
 
 function d2_4c()
-    return (d2_7d() and crystal() and feather() and k_hinox() and has("d2sk", 3))
+    return (d2_7d() and crystal_switch() and (feather() or (rooster() and has("badpets"))) and k_hinox() and has("d2sk", 3))
 end
 
 function d2_4g()
@@ -33,7 +33,7 @@ function d2_4g()
 end
 
 function d2_7d()
-    return (d2_8c() and (rod() or powder()))
+    return (rod() or powder())
 end
 
 function d2_8c()
@@ -53,7 +53,7 @@ function d3_4c()
 end
 
 function d3_7b()
-    return (d3_8b() and bracelet())
+    return (bracelet())
 end
 
 function d3_8b()
@@ -69,15 +69,23 @@ function d4_4c()
 end
 
 function d4_4e()
-    return (d4_8d() and has("d4sk", 3) and k_spiny() and k_zolr() and dashjump())
+    return (has("d4sk", 3) and k_spiny() and k_zolr() and (dashjump() or (has("badpets") and rooster())))
 end
 
+function d4_4e_adv()
+    return (d4_4e() or (has("d4sk", 3) and k_spiny() and k_zolr() and (feather() or flippers()) and
+               ((feather() or boots() or bombs() or (shovel() and sword())) and hookshot())))
+end
+
+function d4_4e_gli()
+    return (d4_4e_adv() or ((sword() or bow() or rod()) and bombs() and dashjump()))
+end
 function d4_5b()
     return (d4_4e() and flippers() and has("d4sk", 5))
 end
 
 function d4_5g()
-    return (d4_8d() and dashjump())
+    return dashjump()
 end
 
 function d4_6c()
@@ -95,19 +103,24 @@ end
 
 function d5_5g()
     return ((d5_7f() and k_stalfosyellow() and k_stalfosred() and k_masterstalfos()) or
-               (d5_3e() and has("d5sk", 3) and hookshot() and feather() and k_star()))
+               (((d5_7f() and k_gohma() and hookshot() and feather() and has("d5sk", 3)) or (feather() and k_star())) and
+                   has("d5sk", 3) and hookshot() and feather() and k_star()))
 end
 
 function d5_7f()
-    return (d5_8h() and has("d5sk", 1))
+    return has("d5sk", 1)
 end
 
 function d5_8h()
     return catfishmaw()
 end
 
+function d6_2a() -- ????
+    return (faceshrine() and bracelet2() and (bombs() or boomerang() or hookshot() or bow() or sword2()) and pot())
+end
+
 function d6_3a()
-    return (d6_8d() and bracelet() and (bracelet2() or arrows() or rod() or bombs() or boomerang() or hookshot()))
+    return (bracelet() and (bracelet2() or arrows() or rod() or bombs() or boomerang() or hookshot()))
 end
 
 function d6_4h()
@@ -115,7 +128,7 @@ function d6_4h()
 end
 
 function d6_5d()
-    return (d6_8d() and has("d6sk", 1) and bombs() and bracelet2() and feather())
+    return (has("d6sk", 1) and bombs() and bracelet2() and feather())
 end
 
 function d6_8d()
@@ -127,7 +140,11 @@ function d7_2f()
 end
 
 function d7_2d()
-    return (d7_8b() and has("d7sk"))
+    return has("d7sk")
+end
+
+function d7_collapse()
+    return (d7_2d() and crystal())
 end
 
 function d7_8b()
@@ -135,11 +152,24 @@ function d7_8b()
 end
 
 function d8_4c()
-    return (d8_8d() and feather() and (rod() or (has("d8sk", 3) and k_zolg())))
+    return (feather() and (rod() or (has("d8sk", 3) and k_zolg())))
+end
+
+function d8_4c_adv()
+    return (d8_4c() or (has("d8sk", 1) and feather() and bomb_arrows()))
 end
 
 function d8_6b()
-    return (d8_4c() or (d8_8d() and k_vire() and k_rope() and k_hinox()))
+    return (d8_4c() or (k_vire() and k_rope() and k_hinox()))
+end
+
+function d8_6b_adv()
+    return (d8_4c_adv() or (k_vire() and k_rope() and k_hinox()))
+end
+
+function d8_owl_smasher()
+    return ((feather() or (rooster() and has("badpets"))) and ((bombs() and k_smasher()) or (pot() and k_mimic())) and
+               has("d8beak"))
 end
 
 function d8_8d()
@@ -151,17 +181,9 @@ function d0_8c()
 end
 
 function d0_6d()
-    return (d0_8c() and k_goblin_heavy() and has("d0sk", 2) and k_stonehinox())
-end
-
-function d7_collapse()
-    return (d7_2d() and crystal())
+    return (k_goblin_heavy() and has("d0sk", 2) and k_stonehinox())
 end
 
 function d0_clear()
-    return ((d0_6d() and k_evilorb() and has("d0bk") and has("d0sk", 3) and switch()) or has("armor2"))
-end
-
-function d6_2a()
-    return (faceshrine() and bracelet2() and (bombs() or boomerang() or hookshot() or bow() or sword2()) and pot())
+    return ((k_evilorb() and has("d0bk") and has("d0sk", 3) and switch()) or has("armor2"))
 end

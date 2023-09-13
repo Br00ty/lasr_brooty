@@ -9,6 +9,15 @@ function has(item, amount)
     end
 end
 
+-- logic levels
+function advanced()
+    return has("l_adv")
+end
+
+function glitched()
+    return has("l_gli")
+end
+
 -- item macros
 function sword()
     return has("sword")
@@ -103,6 +112,10 @@ function bowwow()
     return has("bowwow")
 end
 
+function bottle()
+    return has("bottles")
+end
+
 -- kill macros
 
 function k_3oak()
@@ -150,7 +163,7 @@ function k_goblin()
 end
 
 function k_goblin_heavy()
-    return (k_goblin() and bracelet())
+    return (k_goblin() or bracelet())
 end
 
 function k_hardhat()
@@ -457,6 +470,10 @@ function crystal()
     return (sword() or bombs())
 end
 
+function crystal_switch()
+    return (sword() or bombs() or bow() or hookshot() or boomerang() or rod())
+end
+
 function pot()
     return (bracelet() or bombs() or has("sword", 2))
 end
@@ -486,7 +503,17 @@ function switchfar()
 end
 
 function skew()
-    return (hookshot() and (bombs() or feather()))
+    return (hookshot() and (bombs() or feather() or sword() or shovel()))
+end
+
+-- trick macros
+function bomb_arrows()
+    return bombs() and bow()
+end
+
+-- logic macros
+function advanced()
+    return has("l_adv")
 end
 
 -- region macros
@@ -511,11 +538,19 @@ function beach()
 end
 
 function bottlegrotto()
-    return (bush() and (k_flower() or bracelet()))
+    return (swamp() and (k_flower() or bracelet()))
 end
 
-function bottlegrotto_g()
-    return (bottlegrotto() or bush() and feather())
+function bottlegrotto_adv()
+    return (bottlegrotto() or (swamp_adv() and (k_flower() or bracelet())))
+end
+
+function bottlegrotto_classic()
+    return (swamp() and k_flower())
+end
+
+function bottlegrotto_classic_adv()
+    return (bottlegrotto_classic() or (swamp_adv() and k_flower()))
 end
 
 function bridge()
@@ -566,7 +601,7 @@ function egg()
 end
 
 function faceshrine()
-    return (bracelet() and water() and (hookshot() or rooster()) and has("face"))
+    return (river() and (hookshot() or rooster()) and has("face"))
 end
 
 function faceshrine_g1()
@@ -593,7 +628,7 @@ function heights_g()
     return (bracelet())
 end
 
-function kanalet_out()
+function f_out()
     return (bracelet() and feather())
 end
 
@@ -642,7 +677,7 @@ function swamp()
 end
 
 function swamp_adv()
-    return ((bush() and (feather() or rooster() or powder())) or bracelet())
+    return (bush() and hookshot() and (sword() or shovel() or boots()))
 end
 
 function tailcave()
@@ -749,7 +784,7 @@ function turtlerock_g()
 end
 
 function wasteland()
-    return bracelet()
+    return bracelet() or (bush() and (feather() or rooster() or hookshot()))
 end
 
 function woods()
@@ -809,4 +844,50 @@ end
 
 function goriya()
     return ((shovel() or bow() or rod()) and (boomerang() or sword() or bracelet() or (shovel() and rod())))
+end
+
+-- dungeon entrance functions
+function tc_dungeon()
+    return (has("tcd1") or has("bgd1") or has("kcd1") or has("atd1") or has("cmd1") or has("fsd1") or has("etd1") or
+               has("trd1") or has("cdd1"))
+end
+
+function bg_dungeon()
+    return (has("tcd2") or has("bgd2") or has("kcd2") or has("atd2") or has("cmd2") or has("fsd2") or has("etd2") or
+               has("trd2") or has("cdd2"))
+end
+
+function kc_dungeon()
+    return (has("tcd3") or has("bgd3") or has("kcd3") or has("atd3") or has("cmd3") or has("fsd3") or has("etd3") or
+               has("trd3") or has("cdd3"))
+end
+
+function at_dungeon()
+    return (has("tcd4") or has("bgd4") or has("kcd4") or has("atd4") or has("cmd4") or has("fsd4") or has("etd4") or
+               has("trd4") or has("cdd4"))
+end
+
+function cm_dungeon()
+    return (has("tcd5") or has("bgd5") or has("kcd5") or has("atd5") or has("cmd5") or has("fsd5") or has("etd5") or
+               has("trd5") or has("cdd5"))
+end
+
+function fs_dungeon()
+    return (has("tcd6") or has("bgd6") or has("kcd6") or has("atd6") or has("cmd6") or has("fsd6") or has("etd6") or
+               has("trd6") or has("cdd6"))
+end
+
+function et_dungeon()
+    return (has("tcd7") or has("bgd7") or has("kcd7") or has("atd7") or has("cmd7") or has("fsd7") or has("etd7") or
+               has("trd7") or has("cdd7"))
+end
+
+function tr_dungeon()
+    return (has("tcd8") or has("bgd8") or has("kcd8") or has("atd8") or has("cmd8") or has("fsd8") or has("etd8") or
+               has("trd8") or has("cdd8"))
+end
+
+function cd_dungeon()
+    return (has("tcd0") or has("bgd0") or has("kcd0") or has("atd0") or has("cmd0") or has("fsd0") or has("etd0") or
+               has("trd0") or has("cdd0"))
 end

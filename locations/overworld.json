@@ -100,7 +100,7 @@
                         ]
                     },
                     {
-                        "name": "Madam MeowMeow",
+                        "name": "CiaoCiao",
                         "sections": [
                             {
                                 "name": "Trade Ribbon",
@@ -116,8 +116,8 @@
                         "map_locations": [
                             {
                                 "map": "map",
-                                "x": 314,
-                                "y": 1042
+                                "x": 352,
+                                "y": 1044
                             }
                         ]
                     },
@@ -388,7 +388,8 @@
                         "sections": [
                             {
                                 "name": "Yoshi Doll",
-                                "hosted_item": "yoshi"
+                                "hosted_item": "yoshi",
+                                "visibility_rules": ["s_tq"]
                             },
                             {
                                 "name": "Trendy Prizes 1-3",
@@ -757,7 +758,7 @@
                                     "rooster",
                                     "feather",
                                     "bracelet",
-                                    "[l_adv],hookshot"
+                                    "[l_adv],hookshot,$skew"
                                 ]
                             }
                         ],
@@ -852,8 +853,8 @@
                         "sections": [
                             {
                                 "name": "Witch's Hut",
-                                //"item_count": 1,
-                                "hosted_item": "powder",
+                                "item_count": 1,
+                                //"hosted_item": "powder",
                                 "access_rules": [
                                     "mushroom"
                                 ]
@@ -1336,7 +1337,7 @@
                                 "access_rules": [
                                     "feather",
                                     "rooster",
-                                    "[l_adv],hookshot"
+                                    "[l_adv],$bush,$skew,$woods,hookshot"
                                 ]
                             },
                             {
@@ -1869,7 +1870,8 @@
             {
                 "name": "Kanalet Castle",
                 "access_rules": [
-                    "$kanalet_out"
+                    "$kanalet",
+                    "bracelet,opencastle"
                 ],
                 "children": [
                     {
@@ -1924,7 +1926,8 @@
                     {
                         "name": "Kanalet Castle",
                         "access_rules": [
-                            "$kanalet"
+                            "$kanalet",
+                            "opencastle"
                         ],
                         "sections": [
                             {
@@ -1963,20 +1966,22 @@
                     {
                         "name": "Kanalet Top Floor",
                         "access_rules": [
-                            "$kanalet"
+                            "$kanalet",
+                            "opencastle"
                         ],
                         "sections": [
                             {
                                 "name": "Kanalet Final Guard",
-                                "item_count": 1,
-                                "chest_opened_img": "images/items/goldleaf_gray.png",
-                                "chest_unopened_img": "images/items/goldleaf.png",
+                                //"item_count": 1,
+                                //"chest_opened_img": "images/items/goldleaf_gray.png",
+                                //"chest_unopened_img": "images/items/goldleaf.png",
+                                "hosted_item": "goldleaf",
                                 "access_rules": [
                                     "$k_darknut,bracelet"
-                                ],
-                                "visibility_rules": [
-                                    "kanalet"
                                 ]
+                                //"visibility_rules": [
+                                //    "kanalet"
+                                //]
                             }
                         ],
                         "map_locations": [
@@ -2156,6 +2161,11 @@
                         "map": "map",
                         "x": 2124,
                         "y": 740
+                    },
+                    {
+                        "map": "d6",
+                        "x": 67,
+                        "y": 50
                     }
                 ]
             },
@@ -2185,7 +2195,7 @@
             {
                 "name": "Goponga Swamp",
                 "access_rules": [
-                    "$swamp"
+                    "$swamp","[l_adv],$swamp_adv"
                 ],
                 "sections": [
                     {
@@ -2310,7 +2320,8 @@
                     {
                         "name": "Taltal Crossing",
                         "access_rules": [
-                            "$taltal_east_1,$bush",
+                            "$taltal_east_1,$bush,hookshot",
+                            "$taltal_east_1,$bush,rooster",
                             "[l_adv],$taltal_east_1_a,$bush",
                             "[l_gli],$taltal_east_1_g"
                         ],
@@ -2647,6 +2658,11 @@
                                 "map": "map",
                                 "x": 161,
                                 "y": 143
+                            },
+                            {
+                                "map": "d8",
+                                "x": 208,
+                                "y": 113
                             }
                         ]
                     }
@@ -3049,23 +3065,23 @@
                         "name": "Christine's House",
                         "sections": [
                             {
-                                "name": "Christine Grateful (come back after trading letter)",
+                                "name": "Trade Flower",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "flower"
+                                ],
+                                "visibility_rules": [
+                                    "s_tq"
+                                ]
+                            },
+                            {
+                                "name": "Christine Grateful (come back after trading letter and flower)",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$write,flower,letter"
                                 ],
                                 "chest_opened_img": "images/items/shell_gray.png",
                                 "chest_unopened_img": "images/items/shell.png",
-                                "visibility_rules": [
-                                    "s_tq"
-                                ]
-                            },
-                            {
-                                "name": "Trade Flower",
-                                "item_count": 1,
-                                "access_rules": [
-                                    "flower"
-                                ],
                                 "visibility_rules": [
                                     "s_tq"
                                 ]
@@ -3168,7 +3184,7 @@
                         ]
                     },
                     {
-                        "name": "Pothole Field",
+                        "name": "Pothole Field Loose",
                         "sections": [
                             {
                                 "name": "Heart Piece",
@@ -3288,8 +3304,10 @@
                         "chest_unopened_img": "images/Bosses/genie_gray.png",
                         "chest_opened_img": "images/Bosses/genie.png",
                         "access_rules": [
-                            "$bottlegrotto",
-                            "[l_gli],$bottlegrotto_g"
+                            "classic_off,$bottlegrotto",
+                            "[l_adv],classic_off,$bottlegrotto_adv",
+                            "classic_on,$bottlegrotto_classic",
+                            "[l_adv],classic_on,$bottlegrotto_classic_adv"
                         ],
                         "sections": [
                             {
@@ -3491,6 +3509,7 @@
                     },
                     {
                         "name": "Goponga Swamp",
+                        "access_rules": ["$write"],
                         "sections": [
                             {
                                 "name": "Owl Statue below D8",
@@ -3498,7 +3517,7 @@
                                 "access_rules": [
                                     "feather",
                                     "rooster",
-                                    "[l_adv],hookshot"
+                                    "[l_adv],$woods,$skew,$bush,hookshot"
                                 ],
                                 "chest_unopened_img": "images/items/owl.png",
                                 "chest_opened_img": "images/items/owl_gray.png",

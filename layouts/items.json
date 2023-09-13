@@ -38,7 +38,7 @@
     "type": "itemgrid",
     "h_alignment": "center",
     "margin": "8,0,8,0",
-    "item_margin": "2,-1",
+    "item_margin": "0,-1",
     "item_size": 29,
     "rows": [
       [
@@ -49,7 +49,8 @@
         "slime",
         "angler",
         "face",
-        "bird"
+        "bird",
+        "chamberstones"
       ]
     ]
   },
@@ -193,6 +194,7 @@
   "settings_popup": {
     "type": "array",
     "orientation": "vertical",
+    "background": "#212121",
     "content": [
       {
         "type": "array",
@@ -202,7 +204,7 @@
             "type": "itemgrid",
             "h_alignment": "center",
             "item_margin": "5,0",
-            "item_size": 55,
+            "item_size": 60,
             "rows": [
               [
                 "s_hp",
@@ -221,11 +223,72 @@
                 "rapids",
                 "dampe",
                 "d0rupee"
+              ],
+              [
+                "classic_off",
+                "kanalet",
+                "opencastle",
+                "dungeon_er_off"
               ]
             ]
           }
         ]
       }
+    ]
+  },
+  "egg_path": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "margin": "8,0,8,0",
+    "item_margin": "0,10",
+    "item_size": 33,
+    "rows": [
+      [
+        "up1",
+        "up2",
+        "up3",
+        "up4",
+        "up5",
+        "up6",
+        "up7",
+        "up8"
+      ]
+    ]
+  },
+  "dungeons123": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "margin": "14,0",
+    "item_margin": "-4,0",
+    "item_size": 55,
+    "rows": [
+      [
+        "tcdX","","bgdX","","kcdX"
+      ]
+    ]
+  },
+  "dungeons456": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "margin": "14,0",
+    "item_margin": "-4,0",
+    "item_size": 55,
+    "rows": [
+      [
+        "atdX","","cmdX","","fsdX"
+      ]
+    ]
+  },
+  "dungeons780": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "margin": "14,0",
+    "item_margin": "-4,0",
+    "item_size": 55,
+    "rows": [
+      [
+        "etdX","","trdX","","cddX"
+      ]
     ]
   },
   "item_grid": {
@@ -247,6 +310,10 @@
       {
         "type": "layout",
         "key": "instruments"
+      },
+      {
+        "type": "layout",
+        "key": "egg_path"
       }
     ]
   }

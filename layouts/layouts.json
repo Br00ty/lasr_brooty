@@ -23,6 +23,48 @@
                                 "key": "item_grid"
                             }
                         },
+                        {
+                            "type": "group",
+                            "background": "#212121",
+                            "header": "Tail Cave   |   Bottle Grotto  |  Key Cavern",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                //"v_alignment": "stretch",
+                                "key": "dungeons123",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "vertical"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "background": "#212121",
+                            "header": "Angler's T.  | Catfish's Maw |  Face Shrine",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                //"v_alignment": "stretch",
+                                "key": "dungeons456",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "vertical"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "background": "#212121",
+                            "header": "Eagle's T.   |   Turtle Rock   |   Color Dun.",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                //"v_alignment": "stretch",
+                                "key": "dungeons780",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "vertical"
+                            }
+                        }
                         //{
                         //    "type": "group",
                         //    "background": "#212121",

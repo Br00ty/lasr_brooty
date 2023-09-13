@@ -793,5 +793,925 @@
 		"loop": true,
 		"codes": "owlstatue",
 		"img": "images/items/owl.png"
+	},
+	{
+		"name": "Golden Leaves",
+		"type": "toggle",
+		"loop": true,
+		"codes": "kanalet",
+		"img": "images/items/keyitems/goldleaf.png"
+	},
+	{
+		"name": "Open Castle",
+		"type": "toggle",
+		"loop": true,
+		"codes": "opencastle",
+		"img": "images/castle.png"
+	},
+	{
+		"name": "Dungeon ER",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Dungeon ER - Off",
+				"codes": "dungeon_er_off",
+				"img": "images/dungeon_er_off.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Dungeon ER - On",
+				"codes": "dungeon_er_on",
+				"img": "images/dungeon_er_on.png",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Classic D2",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Modern D2",
+				"codes": "classic_off",
+				"img": "images/modern_d2.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Classic D2",
+				"codes": "classic_on",
+				"img": "images/classic_d2.png",
+				"inherit_codes": false
+			}
+		]
+	},
+	// DUNGEON ER SPAM
+	{
+		"name": "Tail Cave Dungeon",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Unknown",
+				"codes": "tcdX",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown.png"
+			},
+			{
+				"name": "Tail Cave",
+				"codes": "tcd1",
+				"inherit_codes": false,
+				"img": "images/dungeons/tailcave.png"
+			},
+			{
+				"name": "Bottle Grotto",
+				"codes": "tcd2",
+				"inherit_codes": false,
+				"img": "images/dungeons/bottlegrotto.png"
+			},
+			{
+				"name": "Key Cavern",
+				"codes": "tcd3",
+				"inherit_codes": false,
+				"img": "images/dungeons/keycavern.png"
+			},
+			{
+				"name": "Angler's Tunnel",
+				"codes": "tcd4",
+				"inherit_codes": false,
+				"img": "images/dungeons/anglerstunnel.png"
+			},
+			{
+				"name": "Catfish's Maw",
+				"codes": "tcd5",
+				"inherit_codes": false,
+				"img": "images/dungeons/catfishsmaw.png"
+			},
+			{
+				"name": "Face Shrine",
+				"codes": "tcd6",
+				"inherit_codes": false,
+				"img": "images/dungeons/faceshrine.png"
+			},
+			{
+				"name": "Eagle's Tower",
+				"codes": "tcd7",
+				"inherit_codes": false,
+				"img": "images/dungeons/eaglestower.png"
+			},
+			{
+				"name": "Turtle Rock",
+				"codes": "tcd8",
+				"inherit_codes": false,
+				"img": "images/dungeons/turtlerock.png"
+			},
+			{
+				"name": "Color Dungeon",
+				"codes": "tcd0",
+				"inherit_codes": false,
+				"img": "images/dungeons/colordungeon.png"
+			}
+		]
+	},
+	{
+		"name": "Bottle Grotto Dungeon",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Unknown",
+				"codes": "bgdX",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown.png"
+			},
+			{
+				"name": "Tail Cave",
+				"codes": "bgd1",
+				"inherit_codes": false,
+				"img": "images/dungeons/tailcave.png"
+			},
+			{
+				"name": "Bottle Grotto",
+				"codes": "bgd2",
+				"inherit_codes": false,
+				"img": "images/dungeons/bottlegrotto.png"
+			},
+			{
+				"name": "Key Cavern",
+				"codes": "bgd3",
+				"inherit_codes": false,
+				"img": "images/dungeons/keycavern.png"
+			},
+			{
+				"name": "Angler's Tunnel",
+				"codes": "bgd4",
+				"inherit_codes": false,
+				"img": "images/dungeons/anglerstunnel.png"
+			},
+			{
+				"name": "Catfish's Maw",
+				"codes": "bgd5",
+				"inherit_codes": false,
+				"img": "images/dungeons/catfishsmaw.png"
+			},
+			{
+				"name": "Face Shrine",
+				"codes": "bgd6",
+				"inherit_codes": false,
+				"img": "images/dungeons/faceshrine.png"
+			},
+			{
+				"name": "Eagle's Tower",
+				"codes": "bgd7",
+				"inherit_codes": false,
+				"img": "images/dungeons/eaglestower.png"
+			},
+			{
+				"name": "Turtle Rock",
+				"codes": "bgd8",
+				"inherit_codes": false,
+				"img": "images/dungeons/turtlerock.png"
+			},
+			{
+				"name": "Color Dungeon",
+				"codes": "bgd0",
+				"inherit_codes": false,
+				"img": "images/dungeons/colordungeon.png"
+			}
+		]
+	},
+	{
+		"name": "Key Cavern Dungeon",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Unknown",
+				"codes": "kcdX",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown.png"
+			},
+			{
+				"name": "Tail Cave",
+				"codes": "kcd1",
+				"inherit_codes": false,
+				"img": "images/dungeons/tailcave.png"
+			},
+			{
+				"name": "Bottle Grotto",
+				"codes": "kcd2",
+				"inherit_codes": false,
+				"img": "images/dungeons/bottlegrotto.png"
+			},
+			{
+				"name": "Key Cavern",
+				"codes": "kcd3",
+				"inherit_codes": false,
+				"img": "images/dungeons/keycavern.png"
+			},
+			{
+				"name": "Angler's Tunnel",
+				"codes": "kcd4",
+				"inherit_codes": false,
+				"img": "images/dungeons/anglerstunnel.png"
+			},
+			{
+				"name": "Catfish's Maw",
+				"codes": "kcd5",
+				"inherit_codes": false,
+				"img": "images/dungeons/catfishsmaw.png"
+			},
+			{
+				"name": "Face Shrine",
+				"codes": "kcd6",
+				"inherit_codes": false,
+				"img": "images/dungeons/faceshrine.png"
+			},
+			{
+				"name": "Eagle's Tower",
+				"codes": "kcd7",
+				"inherit_codes": false,
+				"img": "images/dungeons/eaglestower.png"
+			},
+			{
+				"name": "Turtle Rock",
+				"codes": "kcd8",
+				"inherit_codes": false,
+				"img": "images/dungeons/turtlerock.png"
+			},
+			{
+				"name": "Color Dungeon",
+				"codes": "kcd0",
+				"inherit_codes": false,
+				"img": "images/dungeons/colordungeon.png"
+			}
+		]
+	},
+	{
+		"name": "Angler's Tunnel Dungeon",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Unknown",
+				"codes": "atdX",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown.png"
+			},
+			{
+				"name": "Tail Cave",
+				"codes": "atd1",
+				"inherit_codes": false,
+				"img": "images/dungeons/tailcave.png"
+			},
+			{
+				"name": "Bottle Grotto",
+				"codes": "atd2",
+				"inherit_codes": false,
+				"img": "images/dungeons/bottlegrotto.png"
+			},
+			{
+				"name": "Key Cavern",
+				"codes": "atd3",
+				"inherit_codes": false,
+				"img": "images/dungeons/keycavern.png"
+			},
+			{
+				"name": "Angler's Tunnel",
+				"codes": "atd4",
+				"inherit_codes": false,
+				"img": "images/dungeons/anglerstunnel.png"
+			},
+			{
+				"name": "Catfish's Maw",
+				"codes": "atd5",
+				"inherit_codes": false,
+				"img": "images/dungeons/catfishsmaw.png"
+			},
+			{
+				"name": "Face Shrine",
+				"codes": "atd6",
+				"inherit_codes": false,
+				"img": "images/dungeons/faceshrine.png"
+			},
+			{
+				"name": "Eagle's Tower",
+				"codes": "atd7",
+				"inherit_codes": false,
+				"img": "images/dungeons/eaglestower.png"
+			},
+			{
+				"name": "Turtle Rock",
+				"codes": "atd8",
+				"inherit_codes": false,
+				"img": "images/dungeons/turtlerock.png"
+			},
+			{
+				"name": "Color Dungeon",
+				"codes": "atd0",
+				"inherit_codes": false,
+				"img": "images/dungeons/colordungeon.png"
+			}
+		]
+	},
+	{
+		"name": "Catfish's Maw Dungeon",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Unknown",
+				"codes": "cmdX",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown.png"
+			},
+			{
+				"name": "Tail Cave",
+				"codes": "cmd1",
+				"inherit_codes": false,
+				"img": "images/dungeons/tailcave.png"
+			},
+			{
+				"name": "Bottle Grotto",
+				"codes": "cmd2",
+				"inherit_codes": false,
+				"img": "images/dungeons/bottlegrotto.png"
+			},
+			{
+				"name": "Key Cavern",
+				"codes": "cmd3",
+				"inherit_codes": false,
+				"img": "images/dungeons/keycavern.png"
+			},
+			{
+				"name": "Angler's Tunnel",
+				"codes": "cmd4",
+				"inherit_codes": false,
+				"img": "images/dungeons/anglerstunnel.png"
+			},
+			{
+				"name": "Catfish's Maw",
+				"codes": "cmd5",
+				"inherit_codes": false,
+				"img": "images/dungeons/catfishsmaw.png"
+			},
+			{
+				"name": "Face Shrine",
+				"codes": "cmd6",
+				"inherit_codes": false,
+				"img": "images/dungeons/faceshrine.png"
+			},
+			{
+				"name": "Eagle's Tower",
+				"codes": "cmd7",
+				"inherit_codes": false,
+				"img": "images/dungeons/eaglestower.png"
+			},
+			{
+				"name": "Turtle Rock",
+				"codes": "cmd8",
+				"inherit_codes": false,
+				"img": "images/dungeons/turtlerock.png"
+			},
+			{
+				"name": "Color Dungeon",
+				"codes": "cmd0",
+				"inherit_codes": false,
+				"img": "images/dungeons/colordungeon.png"
+			}
+		]
+	},
+	{
+		"name": "Face Shrine Dungeon",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Unknown",
+				"codes": "fsdX",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown.png"
+			},
+			{
+				"name": "Tail Cave",
+				"codes": "fsd1",
+				"inherit_codes": false,
+				"img": "images/dungeons/tailcave.png"
+			},
+			{
+				"name": "Bottle Grotto",
+				"codes": "fsd2",
+				"inherit_codes": false,
+				"img": "images/dungeons/bottlegrotto.png"
+			},
+			{
+				"name": "Key Cavern",
+				"codes": "fsd3",
+				"inherit_codes": false,
+				"img": "images/dungeons/keycavern.png"
+			},
+			{
+				"name": "Angler's Tunnel",
+				"codes": "fsd4",
+				"inherit_codes": false,
+				"img": "images/dungeons/anglerstunnel.png"
+			},
+			{
+				"name": "Catfish's Maw",
+				"codes": "fsd5",
+				"inherit_codes": false,
+				"img": "images/dungeons/catfishsmaw.png"
+			},
+			{
+				"name": "Face Shrine",
+				"codes": "fsd6",
+				"inherit_codes": false,
+				"img": "images/dungeons/faceshrine.png"
+			},
+			{
+				"name": "Eagle's Tower",
+				"codes": "fsd7",
+				"inherit_codes": false,
+				"img": "images/dungeons/eaglestower.png"
+			},
+			{
+				"name": "Turtle Rock",
+				"codes": "fsd8",
+				"inherit_codes": false,
+				"img": "images/dungeons/turtlerock.png"
+			},
+			{
+				"name": "Color Dungeon",
+				"codes": "fsd0",
+				"inherit_codes": false,
+				"img": "images/dungeons/colordungeon.png"
+			}
+		]
+	},
+	{
+		"name": "Eagle's Tower Dungeon",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Unknown",
+				"codes": "etdX",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown.png"
+			},
+			{
+				"name": "Tail Cave",
+				"codes": "etd1",
+				"inherit_codes": false,
+				"img": "images/dungeons/tailcave.png"
+			},
+			{
+				"name": "Bottle Grotto",
+				"codes": "etd2",
+				"inherit_codes": false,
+				"img": "images/dungeons/bottlegrotto.png"
+			},
+			{
+				"name": "Key Cavern",
+				"codes": "etd3",
+				"inherit_codes": false,
+				"img": "images/dungeons/keycavern.png"
+			},
+			{
+				"name": "Angler's Tunnel",
+				"codes": "etd4",
+				"inherit_codes": false,
+				"img": "images/dungeons/anglerstunnel.png"
+			},
+			{
+				"name": "Catfish's Maw",
+				"codes": "etd5",
+				"inherit_codes": false,
+				"img": "images/dungeons/catfishsmaw.png"
+			},
+			{
+				"name": "Face Shrine",
+				"codes": "etd6",
+				"inherit_codes": false,
+				"img": "images/dungeons/faceshrine.png"
+			},
+			{
+				"name": "Eagle's Tower",
+				"codes": "etd7",
+				"inherit_codes": false,
+				"img": "images/dungeons/eaglestower.png"
+			},
+			{
+				"name": "Turtle Rock",
+				"codes": "etd8",
+				"inherit_codes": false,
+				"img": "images/dungeons/turtlerock.png"
+			},
+			{
+				"name": "Color Dungeon",
+				"codes": "etd0",
+				"inherit_codes": false,
+				"img": "images/dungeons/colordungeon.png"
+			}
+		]
+	},
+	{
+		"name": "Turtle Rock Dungeon",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Unknown",
+				"codes": "trdX",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown.png"
+			},
+			{
+				"name": "Tail Cave",
+				"codes": "trd1",
+				"inherit_codes": false,
+				"img": "images/dungeons/tailcave.png"
+			},
+			{
+				"name": "Bottle Grotto",
+				"codes": "trd2",
+				"inherit_codes": false,
+				"img": "images/dungeons/bottlegrotto.png"
+			},
+			{
+				"name": "Key Cavern",
+				"codes": "trd3",
+				"inherit_codes": false,
+				"img": "images/dungeons/keycavern.png"
+			},
+			{
+				"name": "Angler's Tunnel",
+				"codes": "trd4",
+				"inherit_codes": false,
+				"img": "images/dungeons/anglerstunnel.png"
+			},
+			{
+				"name": "Catfish's Maw",
+				"codes": "trd5",
+				"inherit_codes": false,
+				"img": "images/dungeons/catfishsmaw.png"
+			},
+			{
+				"name": "Face Shrine",
+				"codes": "trd6",
+				"inherit_codes": false,
+				"img": "images/dungeons/faceshrine.png"
+			},
+			{
+				"name": "Eagle's Tower",
+				"codes": "trd7",
+				"inherit_codes": false,
+				"img": "images/dungeons/eaglestower.png"
+			},
+			{
+				"name": "Turtle Rock",
+				"codes": "trd8",
+				"inherit_codes": false,
+				"img": "images/dungeons/turtlerock.png"
+			},
+			{
+				"name": "Color Dungeon",
+				"codes": "trd0",
+				"inherit_codes": false,
+				"img": "images/dungeons/colordungeon.png"
+			}
+		]
+	},
+	{
+		"name": "Color Dungeon Dungeon",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Unknown",
+				"codes": "cddX",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown.png"
+			},
+			{
+				"name": "Tail Cave",
+				"codes": "cdd1",
+				"inherit_codes": false,
+				"img": "images/dungeons/tailcave.png"
+			},
+			{
+				"name": "Bottle Grotto",
+				"codes": "cdd2",
+				"inherit_codes": false,
+				"img": "images/dungeons/bottlegrotto.png"
+			},
+			{
+				"name": "Key Cavern",
+				"codes": "cdd3",
+				"inherit_codes": false,
+				"img": "images/dungeons/keycavern.png"
+			},
+			{
+				"name": "Angler's Tunnel",
+				"codes": "cdd4",
+				"inherit_codes": false,
+				"img": "images/dungeons/anglerstunnel.png"
+			},
+			{
+				"name": "Catfish's Maw",
+				"codes": "cdd5",
+				"inherit_codes": false,
+				"img": "images/dungeons/catfishsmaw.png"
+			},
+			{
+				"name": "Face Shrine",
+				"codes": "cdd6",
+				"inherit_codes": false,
+				"img": "images/dungeons/faceshrine.png"
+			},
+			{
+				"name": "Eagle's Tower",
+				"codes": "cdd7",
+				"inherit_codes": false,
+				"img": "images/dungeons/eaglestower.png"
+			},
+			{
+				"name": "Turtle Rock",
+				"codes": "cdd8",
+				"inherit_codes": false,
+				"img": "images/dungeons/turtlerock.png"
+			},
+			{
+				"name": "Color Dungeon",
+				"codes": "cdd0",
+				"inherit_codes": false,
+				"img": "images/dungeons/colordungeon.png"
+			}
+		]
+	},
+	// EGG PATH SPAM
+	{
+		"name": "First Path",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Up",
+				"codes": "up1",
+				"img": "images/uparrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Right",
+				"codes": "right1",
+				"img": "images/rightarrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Down",
+				"codes": "down1",
+				"img": "images/downarrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Left",
+				"codes": "left1",
+				"img": "images/leftarrow.png",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Second Path",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Up",
+				"codes": "up2",
+				"img": "images/uparrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Right",
+				"codes": "right2",
+				"img": "images/rightarrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Down",
+				"codes": "down2",
+				"img": "images/downarrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Left",
+				"codes": "left2",
+				"img": "images/leftarrow.png",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Third Path",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Up",
+				"codes": "up3",
+				"img": "images/uparrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Right",
+				"codes": "right3",
+				"img": "images/rightarrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Down",
+				"codes": "down3",
+				"img": "images/downarrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Left",
+				"codes": "left3",
+				"img": "images/leftarrow.png",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Fourth Path",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Up",
+				"codes": "up4",
+				"img": "images/uparrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Right",
+				"codes": "right4",
+				"img": "images/rightarrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Down",
+				"codes": "down4",
+				"img": "images/downarrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Left",
+				"codes": "left4",
+				"img": "images/leftarrow.png",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Fifth Path",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Up",
+				"codes": "up5",
+				"img": "images/uparrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Right",
+				"codes": "right5",
+				"img": "images/rightarrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Down",
+				"codes": "down5",
+				"img": "images/downarrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Left",
+				"codes": "left5",
+				"img": "images/leftarrow.png",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Sixth Path",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Up",
+				"codes": "up6",
+				"img": "images/uparrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Right",
+				"codes": "right6",
+				"img": "images/rightarrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Down",
+				"codes": "down6",
+				"img": "images/downarrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Left",
+				"codes": "left6",
+				"img": "images/leftarrow.png",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Seventh Path",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Up",
+				"codes": "up7",
+				"img": "images/uparrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Right",
+				"codes": "right7",
+				"img": "images/rightarrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Down",
+				"codes": "down7",
+				"img": "images/downarrow.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Left",
+				"codes": "left7",
+				"img": "images/leftarrow.png",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Last Path",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Up",
+				"codes": "up8",
+				"img": "images/uparrow.png",
+			},
+			{
+				"name": "Right",
+				"codes": "right8",
+				"img": "images/rightarrow.png",
+			},
+			{
+				"name": "Down",
+				"codes": "down8",
+				"img": "images/downarrow.png",
+			},
+			{
+				"name": "Left",
+				"codes": "left8",
+				"img": "images/leftarrow.png",
+			}
+		]
 	}
 ]
