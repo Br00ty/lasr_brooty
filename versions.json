@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.3.1",
+            "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3.1/lasr_brooty.zip",
+            "sha256": "3236F510DDD7AF9BA6E0C70D0FB1FFCEB13412200E4FB64D69F72B39F498A277",
+            "changelog": [
+                "made variant pack for putting the entrance tracker into the settings popup"
+            ]
+        },
+        {
             "package_version": "0.3",
             "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3/lasr_brooty.zip",
             "sha256": "510FDE4E8E2E005C4E9261AB307A4ED6253E13A67D4E9958C3F89863F19D5FD8",

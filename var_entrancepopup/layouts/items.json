@@ -231,6 +231,43 @@
                 "dungeon_er_off"
               ]
             ]
+          },
+          {
+            "type": "itemgrid",
+            "header": "Tail Cave | Bottle Grotto | Key Cavern",
+            "h_alignment": "center",
+            "margin": "18,5",
+            "item_margin": "-5,0",
+            "item_size": 60,
+            "rows": [
+              [
+                "tcdX","","bgdX","","kcdX"
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "margin": "18,5",
+            "item_margin": "-5,0",
+            "item_size": 60,
+            "rows": [
+              [
+                "atdX","","cmdX","","fsdX"
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "margin": "18,5",
+            "item_margin": "-5,0",
+            "item_size": 60,
+            "rows": [
+              [
+                "etdX","","trdX","","cddX"
+              ]
+            ]
           }
         ]
       }
@@ -258,8 +295,8 @@
   "dungeons123": {
     "type": "itemgrid",
     "h_alignment": "center",
-    "margin": "50,2",
-    "item_margin": "-10,0",
+    "margin": "14,0",
+    "item_margin": "-4,0",
     "item_size": 55,
     "rows": [
       [
@@ -270,8 +307,8 @@
   "dungeons456": {
     "type": "itemgrid",
     "h_alignment": "center",
-    "margin": "50,2",
-    "item_margin": "-10,0",
+    "margin": "14,0",
+    "item_margin": "-4,0",
     "item_size": 55,
     "rows": [
       [
@@ -282,8 +319,8 @@
   "dungeons780": {
     "type": "itemgrid",
     "h_alignment": "center",
-    "margin": "50,2",
-    "item_margin": "-10,0",
+    "margin": "14,0",
+    "item_margin": "-4,0",
     "item_size": 55,
     "rows": [
       [
@@ -314,18 +351,6 @@
       {
         "type": "layout",
         "key": "egg_path"
-      },
-      {
-        "type": "layout",
-        "key": "dungeons123"
-      },
-      {
-        "type": "layout",
-        "key": "dungeons456"
-      },
-      {
-        "type": "layout",
-        "key": "dungeons780"
       }
     ]
   }

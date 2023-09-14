@@ -1,13 +1,16 @@
 {
     "name": "Link's Awakening (Switch) Randomizer",
     "game_name": "Link's Awakening (Switch)",
-    "package_version": "0.3",
+    "package_version": "0.3.1",
     "package_uid": "lasr_brooty",
     "author": "brooty",
     "platform": "Switch",
     "variants": {
         "tracker": {
             "display_name": "Map Tracker"
+        },
+        "var_entrancepopup": {
+            "display_name": "Map Tracker (Entrance Tracker Popup)"
         },
         "var_itemsonly": {
             "display_name": "Items Only"
