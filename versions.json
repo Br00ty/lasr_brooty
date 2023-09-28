@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.3.2",
+            "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3.2/lasr_brooty.zip",
+            "sha256": "9691ED31475849768CF7BFB48FF3463226CB039FF2F041E2E533F8CD59BE3A78",
+            "changelog": [
+                "lots of logic changes (still more to go)",
+                "changed how some locations displayed themselves",
+                "i forgot some stuff that needs to be fixed, so keep the bug reports coming"
+            ]
+        },
+        {
             "package_version": "0.3.1",
             "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3.1/lasr_brooty.zip",
             "sha256": "3236F510DDD7AF9BA6E0C70D0FB1FFCEB13412200E4FB64D69F72B39F498A277",

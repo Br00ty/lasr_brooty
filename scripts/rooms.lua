@@ -40,16 +40,16 @@ function d2_8c()
     return bottlegrotto()
 end
 
-function d3_3g()
-    return (d3_4b() and has("d3sk", 1))
+function d3_3g() -- has("d3sk:9")
+    return (d3_4b())
 end
 
 function d3_4b()
     return (d3_7b() and (obstacle() or k_zolg()))
 end
 
-function d3_4c()
-    return (d3_4b() and has("d3sk", 4))
+function d3_4c() -- has("d3sk", 4)
+    return (d3_4b())
 end
 
 function d3_7b()

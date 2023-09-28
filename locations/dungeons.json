@@ -705,8 +705,8 @@
                                 "name": "Ceiling Key",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_stalfosyellow,$k_stalfosspear,$switch,bracelet,d3sk:1,[d3sk:4]",
-                                    "$obstacle,$k_zolr,$k_stalfosyellow,$k_stalfosspear,$switch,bracelet,d3sk:1,[d3sk:4]"
+                                    "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_stalfosyellow,$k_stalfosspear,$switch,bracelet,d3sk:1,[d3sk:9]",
+                                    "$obstacle,$k_zolr,$k_stalfosyellow,$k_stalfosspear,$switch,bracelet,d3sk:1,[d3sk:9]"
                                 ]
                             },
                             {
@@ -714,7 +714,7 @@
                                 "item_count": 1,
                                 "visibility_rules": ["owlstatue"],
                                 "access_rules": [
-                                    "$d3_3g,d3beak"
+                                    "$d3_3g,d3beak,d3sk:1,[d3sk:9]"
                                 ]
                             }
                         ],
@@ -732,8 +732,8 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$switch,bracelet,d3sk:1,[d3sk:4]",
-                                    "$obstacle,$k_zolr,$switch,bracelet,d3sk:1,[d3sk:4]"
+                                    "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$switch,bracelet,d3sk:1,[d3sk:9]",
+                                    "$obstacle,$k_zolr,$switch,bracelet,d3sk:1,[d3sk:9]"
                                 ]
                             }
                         ],
@@ -751,8 +751,8 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$switch,bracelet,d3sk:1,[d3sk:4]",
-                                    "$obstacle,$k_zolr,$switch,$k_zolg,bracelet,d3sk:1,[d3sk:4]"
+                                    "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$switch,bracelet,d3sk:1,[d3sk:9]",
+                                    "$obstacle,$k_zolr,$switch,$k_zolg,bracelet,d3sk:1,[d3sk:9]"
                                 ]
                             }
                         ],
@@ -770,8 +770,8 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,bracelet,feather,d3sk:1,[d3sk:4]",
-                                    "$obstacle,$k_zolr,$k_zolg,$k_pairodd,feather,bracelet,d3sk:1,[d3sk:4]"
+                                    "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,bracelet,feather,d3sk:1",
+                                    "$obstacle,$k_zolr,$k_zolg,$k_pairodd,feather,bracelet,d3sk:1"
                                 ]
                             }
                         ],
@@ -789,8 +789,8 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,$k_stalfosspear,bracelet,d3sk:1,[d3sk:4]",
-                                    "$obstacle,$k_zolr,$k_zolg,$k_pairodd,$k_stalfosspear,bracelet,d3sk:1,[d3sk:4]"
+                                    "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,$k_stalfosspear,bracelet,d3sk:1",
+                                    "$obstacle,$k_zolr,$k_zolg,$k_pairodd,$k_stalfosspear,bracelet,d3sk:1"
                                 ]
                             }
                         ],
@@ -1006,7 +1006,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d3_4c,d3beak"
+                                    "$d3_4c,d3beak,d3sk:1,[d3sk:4]"
                                 ]
                             }
                         ],
@@ -1025,7 +1025,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d3_4c,d3beak,$k_zolr,$k_stalfos"
+                                    "$d3_4c,d3beak,$k_zolr,$k_stalfos,d3sk:1,[d3sk:4]"
                                 ]
                             }
                         ],
@@ -1159,6 +1159,7 @@
                                 "access_rules": [
                                     "$k_zolr,flippers,d4sk:2,[d4sk:2]",
                                     "[l_adv],$k_zolr,dash,feather,bow,bombs,d4sk:2,[d4sk:2]",
+                                    "[l_adv],$k_zolr,dash,feather,bow,bombs,d4sk:2,[d4sk:2]",
                                     "[l_gli],boots,feather,sword,bombs"
                                 ]
                             }
@@ -1224,7 +1225,7 @@
                                     "$k_zolr,$k_octopus,boots,feather,d4sk:4,[d4sk:5]",
                                     "$k_zolr,flippers,boots,feather,d4sk:3,[d4sk:3]",
                                     "[l_adv],$k_zolr,$k_octopus,hookshot,feather,d4sk:4,[d4sk:5]",
-                                    "[l_adv],$k_zolr,feather,hookshot,flippers,d4sk:3,[d4sk:4]",
+                                    "[l_adv],$k_zolr,feather,hookshot,d4sk:3,[d4sk:4]",
                                     "[l_gli],$k_octopus,boots,feather,bombs,d4sk:1,[d4sk:5]",
                                     "[l_gli],$k_zolr,boots,feather,sword,bombs,flippers"
                                 ]
@@ -1235,6 +1236,26 @@
                                 "map": "d4",
                                 "x": 266,
                                 "y": 217
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chest guarded by Stalfos",
+                        "sections": [
+                            {
+                                "item_count": 1,
+                                "access_rules": [
+                                    "$k_zolr,flippers,boots,feather,d4sk:3,[d4sk:3]",
+                                    "[l_adv],$k_zolr,feather,hookshot,d4sk:3,[d4sk:3]",
+                                    "[l_gli],boots,feather,sword,bombs"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "d4",
+                                "x": 223,
+                                "y": 285
                             }
                         ]
                     },
@@ -1256,26 +1277,6 @@
                                 "map": "d4",
                                 "x": 191,
                                 "y": 375
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Chest guarded by Stalfos",
-                        "sections": [
-                            {
-                                "item_count": 1,
-                                "access_rules": [
-                                    "$k_zolr,flippers,boots,feather,d4sk:3,[d4sk:3]",
-                                    "[l_adv],$k_zolr,feather,hookshot,d4sk:3,[d4sk:3]",
-                                    "[l_gli],boots,feather,sword,bombs"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "d4",
-                                "x": 223,
-                                "y": 285
                             }
                         ]
                     },
@@ -1353,8 +1354,8 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d4_4e,d4beak",
-                                    "[l_adv],$d4_4e_adv",
-                                    "[l_gli],$d4_4e_gli"
+                                    "[l_adv],$d4_4e_adv,d4beak",
+                                    "[l_gli],$d4_4e_gli,d4beak"
                                 ]
                             }
                         ],
@@ -2003,7 +2004,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "bracelet2,k_wizzrobe,d6beak"
+                                    "bracelet2,$k_wizzrobe,d6beak"
                                 ]
                             }
                         ],

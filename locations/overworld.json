@@ -100,16 +100,28 @@
                         ]
                     },
                     {
-                        "name": "CiaoCiao",
+                        "name": "Doghouse",
                         "sections": [
                             {
-                                "name": "Trade Ribbon",
+                                "name": "Trade Ribbon to CiaoCiao",
                                 "access_rules": [
                                     "ribbon"
                                 ],
                                 "item_count": 1,
                                 "visibility_rules": [
                                     "s_tq"
+                                ]
+                            },
+                            {
+                                "name": "Seashell Dig",
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "access_rules": [
+                                    "shovel"
+                                ],
+                                "visibility_rules": [
+                                    "s_ss"
                                 ]
                             }
                         ],
@@ -207,30 +219,6 @@
                                 "map": "map",
                                 "x": 673,
                                 "y": 1045
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Doghouse",
-                        "sections": [
-                            {
-                                "name": "Doghouse Dig",
-                                "item_count": 1,
-                                "chest_unopened_img": "images/items/shell.png",
-                                "chest_opened_img": "images/items/shell_gray.png",
-                                "access_rules": [
-                                    "shovel"
-                                ],
-                                "visibility_rules": [
-                                    "s_ss"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map",
-                                "x": 351,
-                                "y": 1047
                             }
                         ]
                     },
@@ -1972,16 +1960,15 @@
                         "sections": [
                             {
                                 "name": "Kanalet Final Guard",
-                                //"item_count": 1,
-                                //"chest_opened_img": "images/items/goldleaf_gray.png",
-                                //"chest_unopened_img": "images/items/goldleaf.png",
-                                "hosted_item": "goldleaf",
+                                "item_count": 1,
+                                "chest_opened_img": "images/items/goldleaf_gray.png",
+                                "chest_unopened_img": "images/items/goldleaf.png",
                                 "access_rules": [
                                     "$k_darknut,bracelet"
+                                ],
+                                "visibility_rules": [
+                                    "kanalet"
                                 ]
-                                //"visibility_rules": [
-                                //    "kanalet"
-                                //]
                             }
                         ],
                         "map_locations": [
@@ -2640,7 +2627,9 @@
                         "access_rules": [
                             "$turtlerock",
                             "[l_adv],$turtlerock_a",
-                            "[l_gli],$turtlerock_g"
+                            "[l_gli],$turtlerock_g",
+                            "dungeon_er_on,$d8_4c",
+                            "[l_adv],dungeon_er_on,$d8_4c_adv"
                         ],
                         "sections": [
                             {
