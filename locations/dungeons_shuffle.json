@@ -2400,7 +2400,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d0_8c,$k_goblin_heavy,$switch"
+                                    "$k_goblin_heavy,$switch"
                                 ]
                             }
                         ],
@@ -2421,7 +2421,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d0_8c,$k_goblin_heavy,bombs"
+                                    "$k_goblin_heavy,bombs"
                                 ]
                             }
                         ],
@@ -2439,7 +2439,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d0_8c,$k_goblin_heavy,$k_orb"
+                                    "$k_goblin_heavy,$k_orb"
                                 ]
                             }
                         ],
@@ -2457,7 +2457,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d0_8c,$k_goblin_heavy"
+                                    "$k_goblin_heavy"
                                 ]
                             }
                         ],
@@ -2475,7 +2475,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d0_8c,$k_goblin_heavy,$switch"
+                                    "$k_goblin_heavy,$switch"
                                 ]
                             }
                         ],
@@ -2493,7 +2493,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d0_8c,$k_goblin_heavy,$k_blob,d0sk:1,[d0sk:2]"
+                                    "$k_goblin_heavy,$k_blob,d0sk:1,[d0sk:2]"
                                 ]
                             }
                         ],
@@ -2511,7 +2511,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d0_8c,$k_goblin_heavy,$k_stonehinox,$k_zolr_heavy,$k_zolg_heavy,$pot,d0sk:1,[d0sk:2]"
+                                    "$k_goblin_heavy,$k_stonehinox,$k_zolr_heavy,$k_zolg_heavy,$pot,d0sk:1,[d0sk:2]"
                                 ]
                             }
                         ],
@@ -2529,7 +2529,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d0_8c,$k_goblin_heavy,$k_stonehinox,$k_zolr_heavy,$k_zolg_heavy,$k_orb,$pot,d0sk:1,[d0sk:2]"
+                                    "$k_goblin_heavy,$k_stonehinox,$k_zolr_heavy,$k_zolg_heavy,$k_orb,$pot,d0sk:1,[d0sk:2]"
                                 ]
                             }
                         ],
@@ -2548,7 +2548,7 @@
                                 "item_count": 2,
                                 "hosted_item": "fairyq",
                                 "access_rules": [
-                                    "$d0_8c,$k_goblin_heavy,$k_stonehinox,$pot,$switch,$k_evilorb,d0bk,d0sk:2,[d0sk:3]"
+                                    "$k_goblin_heavy,$k_stonehinox,$pot,$switch,$k_evilorb,d0bk,d0sk:2,[d0sk:3]"
                                 ]
                             }
                         ],

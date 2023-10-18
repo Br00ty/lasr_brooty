@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.3.3",
+            "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3.3/lasr_brooty.zip",
+            "sha256": "bc9f3f149a7661bc690167277c6595fb660216027e6d9eb44570e8f7532a6e65",
+            "changelog": [
+                "fixed logic for Color Dungeon/Entrance Rando"
+            ]
+        },
+        {
             "package_version": "0.3.2",
             "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3.2/lasr_brooty.zip",
             "sha256": "9691ED31475849768CF7BFB48FF3463226CB039FF2F041E2E533F8CD59BE3A78",
