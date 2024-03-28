@@ -454,11 +454,11 @@ function k_dethl()
     return (arrows() or rod() or boomerang())
 end
 
-//function k_nightmare() //TAKE OUT TEMPORARILY UNTIL FREEBOOK OPTION IS ADDED
-    //return
-        //(egg() and (has("lens") or freebook()) and k_nightmarezol() and k_nightmareagahnim() and k_nightmaremoldorm() and
-            //k_nightmareganon() and k_nightmarelanmola() and k_dethl())
-//end
+--function k_nightmare() TAKE OUT TEMPORARILY UNTIL FREEBOOK OPTION IS ADDED
+    --return
+        --(egg() and (has("lens") or freebook()) and k_nightmarezol() and k_nightmareagahnim() and k_nightmaremoldorm() and
+            --k_nightmareganon() and k_nightmarelanmola() and k_dethl())
+--end
 
 function k_nightmare()
     return
