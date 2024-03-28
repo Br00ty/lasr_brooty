@@ -168,8 +168,7 @@ function d8_6b_adv()
 end
 
 function d8_owl_smasher()
-    return ((feather() or (rooster() and has("badpets"))) and ((bombs() and k_smasher()) or (pot() and k_mimic())) and
-               has("d8beak"))
+    return feather() and (pot() or (rooster and has("badpets"))) and has("d8beak")
 end
 
 function d8_8d()

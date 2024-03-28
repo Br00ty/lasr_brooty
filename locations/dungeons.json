@@ -1475,8 +1475,7 @@
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,hookshot,d5sk:1,[d5sk:1]",
-                                    "[l_adv],$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,$dashjump,d5sk:1,[d5sk:1]"
-                                ]
+                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,$dashjump,d5sk:1,[d5sk:1]"                                ]
                             }
                         ],
                         "map_locations": [
@@ -2472,7 +2471,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "feather,bombs","[l_adv],$dashjump"
+                                    "feather,$pot","feather,rooster,badpets","[l_adv],$dashjump"
                                 ]
                             }
                         ],
@@ -2490,7 +2489,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "feather,bombs","feather,$k_smasher","[l_adv],$dashjump"
+                                    "feather,$pot","feather,rooster,badpets"
                                 ]
                             }
                         ],

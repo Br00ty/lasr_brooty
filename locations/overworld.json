@@ -69,12 +69,12 @@
                                 "map": "map",
                                 "x": 555,
                                 "y": 1000
-                            },
-                            {
-                                "map": "map",
-                                "x": 2160,
-                                "y": 1284
                             }
+                            //{
+                                //"map": "map",
+                                //"x": 2160,
+                                //"y": 1284
+                            //}
                         ]
                     },
                     {
@@ -871,15 +871,15 @@
                                 "name": "Taltal Entrance Chest",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "hookshot,$crystal",
-                                    "rooster,$crystal"
+                                    "bracelet,hookshot,$crystal",
+                                    "bracelet,rooster,$crystal"
                                 ]
                             },
                             {
                                 "name": "Taltal Entrance Blocks",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$crystal"
+                                    "bracelet,$crystal"
                                 ],
                                 "chest_unopened_img": "images/items/hp.png",
                                 "chest_opened_img": "images/items/hp_gray.png",
@@ -1554,10 +1554,7 @@
                                     "hookshot,ocarina,mambo",
                                     "[l_adv],hookshot,feather",
                                     "[l_adv],hookshot,bombs",
-                                    "rooster,flippers",
-                                    "rooster,ocarina,mambo",
-                                    "[l_adv],rooster,feather",
-                                    "[l_adv],rooster,bombs"
+                                    "rooster"
                                 ]
                             }
                         ],

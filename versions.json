@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.3.4",
+            "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3.4/lasr_brooty.zip",
+            "sha256": "a845d5f7b12dd45226497082dd460bfe49dd802a031b79def6a4b89a918eb0fd",
+            "changelog": [
+                "fixed logic for D8",
+                "fixed logic for D4",
+                "fixed logic for overoworld"
+            ]
+        },
+        {
             "package_version": "0.3.3",
             "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3.3/lasr_brooty.zip",
             "sha256": "bc9f3f149a7661bc690167277c6595fb660216027e6d9eb44570e8f7532a6e65",

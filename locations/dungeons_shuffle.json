@@ -2152,7 +2152,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d8_8d,feather,bombs","[l_adv],$d8_8d,$dashjump"
+                                    "feather,$pot","feather,rooster,badpets","[l_adv],$dashjump"
                                 ]
                             }
                         ],
@@ -2170,7 +2170,7 @@
                             {
                                 "item_count": 1,
                                 "access_rules": [
-                                    "feather,bombs","feather,$k_smasher","[l_adv],$dashjump"
+                                    "feather,$pot","feather,rooster,badpets"
                                 ]
                             }
                         ],
