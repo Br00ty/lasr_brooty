@@ -1,6 +1,19 @@
 {
     "versions": [
         {
+            "package_version": "0.3.6",
+            "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3.6/lasr_brooty.zip",
+            "sha256": "44fa45b89dfa2317631cffbb481eb0ee8d4b3f641f51903ec63e7300afd845a0",
+            "changelog": [
+                "fixed multiple logic issues",
+                "added first new logic for Bad Pets setting",
+                "added 'Bad Pets' and 'Free Book' settings",
+                "fixed a couple of check location mapping errors",
+                "edited maps to have correct stairs",
+                "updated README to be a bit more user-friendly"
+            ]
+        },
+        {
             "package_version": "0.3.5",
             "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3.5/lasr_brooty.zip",
             "sha256": "2435c661b48158d35658d243ba21c07550e508fab5e0ba595dd6fe605021de98",

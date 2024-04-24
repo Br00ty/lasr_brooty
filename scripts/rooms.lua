@@ -20,11 +20,11 @@ function d1_8d()
 end
 
 function d2_2f()
-    return (d2_4c() and pot() and (feather() or (rooster() and has("badpets"))))
+    return (d2_4c() and pot() and (feather() or (rooster() and badpets())))
 end
 
 function d2_4c()
-    return (d2_7d() and crystal_switch() and (feather() or (rooster() and has("badpets"))) and k_hinox() and has("d2sk", 3))
+    return (d2_7d() and crystal_switch() and (feather() or (rooster() and badpets())) and k_hinox() and has("d2sk", 3))
 end
 
 function d2_4g()
@@ -69,7 +69,7 @@ function d4_4c()
 end
 
 function d4_4e()
-    return (has("d4sk", 3) and k_spiny() and k_zolr() and (dashjump() or (has("badpets") and rooster())))
+    return (has("d4sk", 3) and k_spiny() and k_zolr() and (dashjump() or (badpets() and rooster())))
 end
 
 function d4_4e_adv()
@@ -168,7 +168,7 @@ function d8_6b_adv()
 end
 
 function d8_owl_smasher()
-    return feather() and (pot() or (rooster and has("badpets"))) and has("d8beak")
+    return feather() and (pot() or (rooster and badpets())) and has("d8beak")
 end
 
 function d8_8d()

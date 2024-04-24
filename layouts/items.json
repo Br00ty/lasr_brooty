@@ -210,7 +210,8 @@
                 "s_hp",
                 "s_ss",
                 "s_tq",
-                "l_bas"
+                "l_bas",
+                "badpets"
               ],
               [
                 "shop",
@@ -228,7 +229,8 @@
                 "classic_off",
                 "kanalet",
                 "opencastle",
-                "dungeon_er_off"
+                "dungeon_er_off",
+                "freebook"
               ]
             ]
           }

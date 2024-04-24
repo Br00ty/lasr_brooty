@@ -18,6 +18,14 @@ function glitched()
     return has("l_gli")
 end
 
+function badpets()
+    return has("badpets")
+end
+
+function freebook()
+    return has("freebook")
+end
+
 -- item macros
 function sword()
     return has("sword")
@@ -454,15 +462,9 @@ function k_dethl()
     return (arrows() or rod() or boomerang())
 end
 
---function k_nightmare() TAKE OUT TEMPORARILY UNTIL FREEBOOK OPTION IS ADDED
-    --return
-        --(egg() and (has("lens") or freebook()) and k_nightmarezol() and k_nightmareagahnim() and k_nightmaremoldorm() and
-            --k_nightmareganon() and k_nightmarelanmola() and k_dethl())
---end
-
 function k_nightmare()
     return
-        (egg() and k_nightmarezol() and k_nightmareagahnim() and k_nightmaremoldorm() and
+        (egg() and (has("lens") or freebook()) and k_nightmarezol() and k_nightmareagahnim() and k_nightmaremoldorm() and
             k_nightmareganon() and k_nightmarelanmola() and k_dethl())
 end
 

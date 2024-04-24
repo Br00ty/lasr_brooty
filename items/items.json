@@ -809,6 +809,20 @@
 		"img": "images/castle.png"
 	},
 	{
+		"name": "Free Book",
+		"type": "toggle",
+		"loop": true,
+		"codes": "freebook",
+		"img": "images/freebook.png"
+	},
+	{
+		"name": "Bad Pets Logic",
+		"type": "toggle",
+		"loop": true,
+		"codes": "badpets",
+		"img": "images/badpets.png"
+	},
+	{
 		"name": "Dungeon ER",
 		"type": "progressive",
 		"allow_disabled": false,
