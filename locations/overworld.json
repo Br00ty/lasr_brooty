@@ -951,8 +951,11 @@
                                 "name": "North Wasteland",
                                 "access_rules": [
                                     "$bush,feather",
+                                    "openmabe,feather",
                                     "$bush,hookshot",
-                                    "$bush,rooster"
+                                    "openmabe,hookshot",
+                                    "$bush,rooster",
+                                    "openmabe,rooster"
                                 ],
                                 "item_count": 1,
                                 "chest_unopened_img": "images/items/hp.png",
@@ -1543,7 +1546,8 @@
                     {
                         "name": "Kanalet Moat Ledge",
                         "access_rules": [
-                            "bracelet"
+                            "bracelet",
+                            "openmabe"
                         ],
                         "sections": [
                             {
@@ -1856,7 +1860,8 @@
                 "name": "Kanalet Castle",
                 "access_rules": [
                     "$kanalet",
-                    "bracelet,opencastle"
+                    "bracelet,opencastle",
+                    "openmabe, $bush, opencastle"
                 ],
                 "children": [
                     {
@@ -2625,8 +2630,8 @@
                             "$turtlerock",
                             "[l_adv],$turtlerock_a",
                             "[l_gli],$turtlerock_g",
-                            "dungeon_er_on,$d8_4c",
-                            "[l_adv],dungeon_er_on,$d8_4c_adv"
+                            "dungeon_er_on,$d8_4c,$tr_dungeon",
+                            "[l_adv],dungeon_er_on,$d8_4c_adv,$tr_dungeon"
                         ],
                         "sections": [
                             {

@@ -534,7 +534,7 @@ function anglertunnel_g()
 end
 
 function animal()
-    return (bracelet() and (hookshot() or obstacle() or water()))
+    return ((bracelet() or has("openmabe")) and (hookshot() or obstacle() or water()))
 end
 
 function armosmaze()
@@ -542,7 +542,7 @@ function armosmaze()
 end
 
 function beach()
-    return (k_urchin() or shield() or bush())
+    return (k_urchin() or shield() or bush() or has("openmabe"))
 end
 
 function bottlegrotto()
@@ -578,7 +578,7 @@ function colordungeon()
 end
 
 function desert()
-    return (bracelet() and (hookshot() or obstacle() or water()))
+    return ((bracelet() or has("openmabe")) and (hookshot() or obstacle() or water()))
 end
 
 function dreamshrine()
@@ -657,7 +657,7 @@ function write()
 end
 
 function plains()
-    return bracelet()
+    return (bracelet() or has("openmabe"))
 end
 
 function pothole()
@@ -669,7 +669,7 @@ function pothole2()
 end
 
 function rapids()
-    return (bracelet() and (hookshot() or water()))
+    return ((bracelet() or has("openmabe")) and (hookshot() or water()))
 end
 
 function river()
@@ -792,11 +792,11 @@ function turtlerock_g()
 end
 
 function wasteland()
-    return bracelet() or (bush() and (feather() or rooster() or hookshot()))
+    return bracelet() or ((bush() or has("openmabe")) and (feather() or rooster() or hookshot()))
 end
 
 function woods()
-    return bush()
+    return (bush() or has("openmabe"))
 end
 
 -- dampe functions

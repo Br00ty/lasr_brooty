@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.3.7",
+            "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3.7/lasr_brooty.zip",
+            "sha256": "939739c3f61545bdf91afaa633c17cbc60da6951517c9eb49887231061b8dd75",
+            "changelog": [
+                "first rendition of Open Mabe"
+            ]
+        },
+        {
             "package_version": "0.3.6",
             "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3.6/lasr_brooty.zip",
             "sha256": "44fa45b89dfa2317631cffbb481eb0ee8d4b3f641f51903ec63e7300afd845a0",

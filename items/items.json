@@ -823,6 +823,13 @@
 		"img": "images/badpets.png"
 	},
 	{
+		"name": "Open Mabe",
+		"type": "toggle",
+		"loop": true,
+		"codes": "openmabe",
+		"img": "images/openmabe.png"
+	},
+	{
 		"name": "Dungeon ER",
 		"type": "progressive",
 		"allow_disabled": false,
@@ -1709,22 +1716,22 @@
 			{
 				"name": "Up",
 				"codes": "up8",
-				"img": "images/uparrow.png",
+				"img": "images/uparrow.png"
 			},
 			{
 				"name": "Right",
 				"codes": "right8",
-				"img": "images/rightarrow.png",
+				"img": "images/rightarrow.png"
 			},
 			{
 				"name": "Down",
 				"codes": "down8",
-				"img": "images/downarrow.png",
+				"img": "images/downarrow.png"
 			},
 			{
 				"name": "Left",
 				"codes": "left8",
-				"img": "images/leftarrow.png",
+				"img": "images/leftarrow.png"
 			}
 		]
 	}
