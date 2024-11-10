@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.3.7.1",
+            "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3.7.1/lasr_brooty.zip",
+            "sha256": "e3c5280a5fbbe8b451b30af0c67635c4e4114733dae83a8a89af831ffc0eada3",
+            "changelog": [
+                "fixed setting popup for ETP side"
+            ]
+        },
+        {
             "package_version": "0.3.7",
             "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3.7/lasr_brooty.zip",
             "sha256": "939739c3f61545bdf91afaa633c17cbc60da6951517c9eb49887231061b8dd75",

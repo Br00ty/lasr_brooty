@@ -210,25 +210,28 @@
                 "s_hp",
                 "s_ss",
                 "s_tq",
-                "l_bas"
+                "l_bas",
+                "badpets"
               ],
               [
                 "shop",
                 "fishing",
                 "owlstatue",
-                "mansion"
+                "mansion",
+                "freebook"
               ],
               [
                 "trendy",
                 "rapids",
                 "dampe",
-                "d0rupee"
+                "d0rupee",
+                "kanalet"
               ],
               [
                 "classic_off",
-                "kanalet",
                 "opencastle",
-                "dungeon_er_off"
+                "dungeon_er_off",
+                "openmabe"
               ]
             ]
           },
@@ -236,36 +239,36 @@
             "type": "itemgrid",
             "header": "Tail Cave | Bottle Grotto | Key Cavern",
             "h_alignment": "center",
-            "margin": "18,5",
+            "margin": "5,5",
             "item_margin": "-5,0",
             "item_size": 60,
             "rows": [
               [
-                "tcdX","","bgdX","","kcdX"
+                "","tcdX","","bgdX","","kcdX",""
               ]
             ]
           },
           {
             "type": "itemgrid",
             "h_alignment": "center",
-            "margin": "18,5",
+            "margin": "5,5",
             "item_margin": "-5,0",
             "item_size": 60,
             "rows": [
               [
-                "atdX","","cmdX","","fsdX"
+                "","atdX","","cmdX","","fsdX",""
               ]
             ]
           },
           {
             "type": "itemgrid",
             "h_alignment": "center",
-            "margin": "18,5",
+            "margin": "5,5",
             "item_margin": "-5,0",
             "item_size": 60,
             "rows": [
               [
-                "etdX","","trdX","","cddX"
+                "","etdX","","trdX","","cddX",""
               ]
             ]
           }
