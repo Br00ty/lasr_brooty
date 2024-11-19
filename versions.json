@@ -3,7 +3,7 @@
         {
             "package_version": "0.3.8",
             "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3.8/lasr_brooty.zip",
-            "sha256": "2f3d58ed1892279f1efcb9d254193cf587541a4a11df033a7982b794127b9622",
+            "sha256": "96df96dd30edd48233a621c3feada099e69f9cb5d163052b9bbcae9352f15c5f",
             "changelog": [
                 "tweaked/fixed 'Open Mabe' logic",
                 "added seashell check to trendy game",
