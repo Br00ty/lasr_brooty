@@ -226,12 +226,22 @@
                 "dampe",
                 "d0rupee",
                 "kanalet"
-              ],
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "2,0",
+            "item_size": 55,
+            "rows": [
               [
                 "classic_off",
                 "opencastle",
                 "dungeon_er_off",
-                "openmabe"
+                "openmabe",
+                "openmamu",
+                "faststalfos"
               ]
             ]
           }

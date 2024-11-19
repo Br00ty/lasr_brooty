@@ -617,7 +617,7 @@ function faceshrine_g1()
 end
 
 function faceshrine_g2()
-    return (faceshrine() or (bracelet() and rooster() and feather()))
+    return (bracelet() and rooster() and feather())
 end
 
 function ghostgrave()
@@ -669,7 +669,7 @@ function pothole2()
 end
 
 function rapids()
-    return ((bracelet() or has("openmabe")) and (hookshot() or water()))
+    return (bracelet() and hookshot()) or (water() and (bracelet() or has("openmabe")))
 end
 
 function river()

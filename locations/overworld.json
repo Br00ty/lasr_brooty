@@ -375,6 +375,12 @@
                         ],
                         "sections": [
                             {
+                                "name": "Seashell",
+                                "chest_unopened_img": "images/items/shell.png",
+                                "chest_opened_img": "images/items/shell_gray.png",
+                                "visibility_rules": ["s_ss"]
+                            },
+                            {
                                 "name": "Yoshi Doll",
                                 "hosted_item": "yoshi",
                                 "visibility_rules": ["s_tq"]
@@ -771,7 +777,8 @@
                                     "powder",
                                     "rooster",
                                     "feather",
-                                    "bracelet"
+                                    "bracelet",
+                                    "[l_adv],$skew"
                                 ],
                                 "chest_opened_img": "images/items/shell_gray.png",
                                 "chest_unopened_img": "images/items/shell.png",
@@ -2162,7 +2169,9 @@
                 "name": "Signpost Maze",
                 "access_rules": [
                     "bracelet,hookshot",
-                    "bracelet,rooster"
+                    "bracelet,rooster",
+                    "openmamu,openmabe,hookshot",
+                    "openmamu,openmabe,rooster"
                 ],
                 "sections": [
                     {

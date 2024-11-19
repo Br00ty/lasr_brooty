@@ -102,7 +102,7 @@ function d5_3e()
 end
 
 function d5_5g()
-    return ((d5_7f() and k_stalfosyellow() and k_stalfosred() and k_masterstalfos()) or
+    return ((d5_7f() and k_stalfosyellow() and k_stalfosred() and (k_masterstalfos() or has("faststalfos"))) or
                (((d5_7f() and k_gohma() and hookshot() and feather() and has("d5sk", 3)) or (feather() and k_star())) and
                    has("d5sk", 3) and hookshot() and feather() and k_star()))
 end
@@ -179,7 +179,10 @@ function d0_8c()
     return colordungeon()
 end
 
-function d0_6d()
+function d0_6d(outOfLogic)
+    if outOfLogic then
+        return (k_goblin_heavy() and has("d0sk", 1) and k_stonehinox())
+    end
     return (k_goblin_heavy() and has("d0sk", 2) and k_stonehinox())
 end
 
