@@ -1,6 +1,19 @@
 {
     "versions": [
         {
+            "package_version": "0.3.9",
+            "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3.9/lasr_brooty.zip",
+            "sha256": "c516ae07d2a13711000b9eaef72d2afb1d341640db1c6ebc4fc7f05a0fc1ca57",
+            "changelog": [
+                "Added 'Stealing' Options toggle",
+                "Adjusted how Mabe Shop toggle works",
+                "Removed 'ER Popup' Variant",
+                "Fixed more Open Mabe logic and other logic",
+                "Added Dungeon Locations to Overworld",
+                "Added Dungeon Entrance Locations to Overworld to overhaul the way Dungeon ER works"
+            ]
+        },
+        {
             "package_version": "0.3.8",
             "download_url": "https://github.com/Br00ty/lasr_brooty/releases/download/0.3.8/lasr_brooty.zip",
             "sha256": "96df96dd30edd48233a621c3feada099e69f9cb5d163052b9bbcae9352f15c5f",

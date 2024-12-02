@@ -731,12 +731,33 @@
 			}
 		]
 	},
+	//{
+	//	"name": "Mabe Shop",
+	//	"type": "toggle",
+	//	"loop": true,
+	//	"codes": "shop",
+	//	"img": "images/shop.png"
+	//},
 	{
 		"name": "Mabe Shop",
-		"type": "toggle",
+		"type": "progressive",
+		"allow_disabled": false,
 		"loop": true,
-		"codes": "shop",
-		"img": "images/shop.png"
+		"stages": [
+			{
+				"name": "Vanilla Shop",
+				"codes": "shop_off",
+				"img_mods": "@disabled",
+				"img": "images/shop.png",
+				"inherit_codes": false
+			},
+			{
+				"name": "Randomized Shop",
+				"codes": "shop",
+				"img": "images/shop.png",
+				"inherit_codes": false
+			}
+		]
 	},
 	{
 		"name": "Fast Fishing",
@@ -844,6 +865,32 @@
 		"img": "images/faststalfos.png"
 	},
 	{
+		"name": "Always Steal",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"name": "Never",
+				"codes": "s_never",
+				"inherit_codes": false,
+				"img": "images/steal1.png"
+			},
+			{
+				"name": "Sword",
+				"codes": "s_swordsteal",
+				"inherit_codes": false,
+				"img": "images/steal2.png"
+			},
+			{
+				"name": "Always",
+				"codes": "s_always",
+				"inherit_codes": false,
+				"img": "images/steal3.png"
+			}
+		]
+	},
+	{
 		"name": "Dungeon ER",
 		"type": "progressive",
 		"allow_disabled": false,
@@ -894,61 +941,67 @@
 				"name": "Unknown",
 				"codes": "tcdX",
 				"inherit_codes": false,
-				"img": "images/dungeons/d1unknown.png"
+				"img": "images/dungeons/unknown.png"
 			},
 			{
 				"name": "Tail Cave",
 				"codes": "tcd1",
 				"inherit_codes": false,
-				"img": "images/dungeons/tailcave.png"
+				"img": "images/dungeons/d1unknown.png"
 			},
 			{
 				"name": "Bottle Grotto",
 				"codes": "tcd2",
 				"inherit_codes": false,
-				"img": "images/dungeons/bottlegrotto.png"
+				"img": "images/dungeons/d2unknown.png"
 			},
 			{
 				"name": "Key Cavern",
 				"codes": "tcd3",
 				"inherit_codes": false,
-				"img": "images/dungeons/keycavern.png"
+				"img": "images/dungeons/d3unknown.png"
 			},
 			{
 				"name": "Angler's Tunnel",
 				"codes": "tcd4",
 				"inherit_codes": false,
-				"img": "images/dungeons/anglerstunnel.png"
+				"img": "images/dungeons/d4unknown.png"
 			},
 			{
 				"name": "Catfish's Maw",
 				"codes": "tcd5",
 				"inherit_codes": false,
-				"img": "images/dungeons/catfishsmaw.png"
+				"img": "images/dungeons/d5unknown.png"
 			},
 			{
 				"name": "Face Shrine",
 				"codes": "tcd6",
 				"inherit_codes": false,
-				"img": "images/dungeons/faceshrine.png"
+				"img": "images/dungeons/d6unknown.png"
 			},
 			{
 				"name": "Eagle's Tower",
 				"codes": "tcd7",
 				"inherit_codes": false,
-				"img": "images/dungeons/eaglestower.png"
+				"img": "images/dungeons/d7unknown.png"
 			},
 			{
 				"name": "Turtle Rock",
 				"codes": "tcd8",
 				"inherit_codes": false,
-				"img": "images/dungeons/turtlerock.png"
+				"img": "images/dungeons/d8unknown.png"
 			},
 			{
 				"name": "Color Dungeon",
 				"codes": "tcd0",
 				"inherit_codes": false,
-				"img": "images/dungeons/colordungeon.png"
+				"img": "images/dungeons/d0unknown.png"
+			},
+			{
+				"name": "Dungeon Completed",
+				"codes": "tcd_",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown_done.png"
 			}
 		]
 	},
@@ -962,61 +1015,67 @@
 				"name": "Unknown",
 				"codes": "bgdX",
 				"inherit_codes": false,
-				"img": "images/dungeons/d2unknown.png"
+				"img": "images/dungeons/unknown.png"
 			},
 			{
 				"name": "Tail Cave",
 				"codes": "bgd1",
 				"inherit_codes": false,
-				"img": "images/dungeons/tailcave.png"
+				"img": "images/dungeons/d1unknown.png"
 			},
 			{
 				"name": "Bottle Grotto",
 				"codes": "bgd2",
 				"inherit_codes": false,
-				"img": "images/dungeons/bottlegrotto.png"
+				"img": "images/dungeons/d2unknown.png"
 			},
 			{
 				"name": "Key Cavern",
 				"codes": "bgd3",
 				"inherit_codes": false,
-				"img": "images/dungeons/keycavern.png"
+				"img": "images/dungeons/d3unknown.png"
 			},
 			{
 				"name": "Angler's Tunnel",
 				"codes": "bgd4",
 				"inherit_codes": false,
-				"img": "images/dungeons/anglerstunnel.png"
+				"img": "images/dungeons/d4unknown.png"
 			},
 			{
 				"name": "Catfish's Maw",
 				"codes": "bgd5",
 				"inherit_codes": false,
-				"img": "images/dungeons/catfishsmaw.png"
+				"img": "images/dungeons/d5unknown.png"
 			},
 			{
 				"name": "Face Shrine",
 				"codes": "bgd6",
 				"inherit_codes": false,
-				"img": "images/dungeons/faceshrine.png"
+				"img": "images/dungeons/d6unknown.png"
 			},
 			{
 				"name": "Eagle's Tower",
 				"codes": "bgd7",
 				"inherit_codes": false,
-				"img": "images/dungeons/eaglestower.png"
+				"img": "images/dungeons/d7unknown.png"
 			},
 			{
 				"name": "Turtle Rock",
 				"codes": "bgd8",
 				"inherit_codes": false,
-				"img": "images/dungeons/turtlerock.png"
+				"img": "images/dungeons/d8unknown.png"
 			},
 			{
 				"name": "Color Dungeon",
 				"codes": "bgd0",
 				"inherit_codes": false,
-				"img": "images/dungeons/colordungeon.png"
+				"img": "images/dungeons/d0unknown.png"
+			},
+			{
+				"name": "Dungeon Completed",
+				"codes": "bgd_",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown_done.png"
 			}
 		]
 	},
@@ -1030,61 +1089,67 @@
 				"name": "Unknown",
 				"codes": "kcdX",
 				"inherit_codes": false,
-				"img": "images/dungeons/d3unknown.png"
+				"img": "images/dungeons/unknown.png"
 			},
 			{
 				"name": "Tail Cave",
 				"codes": "kcd1",
 				"inherit_codes": false,
-				"img": "images/dungeons/tailcave.png"
+				"img": "images/dungeons/d1unknown.png"
 			},
 			{
 				"name": "Bottle Grotto",
 				"codes": "kcd2",
 				"inherit_codes": false,
-				"img": "images/dungeons/bottlegrotto.png"
+				"img": "images/dungeons/d2unknown.png"
 			},
 			{
 				"name": "Key Cavern",
 				"codes": "kcd3",
 				"inherit_codes": false,
-				"img": "images/dungeons/keycavern.png"
+				"img": "images/dungeons/d3unknown.png"
 			},
 			{
 				"name": "Angler's Tunnel",
 				"codes": "kcd4",
 				"inherit_codes": false,
-				"img": "images/dungeons/anglerstunnel.png"
+				"img": "images/dungeons/d4unknown.png"
 			},
 			{
 				"name": "Catfish's Maw",
 				"codes": "kcd5",
 				"inherit_codes": false,
-				"img": "images/dungeons/catfishsmaw.png"
+				"img": "images/dungeons/d5unknown.png"
 			},
 			{
 				"name": "Face Shrine",
 				"codes": "kcd6",
 				"inherit_codes": false,
-				"img": "images/dungeons/faceshrine.png"
+				"img": "images/dungeons/d6unknown.png"
 			},
 			{
 				"name": "Eagle's Tower",
 				"codes": "kcd7",
 				"inherit_codes": false,
-				"img": "images/dungeons/eaglestower.png"
+				"img": "images/dungeons/d7unknown.png"
 			},
 			{
 				"name": "Turtle Rock",
 				"codes": "kcd8",
 				"inherit_codes": false,
-				"img": "images/dungeons/turtlerock.png"
+				"img": "images/dungeons/d8unknown.png"
 			},
 			{
 				"name": "Color Dungeon",
 				"codes": "kcd0",
 				"inherit_codes": false,
-				"img": "images/dungeons/colordungeon.png"
+				"img": "images/dungeons/d0unknown.png"
+			},
+			{
+				"name": "Dungeon Completed",
+				"codes": "kcd_",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown_done.png"
 			}
 		]
 	},
@@ -1098,61 +1163,67 @@
 				"name": "Unknown",
 				"codes": "atdX",
 				"inherit_codes": false,
-				"img": "images/dungeons/d4unknown.png"
+				"img": "images/dungeons/unknown.png"
 			},
 			{
 				"name": "Tail Cave",
 				"codes": "atd1",
 				"inherit_codes": false,
-				"img": "images/dungeons/tailcave.png"
+				"img": "images/dungeons/d1unknown.png"
 			},
 			{
 				"name": "Bottle Grotto",
 				"codes": "atd2",
 				"inherit_codes": false,
-				"img": "images/dungeons/bottlegrotto.png"
+				"img": "images/dungeons/d2unknown.png"
 			},
 			{
 				"name": "Key Cavern",
 				"codes": "atd3",
 				"inherit_codes": false,
-				"img": "images/dungeons/keycavern.png"
+				"img": "images/dungeons/d3unknown.png"
 			},
 			{
 				"name": "Angler's Tunnel",
 				"codes": "atd4",
 				"inherit_codes": false,
-				"img": "images/dungeons/anglerstunnel.png"
+				"img": "images/dungeons/d4unknown.png"
 			},
 			{
 				"name": "Catfish's Maw",
 				"codes": "atd5",
 				"inherit_codes": false,
-				"img": "images/dungeons/catfishsmaw.png"
+				"img": "images/dungeons/d5unknown.png"
 			},
 			{
 				"name": "Face Shrine",
 				"codes": "atd6",
 				"inherit_codes": false,
-				"img": "images/dungeons/faceshrine.png"
+				"img": "images/dungeons/d6unknown.png"
 			},
 			{
 				"name": "Eagle's Tower",
 				"codes": "atd7",
 				"inherit_codes": false,
-				"img": "images/dungeons/eaglestower.png"
+				"img": "images/dungeons/d7unknown.png"
 			},
 			{
 				"name": "Turtle Rock",
 				"codes": "atd8",
 				"inherit_codes": false,
-				"img": "images/dungeons/turtlerock.png"
+				"img": "images/dungeons/d8unknown.png"
 			},
 			{
 				"name": "Color Dungeon",
 				"codes": "atd0",
 				"inherit_codes": false,
-				"img": "images/dungeons/colordungeon.png"
+				"img": "images/dungeons/d0unknown.png"
+			},
+			{
+				"name": "Dungeon Completed",
+				"codes": "atd_",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown_done.png"
 			}
 		]
 	},
@@ -1166,61 +1237,67 @@
 				"name": "Unknown",
 				"codes": "cmdX",
 				"inherit_codes": false,
-				"img": "images/dungeons/d5unknown.png"
+				"img": "images/dungeons/unknown.png"
 			},
 			{
 				"name": "Tail Cave",
 				"codes": "cmd1",
 				"inherit_codes": false,
-				"img": "images/dungeons/tailcave.png"
+				"img": "images/dungeons/d1unknown.png"
 			},
 			{
 				"name": "Bottle Grotto",
 				"codes": "cmd2",
 				"inherit_codes": false,
-				"img": "images/dungeons/bottlegrotto.png"
+				"img": "images/dungeons/d2unknown.png"
 			},
 			{
 				"name": "Key Cavern",
 				"codes": "cmd3",
 				"inherit_codes": false,
-				"img": "images/dungeons/keycavern.png"
+				"img": "images/dungeons/d3unknown.png"
 			},
 			{
 				"name": "Angler's Tunnel",
 				"codes": "cmd4",
 				"inherit_codes": false,
-				"img": "images/dungeons/anglerstunnel.png"
+				"img": "images/dungeons/d4unknown.png"
 			},
 			{
 				"name": "Catfish's Maw",
 				"codes": "cmd5",
 				"inherit_codes": false,
-				"img": "images/dungeons/catfishsmaw.png"
+				"img": "images/dungeons/d5unknown.png"
 			},
 			{
 				"name": "Face Shrine",
 				"codes": "cmd6",
 				"inherit_codes": false,
-				"img": "images/dungeons/faceshrine.png"
+				"img": "images/dungeons/d6unknown.png"
 			},
 			{
 				"name": "Eagle's Tower",
 				"codes": "cmd7",
 				"inherit_codes": false,
-				"img": "images/dungeons/eaglestower.png"
+				"img": "images/dungeons/d7unknown.png"
 			},
 			{
 				"name": "Turtle Rock",
 				"codes": "cmd8",
 				"inherit_codes": false,
-				"img": "images/dungeons/turtlerock.png"
+				"img": "images/dungeons/d8unknown.png"
 			},
 			{
 				"name": "Color Dungeon",
 				"codes": "cmd0",
 				"inherit_codes": false,
-				"img": "images/dungeons/colordungeon.png"
+				"img": "images/dungeons/d0unknown.png"
+			},
+			{
+				"name": "Dungeon Completed",
+				"codes": "cmd_",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown_done.png"
 			}
 		]
 	},
@@ -1234,61 +1311,67 @@
 				"name": "Unknown",
 				"codes": "fsdX",
 				"inherit_codes": false,
-				"img": "images/dungeons/d6unknown.png"
+				"img": "images/dungeons/unknown.png"
 			},
 			{
 				"name": "Tail Cave",
 				"codes": "fsd1",
 				"inherit_codes": false,
-				"img": "images/dungeons/tailcave.png"
+				"img": "images/dungeons/d1unknown.png"
 			},
 			{
 				"name": "Bottle Grotto",
 				"codes": "fsd2",
 				"inherit_codes": false,
-				"img": "images/dungeons/bottlegrotto.png"
+				"img": "images/dungeons/d2unknown.png"
 			},
 			{
 				"name": "Key Cavern",
 				"codes": "fsd3",
 				"inherit_codes": false,
-				"img": "images/dungeons/keycavern.png"
+				"img": "images/dungeons/d3unknown.png"
 			},
 			{
 				"name": "Angler's Tunnel",
 				"codes": "fsd4",
 				"inherit_codes": false,
-				"img": "images/dungeons/anglerstunnel.png"
+				"img": "images/dungeons/d4unknown.png"
 			},
 			{
 				"name": "Catfish's Maw",
 				"codes": "fsd5",
 				"inherit_codes": false,
-				"img": "images/dungeons/catfishsmaw.png"
+				"img": "images/dungeons/d5unknown.png"
 			},
 			{
 				"name": "Face Shrine",
 				"codes": "fsd6",
 				"inherit_codes": false,
-				"img": "images/dungeons/faceshrine.png"
+				"img": "images/dungeons/d6unknown.png"
 			},
 			{
 				"name": "Eagle's Tower",
 				"codes": "fsd7",
 				"inherit_codes": false,
-				"img": "images/dungeons/eaglestower.png"
+				"img": "images/dungeons/d7unknown.png"
 			},
 			{
 				"name": "Turtle Rock",
 				"codes": "fsd8",
 				"inherit_codes": false,
-				"img": "images/dungeons/turtlerock.png"
+				"img": "images/dungeons/d8unknown.png"
 			},
 			{
 				"name": "Color Dungeon",
 				"codes": "fsd0",
 				"inherit_codes": false,
-				"img": "images/dungeons/colordungeon.png"
+				"img": "images/dungeons/d0unknown.png"
+			},
+			{
+				"name": "Dungeon Completed",
+				"codes": "fsd_",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown_done.png"
 			}
 		]
 	},
@@ -1302,61 +1385,67 @@
 				"name": "Unknown",
 				"codes": "etdX",
 				"inherit_codes": false,
-				"img": "images/dungeons/d7unknown.png"
+				"img": "images/dungeons/unknown.png"
 			},
 			{
 				"name": "Tail Cave",
 				"codes": "etd1",
 				"inherit_codes": false,
-				"img": "images/dungeons/tailcave.png"
+				"img": "images/dungeons/d1unknown.png"
 			},
 			{
 				"name": "Bottle Grotto",
 				"codes": "etd2",
 				"inherit_codes": false,
-				"img": "images/dungeons/bottlegrotto.png"
+				"img": "images/dungeons/d2unknown.png"
 			},
 			{
 				"name": "Key Cavern",
 				"codes": "etd3",
 				"inherit_codes": false,
-				"img": "images/dungeons/keycavern.png"
+				"img": "images/dungeons/d3unknown.png"
 			},
 			{
 				"name": "Angler's Tunnel",
 				"codes": "etd4",
 				"inherit_codes": false,
-				"img": "images/dungeons/anglerstunnel.png"
+				"img": "images/dungeons/d4unknown.png"
 			},
 			{
 				"name": "Catfish's Maw",
 				"codes": "etd5",
 				"inherit_codes": false,
-				"img": "images/dungeons/catfishsmaw.png"
+				"img": "images/dungeons/d5unknown.png"
 			},
 			{
 				"name": "Face Shrine",
 				"codes": "etd6",
 				"inherit_codes": false,
-				"img": "images/dungeons/faceshrine.png"
+				"img": "images/dungeons/d6unknown.png"
 			},
 			{
 				"name": "Eagle's Tower",
 				"codes": "etd7",
 				"inherit_codes": false,
-				"img": "images/dungeons/eaglestower.png"
+				"img": "images/dungeons/d7unknown.png"
 			},
 			{
 				"name": "Turtle Rock",
 				"codes": "etd8",
 				"inherit_codes": false,
-				"img": "images/dungeons/turtlerock.png"
+				"img": "images/dungeons/d8unknown.png"
 			},
 			{
 				"name": "Color Dungeon",
 				"codes": "etd0",
 				"inherit_codes": false,
-				"img": "images/dungeons/colordungeon.png"
+				"img": "images/dungeons/d0unknown.png"
+			},
+			{
+				"name": "Dungeon Completed",
+				"codes": "etd_",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown_done.png"
 			}
 		]
 	},
@@ -1370,61 +1459,67 @@
 				"name": "Unknown",
 				"codes": "trdX",
 				"inherit_codes": false,
-				"img": "images/dungeons/d8unknown.png"
+				"img": "images/dungeons/unknown.png"
 			},
 			{
 				"name": "Tail Cave",
 				"codes": "trd1",
 				"inherit_codes": false,
-				"img": "images/dungeons/tailcave.png"
+				"img": "images/dungeons/d1unknown.png"
 			},
 			{
 				"name": "Bottle Grotto",
 				"codes": "trd2",
 				"inherit_codes": false,
-				"img": "images/dungeons/bottlegrotto.png"
+				"img": "images/dungeons/d2unknown.png"
 			},
 			{
 				"name": "Key Cavern",
 				"codes": "trd3",
 				"inherit_codes": false,
-				"img": "images/dungeons/keycavern.png"
+				"img": "images/dungeons/d3unknown.png"
 			},
 			{
 				"name": "Angler's Tunnel",
 				"codes": "trd4",
 				"inherit_codes": false,
-				"img": "images/dungeons/anglerstunnel.png"
+				"img": "images/dungeons/d4unknown.png"
 			},
 			{
 				"name": "Catfish's Maw",
 				"codes": "trd5",
 				"inherit_codes": false,
-				"img": "images/dungeons/catfishsmaw.png"
+				"img": "images/dungeons/d5unknown.png"
 			},
 			{
 				"name": "Face Shrine",
 				"codes": "trd6",
 				"inherit_codes": false,
-				"img": "images/dungeons/faceshrine.png"
+				"img": "images/dungeons/d6unknown.png"
 			},
 			{
 				"name": "Eagle's Tower",
 				"codes": "trd7",
 				"inherit_codes": false,
-				"img": "images/dungeons/eaglestower.png"
+				"img": "images/dungeons/d7unknown.png"
 			},
 			{
 				"name": "Turtle Rock",
 				"codes": "trd8",
 				"inherit_codes": false,
-				"img": "images/dungeons/turtlerock.png"
+				"img": "images/dungeons/d8unknown.png"
 			},
 			{
 				"name": "Color Dungeon",
 				"codes": "trd0",
 				"inherit_codes": false,
-				"img": "images/dungeons/colordungeon.png"
+				"img": "images/dungeons/d0unknown.png"
+			},
+			{
+				"name": "Dungeon Completed",
+				"codes": "trd_",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown_done.png"
 			}
 		]
 	},
@@ -1438,61 +1533,67 @@
 				"name": "Unknown",
 				"codes": "cddX",
 				"inherit_codes": false,
-				"img": "images/dungeons/d0unknown.png"
+				"img": "images/dungeons/unknown.png"
 			},
 			{
 				"name": "Tail Cave",
 				"codes": "cdd1",
 				"inherit_codes": false,
-				"img": "images/dungeons/tailcave.png"
+				"img": "images/dungeons/d1unknown.png"
 			},
 			{
 				"name": "Bottle Grotto",
 				"codes": "cdd2",
 				"inherit_codes": false,
-				"img": "images/dungeons/bottlegrotto.png"
+				"img": "images/dungeons/d2unknown.png"
 			},
 			{
 				"name": "Key Cavern",
 				"codes": "cdd3",
 				"inherit_codes": false,
-				"img": "images/dungeons/keycavern.png"
+				"img": "images/dungeons/d3unknown.png"
 			},
 			{
 				"name": "Angler's Tunnel",
 				"codes": "cdd4",
 				"inherit_codes": false,
-				"img": "images/dungeons/anglerstunnel.png"
+				"img": "images/dungeons/d4unknown.png"
 			},
 			{
 				"name": "Catfish's Maw",
 				"codes": "cdd5",
 				"inherit_codes": false,
-				"img": "images/dungeons/catfishsmaw.png"
+				"img": "images/dungeons/d5unknown.png"
 			},
 			{
 				"name": "Face Shrine",
 				"codes": "cdd6",
 				"inherit_codes": false,
-				"img": "images/dungeons/faceshrine.png"
+				"img": "images/dungeons/d6unknown.png"
 			},
 			{
 				"name": "Eagle's Tower",
 				"codes": "cdd7",
 				"inherit_codes": false,
-				"img": "images/dungeons/eaglestower.png"
+				"img": "images/dungeons/d7unknown.png"
 			},
 			{
 				"name": "Turtle Rock",
 				"codes": "cdd8",
 				"inherit_codes": false,
-				"img": "images/dungeons/turtlerock.png"
+				"img": "images/dungeons/d8unknown.png"
 			},
 			{
 				"name": "Color Dungeon",
 				"codes": "cdd0",
 				"inherit_codes": false,
-				"img": "images/dungeons/colordungeon.png"
+				"img": "images/dungeons/d0unknown.png"
+			},
+			{
+				"name": "Dungeon Completed",
+				"codes": "cdd_",
+				"inherit_codes": false,
+				"img": "images/dungeons/unknown_done.png"
 			}
 		]
 	},

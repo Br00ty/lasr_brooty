@@ -232,16 +232,19 @@
           {
             "type": "itemgrid",
             "h_alignment": "center",
-            "item_margin": "2,0",
-            "item_size": 55,
+            "item_margin": "9,6",
+            "item_size": 70,
             "rows": [
               [
                 "classic_off",
                 "opencastle",
                 "dungeon_er_off",
-                "openmabe",
+                "openmabe"
+              ],
+              [
                 "openmamu",
-                "faststalfos"
+                "faststalfos",
+                "s_never"
               ]
             ]
           }
@@ -272,7 +275,7 @@
     "type": "itemgrid",
     "h_alignment": "center",
     "margin": "50,2",
-    "item_margin": "-10,0",
+    "item_margin": "-10,2",
     "item_size": 55,
     "rows": [
       [
@@ -284,7 +287,7 @@
     "type": "itemgrid",
     "h_alignment": "center",
     "margin": "50,2",
-    "item_margin": "-10,0",
+    "item_margin": "-10,2",
     "item_size": 55,
     "rows": [
       [
@@ -296,7 +299,7 @@
     "type": "itemgrid",
     "h_alignment": "center",
     "margin": "50,2",
-    "item_margin": "-10,0",
+    "item_margin": "-10,2",
     "item_size": 55,
     "rows": [
       [
@@ -327,19 +330,19 @@
       {
         "type": "layout",
         "key": "egg_path"
-      },
-      {
-        "type": "layout",
-        "key": "dungeons123"
-      },
-      {
-        "type": "layout",
-        "key": "dungeons456"
-      },
-      {
-        "type": "layout",
-        "key": "dungeons780"
       }
+      //{
+      //  "type": "layout",
+      //  "key": "dungeons123"
+      //},
+      //{
+      //  "type": "layout",
+      //  "key": "dungeons456"
+      //},
+      //{
+      //  "type": "layout",
+      //  "key": "dungeons780"
+      //}
     ]
   }
 }

@@ -136,16 +136,36 @@
                     {
                         "name": "Mabe Shop",
                         "access_rules": [
-                            "$farm"
+                            "$farm", "$steal", "s_always"
                         ],
                         "sections": [
                             {
+                                "name": "Shovel",
+                                "hosted_item": "shovel",
+                                "visibility_rules": [
+                                    "shop_off"
+                                ]
+                            },
+                            {
+                                "name": "Bow",
+                                "hosted_item": "bow",
+                                "visibility_rules": [
+                                    "shop_off"
+                                ]
+                            },
+                            {
                                 "name": "Slot3 1st",
-                                "item_count": 1
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "shop"
+                                ]
                             },
                             {
                                 "name": "Slot3 2nd",
-                                "item_count": 1
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "shop"
+                                ]
                             },
                             {
                                 "name": "Slot5 1st/2nd",
@@ -371,7 +391,7 @@
                     {
                         "name": "Trendy Store",
                         "access_rules": [
-                            "$farm"
+                            "$farm, $bush"
                         ],
                         "sections": [
                             {
@@ -868,7 +888,7 @@
             {
                 "name": "Taltal East",
                 "access_rules": [
-                    "$wasteland"
+                    "$wasteland,bracelet"
                 ],
                 "children": [
                     {
@@ -878,8 +898,8 @@
                                 "name": "Taltal Entrance Chest",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "bracelet,hookshot,$crystal",
-                                    "bracelet,rooster,$crystal"
+                                    "hookshot,$crystal",
+                                    "rooster,$crystal"
                                 ]
                             },
                             {
@@ -1868,7 +1888,7 @@
                 "access_rules": [
                     "$kanalet",
                     "bracelet,opencastle",
-                    "openmabe, $bush, opencastle"
+                    "openmabe,opencastle"
                 ],
                 "children": [
                     {
@@ -1880,8 +1900,8 @@
                                 "chest_opened_img": "images/items/goldleaf_gray.png",
                                 "chest_unopened_img": "images/items/goldleaf.png",
                                 "access_rules": [
-                                    "$k_crow,bomb",
-                                    "$k_crow,bracelet"
+                                    "$k_crow,bomb,$bush",
+                                    "$k_crow,bracelet,$bush"
                                 ],
                                 "visibility_rules": [
                                     "kanalet"
@@ -1905,7 +1925,7 @@
                                 "chest_opened_img": "images/items/goldleaf_gray.png",
                                 "chest_unopened_img": "images/items/goldleaf.png",
                                 "access_rules": [
-                                    "$k_bomber"
+                                    "$k_bomber,$bush"
                                 ],
                                 "visibility_rules": [
                                     "kanalet"
@@ -1922,10 +1942,10 @@
                     },
                     {
                         "name": "Kanalet Castle",
-                        "access_rules": [
-                            "$kanalet",
-                            "opencastle"
-                        ],
+                        //"access_rules": [
+                        //    "$kanalet",
+                        //    "opencastle"
+                        //],
                         "sections": [
                             {
                                 "name": "Kanalet Kill Room",
@@ -2143,7 +2163,7 @@
                 "name": "Rapids From D6",
                 "access_rules": [
                     "$faceshrine,$switchfar,$pot,bracelet2",
-                    "[l_gli],$faceshrine_g1,$switchfar,$pot,bracelet2",
+                    "[l_gli],$faceshrine_g1,$switchfar,$pot,bracelet2,dungeon_er_off",
                     "[l_gli],$faceshrine_g2"
                 ],
                 "sections": [
@@ -3276,207 +3296,1006 @@
                 ]
             },
             {
-                "name": "Dungeons",
-                "children": [
+                "name": "Tail Cave",
+                //"chest_unopened_img": "images/Bosses/moldorm_gray.png",
+                //"chest_opened_img": "images/Bosses/moldorm.png",
+                //"visibility_rules": "dungeon_er_off",
+                //"access_rules": [
+                //    "$tailcave"
+                //],
+                "sections": [
                     {
-                        "name": "D1 - Tail Cave",
-                        "chest_unopened_img": "images/Bosses/moldorm_gray.png",
-                        "chest_opened_img": "images/Bosses/moldorm.png",
-                        "access_rules": [
-                            "$tailcave"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Entrance",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map",
-                                "x": 687,
-                                "y": 1268
-                            }
-                        ]
+                        "name": "Hardhat Beetles",
+                        "ref": "D1 - Tail Cave/Hardhat Beetles/Key Drop"
                     },
                     {
-                        "name": "D2 - Bottle Grotto",
-                        "chest_unopened_img": "images/Bosses/genie_gray.png",
-                        "chest_opened_img": "images/Bosses/genie.png",
-                        "access_rules": [
-                            "classic_off,$bottlegrotto",
-                            "[l_adv],classic_off,$bottlegrotto_adv",
-                            "classic_on,$bottlegrotto_classic",
-                            "[l_adv],classic_on,$bottlegrotto_classic_adv"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Entrance",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map",
-                                "x": 802,
-                                "y": 394
-                            }
-                        ]
+                        "name": "Compass Chest",
+                        "ref": "D1 - Tail Cave/Compass Chest/Chest"
                     },
                     {
-                        "name": "D3 - Key Cavern",
-                        "chest_unopened_img": "images/Bosses/slimeeye_gray.png",
-                        "chest_opened_img": "images/Bosses/slimeeye.png",
-                        "access_rules": [
-                            "$keycavern"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Entrance",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map",
-                                "x": 1016,
-                                "y": 1116
-                            }
-                        ]
+                        "name": "The Button",
+                        "ref": "D1 - Tail Cave/The Button/Chest"
                     },
                     {
-                        "name": "D4 - Angler Tunnel",
-                        "chest_unopened_img": "images/Bosses/anglerfish_gray.png",
-                        "chest_opened_img": "images/Bosses/anglerfish.png",
-                        "access_rules": [
-                            "$anglertunnel",
-                            "[l_gli],$anglertunnel_g"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Entrance",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map",
-                                "x": 1976,
-                                "y": 404
-                            }
-                        ]
+                        "name": "Map Chest",
+                        "ref": "D1 - Tail Cave/Map Chest/Chest"
                     },
                     {
-                        "name": "D5 - Catfish Maw",
-                        "chest_unopened_img": "images/Bosses/slimeeel_gray.png",
-                        "chest_opened_img": "images/Bosses/slimeeel.png",
-                        "access_rules": [
-                            "$catfishmaw",
-                            "[l_gli],$catfishmaw_g"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Entrance",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map",
-                                "x": 1662,
-                                "y": 1310
-                            }
-                        ]
+                        "name": "Spark Guarded Chest",
+                        "ref": "D1 - Tail Cave/Spark Guarded Chest/Chest"
                     },
                     {
-                        "name": "D6 - Face Shrine",
-                        "chest_unopened_img": "images/Bosses/facade_gray.png",
-                        "chest_opened_img": "images/Bosses/facade.png",
-                        "access_rules": [
-                            "$faceshrine",
-                            "[l_gli],$faceshrine_g1",
-                            "[l_gli],$faceshrine_g2"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Entrance",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map",
-                                "x": 2128,
-                                "y": 894
-                            }
-                        ]
+                        "name": "Kill the Moldorms",
+                        "ref": "D1 - Tail Cave/Kill the Moldorms/Chest"
                     },
                     {
-                        "name": "D7 - Eagle Tower",
-                        "chest_unopened_img": "images/Bosses/evileagle_gray.png",
-                        "chest_opened_img": "images/Bosses/evileagle.png",
-                        "access_rules": [
-                            "$eagletower",
-                            "[l_adv],$eagletower_a",
-                            "[l_gli],$eagletower_g"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Entrance",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map",
-                                "x": 2500,
-                                "y": 200
-                            }
-                        ]
+                        "name": "Bombable Wall",
+                        "ref": "D1 - Tail Cave/Bombable Wall/Chest"
                     },
                     {
-                        "name": "D8 - Turtle Rock",
-                        "chest_unopened_img": "images/Bosses/hothead_gray.png",
-                        "chest_opened_img": "images/Bosses/hothead.png",
-                        "access_rules": [
-                            "$turtlerock",
-                            "[l_adv],$turtlerock_a",
-                            "[l_gli],$turtlerock_g"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Entrance",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map",
-                                "x": 178,
-                                "y": 238
-                            }
-                        ]
+                        "name": "Owl (Long Hallway)",
+                        "ref": "D1 - Tail Cave/Owl (Long Hallway)/Owl"
                     },
                     {
-                        "name": "D0 - Color Dungeon",
-                        "chest_unopened_img": "images/Bosses/hardhit_gray.png",
-                        "chest_opened_img": "images/Bosses/hardhit.png",
-                        "access_rules": [
-                            "$colordungeon"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Entrance",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map",
-                                "x": 1362,
-                                "y": 770
-                            }
-                        ]
+                        "name": "Owl (Spinies)",
+                        "ref": "D1 - Tail Cave/Owl (Spinies)/Owl"
+                    },
+                    {
+                        "name": "Feather Chest",
+                        "ref": "D1 - Tail Cave/Feather Chest/Chest"
+                    },
+                    {
+                        "name": "3 of a Kind",
+                        "ref": "D1 - Tail Cave/3 of a Kind/Chest"
+                    },
+                    {
+                        "name": "Owl (3-of-a-Kind)",
+                        "ref": "D1 - Tail Cave/Owl (3-of-a-Kind)/Owl"
+                    },
+                    {
+                        "name": "Nightmare Key",
+                        "ref": "D1 - Tail Cave/Nightmare Key/Chest"
+                    },
+                    {
+                        "name": "Moldorm",
+                        "ref": "D1 - Tail Cave/Moldorm/Heart Container"
+                    },
+                    {
+                        "name": "Full Moon Cello",
+                        "ref": "D1 - Tail Cave/Full Moon Cello/Instrument"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 687,
+                        "y": 1268,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Tail Cave Entrance",
+                //"chest_unopened_img": "images/Bosses/moldorm_gray.png",
+                //"chest_opened_img": "images/Bosses/moldorm.png",
+                "visibility_rules": "dungeon_er_on",
+                "access_rules": [
+                    "$tailcave"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "tcd_"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 627,
+                        "y": 1268,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Bottle Grotto",
+                //"chest_unopened_img": "images/Bosses/genie_gray.png",
+                //"chest_opened_img": "images/Bosses/genie.png",
+                //"visibility_rules": "dungeon_er_off",
+                //"access_rules": [
+                //    "classic_off,$bottlegrotto",
+                //    "[l_adv],classic_off,$bottlegrotto_adv",
+                //    "classic_on,$bottlegrotto_classic",
+                //    "[l_adv],classic_on,$bottlegrotto_classic_adv"
+                //],
+                "sections": [
+                    {
+                        "name": "Entrance Pot Chest",
+                        "ref": "D2 - Bottle Grotto/Entrance Pot Chest/Chest"
+                    },
+                    {
+                        "name": "Kill the Stalfos",
+                        "ref": "D2 - Bottle Grotto/Kill the Stalfos/Key Drop"
+                    },
+                    {
+                        "name": "Owl (First Switch)",
+                        "ref": "D2 - Bottle Grotto/Owl (First Switch)/Owl"
+                    },
+                    {
+                        "name": "Surrounded by Blocks",
+                        "ref": "D2 - Bottle Grotto/Surrounded by Blocks/Chest"
+                    },
+                    {
+                        "name": "Button across the room",
+                        "ref": "D2 - Bottle Grotto/Button across the room/Chest"
+                    },
+                    {
+                        "name": "Kill the Shyguys",
+                        "ref": "D2 - Bottle Grotto/Kill the Shyguys/Key Drop"
+                    },
+                    {
+                        "name": "Chest across the gap",
+                        "ref": "D2 - Bottle Grotto/Chest across the gap/Chest"
+                    },
+                    {
+                        "name": "Compass Chest",
+                        "ref": "D2 - Bottle Grotto/Compass Chest/Chest"
+                    },
+                    {
+                        "name": "Owl (Push Puzzle)",
+                        "ref": "D2 - Bottle Grotto/Owl (Push Puzzle)/Owl"
+                    },
+                    {
+                        "name": "Owl (Past Hinox)",
+                        "ref": "D2 - Bottle Grotto/Owl (Past Hinox)/Owl"
+                    },
+                    {
+                        "name": "Map Chest in Vacuum Room",
+                        "ref": "D2 - Bottle Grotto/Map Chest in Vacuum Room/Chest"
+                    },
+                    {
+                        "name": "The Lonely Chest",
+                        "ref": "D2 - Bottle Grotto/The Lonely Chest/Chest"
+                    },
+                    {
+                        "name": "Blocks Everywhere!",
+                        "ref": "D2 - Bottle Grotto/Blocks Everywhere!/Chest"
+                    },
+                    {
+                        "name": "Just a couple Boos",
+                        "ref": "D2 - Bottle Grotto/Just a couple Boos/Chest"
+                    },
+                    {
+                        "name": "Pols Voice, Keese, then the Hooded Stalfos",
+                        "ref": "D2 - Bottle Grotto/Pols Voice, Keese, then the Hooded Stalfos/Chest"
+                    },
+                    {
+                        "name": "Mad Genie",
+                        "ref": "D2 - Bottle Grotto/Mad Genie/Boss"
+                    },
+                    {
+                        "name": "Conch Horn",
+                        "ref": "D2 - Bottle Grotto/Conch Horn/Instrument"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 802,
+                        "y": 394,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Bottle Grotto Entrance",
+                "visibility_rules": "dungeon_er_on",
+                "access_rules": [
+                    "classic_off,$bottlegrotto",
+                    "[l_adv],classic_off,$bottlegrotto_adv",
+                    "classic_on,$bottlegrotto_classic",
+                    "[l_adv],classic_on,$bottlegrotto_classic_adv"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "bgd_"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 742,
+                        "y": 394,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Key Cavern",
+                //"chest_unopened_img": "images/Bosses/slimeeye_gray.png",
+                //"chest_opened_img": "images/Bosses/slimeeye.png",
+                //"access_rules": [
+                //    "$keycavern"
+                //],
+                "sections": [
+                    {
+                        "name": "East of Entrance",
+                        "ref": "D3 - Key Cavern/East of Entrance/Chest"
+                    },
+                    {
+                        "name": "First Room North",
+                        "ref": "D3 - Key Cavern/First Room North/Chest"
+                    },
+                    {
+                        "name": "Kill the Zols",
+                        "ref": "D3 - Key Cavern/Kill the Zols/Chest"
+                    },
+                    {
+                        "name": "Kill the Stalfos & the Zol",
+                        "ref": "D3 - Key Cavern/Kill the Stalfos & the Zol/Chest"
+                    },
+                    {
+                        "name": "North Basement Room",
+                        "ref": "D3 - Key Cavern/North Basement Room/Key Drop"
+                    },
+                    {
+                        "name": "Owl (Basement North)",
+                        "ref": "D3 - Key Cavern/North Basement Room/Owl (Basement North)"
+                    },
+                    {
+                        "name": "Beak Chest around Blocks",
+                        "ref": "D3 - Key Cavern/Beak Chest around Blocks/Chest"
+                    },
+                    {
+                        "name": "Map Chest East of the 4 Zols",
+                        "ref": "D3 - Key Cavern/Map Chest East of the 4 Zols/Chest"
+                    },
+                    {
+                        "name": "West Ceiling Key",
+                        "ref": "D3 - Key Cavern/West Ceiling Key/Key Drop"
+                    },
+                    {
+                        "name": "South Ceiling Key",
+                        "ref": "D3 - Key Cavern/South Ceiling Key/Key Drop"
+                    },
+                    {
+                        "name": "Kill the Zols!",
+                        "ref": "D3 - Key Cavern/Kill the Zols!/Key Drop"
+                    },
+                    {
+                        "name": "Pairodd Ceiling Key",
+                        "ref": "D3 - Key Cavern/Pairodd Ceiling Key/Key Drop"
+                    },
+                    {
+                        "name": "Owl (Northwest)",
+                        "ref": "D3 - Key Cavern/Owl (Northwest)/Owl"
+                    },
+                    {
+                        "name": "Kill the Zols and Stalfos",
+                        "ref": "D3 - Key Cavern/Kill the Zols and Stalfos/Chest"
+                    },
+                    {
+                        "name": "Chest after Dodongos",
+                        "ref": "D3 - Key Cavern/Chest after Dodongos/Chest"
+                    },
+                    {
+                        "name": "East Ledge",
+                        "ref": "D3 - Key Cavern/East Ledge/Chest"
+                    },
+                    {
+                        "name": "Owl (Arrow)",
+                        "ref": "D3 - Key Cavern/Owl (Arrow)/Owl"
+                    },
+                    {
+                        "name": "After the Bombites",
+                        "ref": "D3 - Key Cavern/After the Bombites/Chest"
+                    },
+                    {
+                        "name": "Bombwall Room with Bombites",
+                        "ref": "D3 - Key Cavern/Bombwall Room with Bombites/Chest"
+                    },
+                    {
+                        "name": "Conveyor Keese Mayhem",
+                        "ref": "D3 - Key Cavern/Conveyor Keese Mayhem/Key Drop"
+                    },
+                    {
+                        "name": "Slime Eye",
+                        "ref": "D3 - Key Cavern/Slime Eye/Boss"
+                    },
+                    {
+                        "name": "Sea Lily's Bell",
+                        "ref": "D3 - Key Cavern/Sea Lily's Bell/Instrument"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1016,
+                        "y": 1116,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Key Cavern Entrance",
+                //"chest_unopened_img": "images/Bosses/slimeeye_gray.png",
+                //"chest_opened_img": "images/Bosses/slimeeye.png",
+                "visibility_rules": "dungeon_er_on",
+                "access_rules": [
+                    "$keycavern"
+                ],
+                "sections": [
+                    {
+                        //"name": "Entrance",
+                        "hosted_item": "kcd_"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 956,
+                        "y": 1116,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Angler Tunnel",
+                //"chest_unopened_img": "images/Bosses/anglerfish_gray.png",
+                //"chest_opened_img": "images/Bosses/anglerfish.png",
+                //"access_rules": [
+                //    "$anglertunnel",
+                //    "[l_gli],$anglertunnel_g"
+                //],
+                "sections": [
+                    {
+                        "name": "Beak Chest",
+                        "ref": "D4 - Angler Tunnel/Beak Chest/Chest"
+                    },
+                    {
+                        "name": "Map Chest",
+                        "ref": "D4 - Angler Tunnel/Map Chest/Chest"
+                    },
+                    {
+                        "name": "First Water Room Chest",
+                        "ref": "D4 - Angler Tunnel/First Water Room Chest/Chest"
+                    },
+                    {
+                        "name": "Second Water Room Chest",
+                        "ref": "D4 - Angler Tunnel/Second Water Room Chest/Chest"
+                    },
+                    {
+                        "name": "East Entrance Room",
+                        "ref": "D4 - Angler Tunnel/East Entrance Room/Chest"
+                    },
+                    {
+                        "name": "Crystal Maze Chest",
+                        "ref": "D4 - Angler Tunnel/Crystal Maze Chest/Chest"
+                    },
+                    {
+                        "name": "East Chest on the Island",
+                        "ref": "D4 - Angler Tunnel/East Chest on the Island/Chest"
+                    },
+                    {
+                        "name": "Key drop in the hole",
+                        "ref": "D4 - Angler Tunnel/Key drop in the hole/Key Drop"
+                    },
+                    {
+                        "name": "Flippers Chest",
+                        "ref": "D4 - Angler Tunnel/Flippers Chest/Chest"
+                    },
+                    {
+                        "name": "Chest between the two tile rooms",
+                        "ref": "D4 - Angler Tunnel/Chest between the two tile rooms/Chest"
+                    },
+                    {
+                        "name": "Chest guarded by Stalfos",
+                        "ref": "D4 - Angler Tunnel/Chest guarded by Stalfos/Chest"
+                    },
+                    {
+                        "name": "Through the stairs in the tile room",
+                        "ref": "D4 - Angler Tunnel/Through the stairs in the tile room/Chest"
+                    },
+                    {
+                        "name": "Chest surrounded by water",
+                        "ref": "D4 - Angler Tunnel/Chest surrounded by water/Chest"
+                    },
+                    {
+                        "name": "Owl Statue",
+                        "ref": "D4 - Angler Tunnel/Owl Statue/Owl"
+                    },
+                    {
+                        "name": "Angler Fish",
+                        "ref": "D4 - Angler Tunnel/Angler Fish/Boss"
+                    },
+                    {
+                        "name": "Surf Harp",
+                        "ref": "D4 - Angler Tunnel/Surf Harp/Instrument"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1976,
+                        "y": 404,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Angler Tunnel Entrance",
+                //"chest_unopened_img": "images/Bosses/anglerfish_gray.png",
+                //"chest_opened_img": "images/Bosses/anglerfish.png",
+                "visibility_rules": "dungeon_er_on",
+                "access_rules": [
+                    "$anglertunnel",
+                    "[l_gli],$anglertunnel_g"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "atd_"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1916,
+                        "y": 404,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Catfish Maw",
+                //"chest_unopened_img": "images/Bosses/slimeeel_gray.png",
+                //"chest_opened_img": "images/Bosses/slimeeel.png",
+                //"access_rules": [
+                //    "$catfishmaw",
+                //    "[l_gli],$catfishmaw_g"
+                //],
+                "sections": [
+                    {
+                        "name": "First Chest",
+                        "ref": "D5 - Catfish Maw/First Chest/Chest"
+                    },
+                    {
+                        "name": "Compass Chest",
+                        "ref": "D5 - Catfish Maw/Compass Chest/Chest"
+                    },
+                    {
+                        "name": "Stone Beak",
+                        "ref": "D5 - Catfish Maw/Stone Beak/Chest"
+                    },
+                    {
+                        "name": "Chest across the gap",
+                        "ref": "D5 - Catfish Maw/Chest across the gap/Chest"
+                    },
+                    {
+                        "name": "Owl (Triple Stalfos)",
+                        "ref": "D5 - Catfish Maw/Owl (Triple Stalfos)/Owl"
+                    },
+                    {
+                        "name": "Chest after Round 1",
+                        "ref": "D5 - Catfish Maw/Chest after Round 1/Chest"
+                    },
+                    {
+                        "name": "Hookshot Chest 1",
+                        "ref": "D5 - Catfish Maw/Hookshot Chest 1/Chest"
+                    },
+                    {
+                        "name": "Hookshot Chest 2",
+                        "ref": "D5 - Catfish Maw/Hookshot Chest 2/Chest"
+                    },
+                    {
+                        "name": "Hookshot Chest 3",
+                        "ref": "D5 - Catfish Maw/Hookshot Chest 3/Chest"
+                    },
+                    {
+                        "name": "After Round 3",
+                        "ref": "D5 - Catfish Maw/After Round 3/Chest"
+                    },
+                    {
+                        "name": "Nightmare Key through the water",
+                        "ref": "D5 - Catfish Maw/Nightmare Key through the water/Chest"
+                    },
+                    {
+                        "name": "Ceiling Key near Round 4",
+                        "ref": "D5 - Catfish Maw/Ceiling Key near Round 4/Key Drop"
+                    },
+                    {
+                        "name": "Master Stalfos Round 4",
+                        "ref": "D5 - Catfish Maw/Master Stalfos Round 4/Hookshot Drop"
+                    },
+                    {
+                        "name": "Owl (Before Slime Eel)",
+                        "ref": "D5 - Catfish Maw/Owl (Before Slime Eel)/Owl"
+                    },
+                    {
+                        "name": "Slime Eel",
+                        "ref": "D5 - Catfish Maw/Slime Eel/Boss"
+                    },
+                    {
+                        "name": "Wind Marimba",
+                        "ref": "D5 - Catfish Maw/Wind Marimba/Instrument"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1662,
+                        "y": 1310,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Catfish Maw Entrance",
+                //"chest_unopened_img": "images/Bosses/slimeeel_gray.png",
+                //"chest_opened_img": "images/Bosses/slimeeel.png",
+                "visibility_rules": "dungeon_er_on",
+                "access_rules": [
+                    "$catfishmaw",
+                    "[l_gli],$catfishmaw_g"
+                ],
+                "sections": [
+                    {
+                        "name": "Entrance",
+                        "hosted_item": "cmd_"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1602,
+                        "y": 1310,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Face Shrine",
+                //"chest_unopened_img": "images/Bosses/facade_gray.png",
+                //"chest_opened_img": "images/Bosses/facade.png",
+                //"access_rules": [
+                //    "$faceshrine",
+                //    "[l_gli],$faceshrine_g1",
+                //    "[l_gli],$faceshrine_g2"
+                //],
+                "sections": [
+                    {
+                        "name": "Kill the Wizzrobes",
+                        "ref": "D6 - Face Shrine/Kill the Wizzrobes/Chest"
+                    },
+                    {
+                        "name": "Use the Elephant",
+                        "ref": "D6 - Face Shrine/Use the Elephant/Chest"
+                    },
+                    {
+                        "name": "Power Bracelet 2 Chest",
+                        "ref": "D6 - Face Shrine/Power Bracelet 2 Chest/Chest"
+                    },
+                    {
+                        "name": "Owl (Ledge)",
+                        "ref": "D6 - Face Shrine/Owl (Ledge)/Owl"
+                    },
+                    {
+                        "name": "More Wizzrobe Killing",
+                        "ref": "D6 - Face Shrine/More Wizzrobe Killing/Chest"
+                    },
+                    {
+                        "name": "Beak Chest",
+                        "ref": "D6 - Face Shrine/Beak Chest/Chest"
+                    },
+                    {
+                        "name": "Compass Chest",
+                        "ref": "D6 - Face Shrine/Compass Chest/Chest"
+                    },
+                    {
+                        "name": "North Wizzrobe Blocks",
+                        "ref": "D6 - Face Shrine/North Wizzrobe Blocks/Key Drop"
+                    },
+                    {
+                        "name": "Northwest Horsehead",
+                        "ref": "D6 - Face Shrine/Northwest Horsehead/Chest"
+                    },
+                    {
+                        "name": "Owl (Southeast)",
+                        "ref": "D6 - Face Shrine/Owl (Southeast)/Owl"
+                    },
+                    {
+                        "name": "Southeast Blade Trap",
+                        "ref": "D6 - Face Shrine/Southeast Blade Trap/Chest"
+                    },
+                    {
+                        "name": "Tile Room Key Drop",
+                        "ref": "D6 - Face Shrine/Tile Room Key Drop/Key Drop"
+                    },
+                    {
+                        "name": "Northeast Horsehead",
+                        "ref": "D6 - Face Shrine/Northeast Horsehead/Chest"
+                    },
+                    {
+                        "name": "North Pot Chest",
+                        "ref": "D6 - Face Shrine/North Pot Chest/Chest"
+                    },
+                    {
+                        "name": "Owl (Canal)",
+                        "ref": "D6 - Face Shrine/Owl (Canal)/Owl"
+                    },
+                    {
+                        "name": "Chest in the water",
+                        "ref": "D6 - Face Shrine/Chest in the water/Chest"
+                    },
+                    {
+                        "name": "Facade",
+                        "ref": "D6 - Face Shrine/Facade/Boss"
+                    },
+                    {
+                        "name": "Coral Triangle",
+                        "ref": "D6 - Face Shrine/Coral Triangle/Instrument"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 2128,
+                        "y": 894,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Face Shrine Entrance",
+                //"chest_unopened_img": "images/Bosses/facade_gray.png",
+                //"chest_opened_img": "images/Bosses/facade.png",
+                "visibility_rules": "dungeon_er_on",
+                "access_rules": [
+                    "$faceshrine",
+                    "[l_gli],$faceshrine_g1",
+                    "[l_gli],$faceshrine_g2"
+                ],
+                "sections": [
+                    {
+                        "name": "Entrance",
+                        "hosted_item": "fsd_"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 2068,
+                        "y": 894,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Eagle Tower",
+                //"chest_unopened_img": "images/Bosses/evileagle_gray.png",
+                //"chest_opened_img": "images/Bosses/evileagle.png",
+                //"access_rules": [
+                //    "$eagletower",
+                //    "[l_adv],$eagletower_a",
+                //    "[l_gli],$eagletower_g"
+                //],
+                "sections": [
+                    {
+                        "name": "Like Like Key Drop",
+                        "ref": "D7 - Eagle Tower/Like Like Key Drop/Key Drop"
+                    },
+                    {
+                        "name": "Mirror Shield Chest",
+                        "ref": "D7 - Eagle Tower/Mirror Shield Chest/Chest"
+                    },
+                    {
+                        "name": "East Ledge",
+                        "ref": "D7 - Eagle Tower/East Ledge/Chest"
+                    },
+                    {
+                        "name": "Horseheads",
+                        "ref": "D7 - Eagle Tower/Horseheads/Chest"
+                    },
+                    {
+                        "name": "Owl (Ball)",
+                        "ref": "D7 - Eagle Tower/Owl (Ball)/Owl"
+                    },
+                    {
+                        "name": "Owl (Kirbys)",
+                        "ref": "D7 - Eagle Tower/Owl (Kirbys)/Owl"
+                    },
+                    {
+                        "name": "Three-of-a-kind",
+                        "ref": "D7 - Eagle Tower/Three-of-a-kind/Chest"
+                    },
+                    {
+                        "name": "Hinox",
+                        "ref": "D7 - Eagle Tower/Hinox/Key Drop"
+                    },
+                    {
+                        "name": "West Ledge",
+                        "ref": "D7 - Eagle Tower/West Ledge/Chest"
+                    },
+                    {
+                        "name": "Stone Beak",
+                        "ref": "D7 - Eagle Tower/Stone Beak/Chest"
+                    },
+                    {
+                        "name": "Owl (Hookshot Chest)",
+                        "ref": "D7 - Eagle Tower/Owl (Hookshot Chest)/Owl"
+                    },
+                    {
+                        "name": "Three-of-a-kind Hookshot Chest",
+                        "ref": "D7 - Eagle Tower/Three-of-a-kind Hookshot Chest/Chest"
+                    },
+                    {
+                        "name": "Grim Creeper (Not Sans Undertale)",
+                        "ref": "D7 - Eagle Tower/Grim Creeper (Not Sans Undertale)/Chest"
+                    },
+                    {
+                        "name": "Conveyor Horseheads",
+                        "ref": "D7 - Eagle Tower/Conveyor Horseheads/Chest"
+                    },
+                    {
+                        "name": "Evil Eagle",
+                        "ref": "D7 - Eagle Tower/Evil Eagle/Boss"
+                    },
+                    {
+                        "name": "Organ of Evening Calm",
+                        "ref": "D7 - Eagle Tower/Organ of Evening Calm/Instrument"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 2500,
+                        "y": 200,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Eagle Tower Entrance",
+                //"chest_unopened_img": "images/Bosses/evileagle_gray.png",
+                //"chest_opened_img": "images/Bosses/evileagle.png",
+                "visibility_rules": "dungeon_er_on",
+                "access_rules": [
+                    "$eagletower",
+                    "[l_adv],$eagletower_a",
+                    "[l_gli],$eagletower_g"
+                ],
+                "sections": [
+                    {
+                        "name": "Entrance",
+                        "hosted_item": "etd_"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 2440,
+                        "y": 200,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Turtle Rock",
+                //"chest_unopened_img": "images/Bosses/hothead_gray.png",
+                //"chest_opened_img": "images/Bosses/hothead.png",
+                //"access_rules": [
+                //    "$turtlerock",
+                //    "[l_adv],$turtlerock_a",
+                //    "[l_gli],$turtlerock_g"
+                //],
+                "sections": [
+                    {
+                        "name": "After Hinox Chest",
+                        "ref": "D8 - Turtle Rock/After Hinox Chest/Chest"
+                    },
+                    {
+                        "name": "Light Torches",
+                        "ref": "D8 - Turtle Rock/Light Torches/Chest"
+                    },
+                    {
+                        "name": "Sparks Chest",
+                        "ref": "D8 - Turtle Rock/Sparks Chest/Chest"
+                    },
+                    {
+                        "name": "West Vire",
+                        "ref": "D8 - Turtle Rock/West Vire/Key Drop"
+                    },
+                    {
+                        "name": "Southwest Vacuum Zol Chest",
+                        "ref": "D8 - Turtle Rock/Southwest Vacuum Zol Chest/Chest"
+                    },
+                    {
+                        "name": "East of Pots",
+                        "ref": "D8 - Turtle Rock/East of Pots/Chest"
+                    },
+                    {
+                        "name": "East Roomba",
+                        "ref": "D8 - Turtle Rock/East Roomba/Key Drop"
+                    },
+                    {
+                        "name": "Snakes Southeast",
+                        "ref": "D8 - Turtle Rock/Snakes Southeast/Chest"
+                    },
+                    {
+                        "name": "Owl (Above Smasher)",
+                        "ref": "D8 - Turtle Rock/Owl (Above Smasher)/Owl"
+                    },
+                    {
+                        "name": "Surrounded By Blocks",
+                        "ref": "D8 - Turtle Rock/Surrounded By Blocks/Chest"
+                    },
+                    {
+                        "name": "Arrow Statue",
+                        "ref": "D8 - Turtle Rock/Arrow Statue/Key Drop"
+                    },
+                    {
+                        "name": "Owl (Eye Statue)",
+                        "ref": "D8 - Turtle Rock/Owl (Eye Statue)/Owl"
+                    },
+                    {
+                        "name": "Beamos Chest",
+                        "ref": "D8 - Turtle Rock/Beamos Chest/Chest"
+                    },
+                    {
+                        "name": "Northwest Hookshot Ledge",
+                        "ref": "D8 - Turtle Rock/Northwest Hookshot Ledge/Chest"
+                    },
+                    {
+                        "name": "Dodongos",
+                        "ref": "D8 - Turtle Rock/Dodongos/Chest"
+                    },
+                    {
+                        "name": "Gibdos Key Drop",
+                        "ref": "D8 - Turtle Rock/Gibdos Key Drop/Key Drop"
+                    },
+                    {
+                        "name": "Owl (Below Gibdos)",
+                        "ref": "D8 - Turtle Rock/Owl (Below Gibdos)/Owl"
+                    },
+                    {
+                        "name": "North Hookshot Ledge",
+                        "ref": "D8 - Turtle Rock/North Hookshot Ledge/Chest"
+                    },
+                    {
+                        "name": "Rod Chest after Blaino",
+                        "ref": "D8 - Turtle Rock/Rod Chest after Blaino/Chest"
+                    },
+                    {
+                        "name": "Northwest Roomba after Cueball",
+                        "ref": "D8 - Turtle Rock/Northwest Roomba after Cueball/Chest"
+                    },
+                    {
+                        "name": "Hothead",
+                        "ref": "D8 - Turtle Rock/Hothead/Boss"
+                    },
+                    {
+                        "name": "Thunder Drum",
+                        "ref": "D8 - Turtle Rock/Thunder Drum/Instrument"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 178,
+                        "y": 238,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Turtle Rock Entrance",
+                //"chest_unopened_img": "images/Bosses/hothead_gray.png",
+                //"chest_opened_img": "images/Bosses/hothead.png",
+                "visibility_rules": "dungeon_er_on",
+                "access_rules": [
+                    "$turtlerock",
+                    "[l_adv],$turtlerock_a",
+                    "[l_gli],$turtlerock_g"
+                ],
+                "sections": [
+                    {
+                        "name": "Entrance",
+                        "hosted_item": "trd_"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 118,
+                        "y": 238,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Color Dungeon",
+                //"chest_unopened_img": "images/Bosses/hardhit_gray.png",
+                //"chest_opened_img": "images/Bosses/hardhit.png",
+                //"access_rules": [
+                //    "$colordungeon"
+                //],
+                "sections": [
+                    {
+                        "name": "Match the Colors",
+                        "ref": "D0 - Color Dungeon/Match the Colors/Chest"
+                    },
+                    {
+                        "name": "Owl (First Switches)",
+                        "ref": "D0 - Color Dungeon/Owl (First Switches)/Owl"
+                    },
+                    {
+                        "name": "Rupee Hype Room",
+                        "ref": "D0 - Color Dungeon/Rupee Hype Room/Rupees"
+                    },
+                    {
+                        "name": "Orb Enemy Chest",
+                        "ref": "D0 - Color Dungeon/Orb Enemy Chest/Chest"
+                    },
+                    {
+                        "name": "South Loop Chest",
+                        "ref": "D0 - Color Dungeon/South Loop Chest/Chest"
+                    },
+                    {
+                        "name": "Match More Colors",
+                        "ref": "D0 - Color Dungeon/Match More Colors/Key Drop"
+                    },
+                    {
+                        "name": "Owl (Before Mini Boss)",
+                        "ref": "D0 - Color Dungeon/Owl (Before Mini Boss)/Owl"
+                    },
+                    {
+                        "name": "After Blob Mini-Boss",
+                        "ref": "D0 - Color Dungeon/After Blob Mini-Boss/Chest"
+                    },
+                    {
+                        "name": "Zol Pot Room Chest",
+                        "ref": "D0 - Color Dungeon/Zol Pot Room Chest/Chest"
+                    },
+                    {
+                        "name": "Four Orb Enemies",
+                        "ref": "D0 - Color Dungeon/Four Orb Enemies/Key Drop"
+                    },
+                    {
+                        "name": "Owl (Nine Switches)",
+                        "ref": "D0 - Color Dungeon/Owl (Nine Switches)/Owl"
+                    },
+                    {
+                        "name": "Fairy Queen",
+                        "ref": "D0 - Color Dungeon/Fairy Queen/Red|Blue Tunic"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1362,
+                        "y": 770,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Color Dungeon Entrance",
+                //"chest_unopened_img": "images/Bosses/hardhit_gray.png",
+                //"chest_opened_img": "images/Bosses/hardhit.png",
+                "visibility_rules": "dungeon_er_on",
+                "access_rules": [
+                    "$colordungeon"
+                ],
+                "sections": [
+                    {
+                        "name": "Entrance",
+                        "hosted_item": "cdd_"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1302,
+                        "y": 770,
+                        "size": 50
                     }
                 ]
             },

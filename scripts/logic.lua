@@ -483,7 +483,7 @@ function crystal_switch()
 end
 
 function pot()
-    return (bracelet() or bombs() or has("sword", 2))
+    return (bracelet() or bombs() or sword2())
 end
 
 function rock()
@@ -514,6 +514,10 @@ function skew()
     return (hookshot() and (bombs() or feather() or sword() or shovel()))
 end
 
+function steal()
+    return (sword() and has("s_swordsteal"))
+end
+
 -- trick macros
 function bomb_arrows()
     return bombs() and bow()
@@ -526,7 +530,7 @@ end
 
 -- region macros
 function anglertunnel()
-    return ((bracelet() and crystal() and (obstacle() or rooster()) and has("angler")) or (bracelet() and water()))
+    return (((bracelet() or has("openmabe")) and crystal() and (obstacle() or rooster()) and has("angler")) or ((bracelet() or has("openmabe")) and water()))
 end
 
 function anglertunnel_g()
@@ -566,7 +570,7 @@ function bridge()
 end
 
 function catfishmaw()
-    return (bracelet() and flippers())
+    return ((bracelet() or has("openmabe")) and flippers())
 end
 
 function catfishmaw_g()
@@ -578,7 +582,7 @@ function colordungeon()
 end
 
 function desert()
-    return ((bracelet() or has("openmabe")) and (hookshot() or obstacle() or water()))
+    return ((bracelet() or has("openmabe")) and (hookshot() or obstacle() or water()) and bush())
 end
 
 function dreamshrine()
@@ -609,7 +613,7 @@ function egg()
 end
 
 function faceshrine()
-    return (river() and (hookshot() or rooster()) and has("face"))
+    return (river() and (hookshot() or rooster()) and ((has("face") and has("dungeon_er_off")) or (has("dungeon_er_on") and fs_dungeon())))
 end
 
 function faceshrine_g1()
@@ -653,7 +657,7 @@ function mabe()
 end
 
 function write()
-    return (bush() and (feather() or rooster() or hookshot()))
+    return ((bush() or has("openmabe")) and (feather() or rooster() or hookshot()))
 end
 
 function plains()
@@ -673,7 +677,7 @@ function rapids()
 end
 
 function river()
-    return (bracelet() and water())
+    return ((bracelet() or has("openmabe")) and water())
 end
 
 function signmaze()
@@ -729,7 +733,7 @@ function taltal_east_2_g()
 end
 
 function taltal_river()
-    return (bracelet() and water())
+    return ((bracelet() or has("openmabe")) and water())
 end
 
 function taltal_west_0()

@@ -15,6 +15,7 @@
                         "name": "Hardhat Beetles",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_hardhat",
@@ -34,6 +35,7 @@
                         "name": "Compass Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1
                             }
                         ],
@@ -49,6 +51,7 @@
                         "name": "The Button",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1
                             }
                         ],
@@ -64,6 +67,7 @@
                         "name": "Map Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_stalfos_pit,$k_keese"
@@ -82,6 +86,7 @@
                         "name": "Spark Guarded Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1
                             }
                         ],
@@ -97,6 +102,7 @@
                         "name": "Kill the Moldorms",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_minimoldorm"
@@ -115,6 +121,7 @@
                         "name": "Bombable Wall",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "bombs"
@@ -133,6 +140,7 @@
                         "name": "Feather Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_spiny,d1sk:1,[d1sk:3]"
@@ -151,6 +159,7 @@
                         "name": "3 of a Kind",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_3oak,d1sk:1,[d1sk:3]"
@@ -169,6 +178,7 @@
                         "name": "Nightmare Key",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "feather,d1sk:1,[d1sk:3]"
@@ -187,6 +197,7 @@
                         "name": "Moldorm",
                         "sections": [
                             {
+                                "name": "Heart Container",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_moldorm,feather,d1bk,d1sk:1,[d1sk:3]"
@@ -202,9 +213,10 @@
                         ]
                     },
                     {
-                        "name": "Instrument",
+                        "name": "Full Moon Cello",
                         "sections": [
                             {
+                                "name": "Instrument",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_moldorm,feather,d1bk,d1sk:1,[d1sk:3]"
@@ -224,6 +236,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "d1beak,d1sk:1,[d1sk:3]"
@@ -243,6 +256,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "d1beak,d1sk:1,[d1sk:3]"
@@ -262,6 +276,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "d1beak,d1sk:1,[d1sk:3]"
@@ -292,9 +307,10 @@
                         "name": "Entrance Pot Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "bracelet"
+                                    "$pot"
                                 ]
                             }
                         ],
@@ -310,6 +326,7 @@
                         "name": "Kill the Stalfos",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_stalfosyellow,$k_stalfosred,powder",
@@ -329,6 +346,7 @@
                         "name": "Surrounded by Blocks",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$switch,powder",
@@ -348,6 +366,7 @@
                         "name": "Button across the room",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$switch,feather,powder",
@@ -367,6 +386,7 @@
                         "name": "Kill the Shyguys",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$switch,$k_shyguy,powder,feather",
@@ -386,6 +406,7 @@
                         "name": "Chest across the gap",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_keese,feather,d2sk:1,[d2sk:3]",
@@ -407,6 +428,7 @@
                         "name": "Compass Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "powder,$k_shyguy,d2sk:1,[d2sk:3]",
@@ -426,6 +448,7 @@
                         "name": "Map Chest in Vacuum Room",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$switch,$k_hinox,feather,powder,d2sk:1,[d2sk:3]",
@@ -445,6 +468,7 @@
                         "name": "The Lonely Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$switch,$k_hinox,feather,powder,d2sk:1,[d2sk:3]",
@@ -464,6 +488,7 @@
                         "name": "Blocks Everywhere!",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$switch,$k_hinox,feather,bracelet,powder,d2sk:1,[d2sk:3]",
@@ -483,6 +508,7 @@
                         "name": "Just a couple Boos",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$switch,$k_hinox,feather,powder,d2sk:2,[d2sk:5]",
@@ -502,6 +528,7 @@
                         "name": "Pols Voice, Keese, then the Hooded Stalfos",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$switch,$k_hinox,$k_pol_heavy,$k_keese,$k_stalfosspear,feather,powder,d2sk:1,[d2sk:3]",
@@ -521,6 +548,7 @@
                         "name": "Mad Genie",
                         "sections": [
                             {
+                                "name": "Boss",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$switch,$k_hinox,$k_pol_heavy,$k_genie,feather,powder,d2bk,d2sk:2,[d2sk:5]",
@@ -540,6 +568,7 @@
                         "name": "Conch Horn",
                         "sections": [
                             {
+                                "name": "Instrument",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$switch,$k_hinox,$k_pol_heavy,$k_genie,feather,powder,d2bk,d2sk:2,[d2sk:5]",
@@ -560,6 +589,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d2_7d,d2beak"
@@ -579,6 +609,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d2_7d,d2beak,feather,$crystal_switch,d2sk:1,[d2sk:3]",
@@ -599,6 +630,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d2_4c,d2beak"
@@ -626,10 +658,12 @@
                         "name": "East of Entrance",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "boots",
-                                    "[l_adv],hookshot"
+                                    "hookshot",
+                                    "rooster,badpets"
                                 ]
                             }
                         ],
@@ -645,6 +679,7 @@
                         "name": "First Room North",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,bracelet"
@@ -663,6 +698,7 @@
                         "name": "Kill the Zols",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,bracelet",
@@ -682,6 +718,7 @@
                         "name": "Kill the Stalfos & the Zol",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$obstacle,$k_stalfosyellow,$k_zolg,bracelet",
@@ -701,7 +738,7 @@
                         "name": "North Basement Room",
                         "sections": [
                             {
-                                "name": "Ceiling Key",
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_stalfosyellow,$k_stalfosspear,$switch,bracelet,d3sk:1,[d3sk:9]",
@@ -729,6 +766,7 @@
                         "name": "Beak Chest around Blocks",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$switch,bracelet,d3sk:1,[d3sk:9]",
@@ -745,9 +783,10 @@
                         ]
                     },
                     {
-                        "name": "Map Chest back by the 4 Zols",
+                        "name": "Map Chest East of the 4 Zols",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$switch,bracelet,d3sk:1,[d3sk:9]",
@@ -767,6 +806,7 @@
                         "name": "West Ceiling Key",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,bracelet,feather,d3sk:1",
@@ -786,6 +826,7 @@
                         "name": "South Ceiling Key",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,$k_stalfosspear,bracelet,d3sk:1",
@@ -805,6 +846,7 @@
                         "name": "Kill the Zols!",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,bracelet,d3sk:1,[d3sk:4]",
@@ -824,6 +866,7 @@
                         "name": "Pairodd Ceiling Key",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,bracelet,d3sk:1,[d3sk:4]",
@@ -843,6 +886,7 @@
                         "name": "Kill the Zols and Stalfos",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,$k_stalfosyellow,bracelet,d3sk:1,[d3sk:4]",
@@ -862,6 +906,7 @@
                         "name": "Chest after Dodongos",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_dodongo,bracelet,d3sk:1,[d3sk:4]",
@@ -881,6 +926,7 @@
                         "name": "East Ledge",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,bombs,boots,feather,bracelet,d3sk:1,[d3sk:4]",
@@ -901,6 +947,7 @@
                         "name": "After the Bombites",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_bombgreen,bracelet,d3sk:1,[d3sk:4]",
@@ -920,6 +967,7 @@
                         "name": "Bombwall Room with Bombites",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_bombgreen,bomb,bracelet,d3sk:1,[d3sk:4]",
@@ -939,6 +987,7 @@
                         "name": "Conveyor Keese Mayhem",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,$k_keese,boots,feather,bracelet,d3sk:5,[d3sk:8]",
@@ -960,6 +1009,7 @@
                         "name": "Slime Eye",
                         "sections": [
                             {
+                                "name": "Boss",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,$k_slimeeye,boots,feather,bracelet,d3bk,d3sk:5,[d3sk:8]",
@@ -981,6 +1031,7 @@
                         "name": "Sea Lily's Bell",
                         "sections": [
                             {
+                                "name": "Instrument",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_bombred,$k_sstalfos,$k_zolg,$k_pairodd,$k_slimeeye,boots,feather,bracelet,d3bk,d3sk:5,[d3sk:8]",
@@ -1003,6 +1054,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d3_4c,d3beak,d3sk:1,[d3sk:4]"
@@ -1022,6 +1074,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d3_4c,d3beak,$k_zolr,$k_stalfos,d3sk:1,[d3sk:4]"
@@ -1050,6 +1103,7 @@
                         "name": "Beak Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1
                             }
                         ],
@@ -1065,6 +1119,7 @@
                         "name": "Map Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1
                             }
                         ],
@@ -1080,6 +1135,7 @@
                         "name": "First Water Room Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "boots,feather,bombs",
@@ -1099,6 +1155,7 @@
                         "name": "Second Water Room Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "boots,feather,bombs",
@@ -1118,6 +1175,7 @@
                         "name": "East Entrance Room",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr"
@@ -1136,6 +1194,7 @@
                         "name": "Crystal Maze Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_spiny"
@@ -1154,6 +1213,7 @@
                         "name": "East Chest on the Island",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,flippers,d4sk:2,[d4sk:2]",
@@ -1175,6 +1235,7 @@
                         "name": "Key drop in the hole",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,boots,feather,flippers,d4sk:3,[d4sk:3]",
@@ -1196,6 +1257,7 @@
                         "name": "Flippers Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_octopus,boots,feather,d4sk:4,[d4sk:5]",
@@ -1219,6 +1281,7 @@
                         "name": "Chest between the two tile rooms",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_octopus,boots,feather,d4sk:4,[d4sk:5]",
@@ -1242,6 +1305,7 @@
                         "name": "Chest guarded by Stalfos",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,flippers,boots,feather,d4sk:3,[d4sk:3]",
@@ -1262,6 +1326,7 @@
                         "name": "Through the stairs in the tile room",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,flippers,boots,feather,d4sk:3,[d4sk:3]",
@@ -1283,6 +1348,7 @@
                         "name": "Chest surrounded by water",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,flippers,boots,feather,d4sk:3,[d4sk:3]",
@@ -1303,6 +1369,7 @@
                         "name": "Angler Fish",
                         "sections": [
                             {
+                                "name": "Boss",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_angler,flippers,boots,feather,d4bk,d4sk:4,[d4sk:5]",
@@ -1326,6 +1393,7 @@
                         "name": "Surf Harp",
                         "sections": [
                             {
+                                "name": "Instrument",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_zolr,$k_angler,flippers,boots,feather,d4bk,d4sk:4,[d4sk:5]",
@@ -1346,10 +1414,11 @@
                         ]
                     },
                     {
-                        "name": "Owl",
+                        "name": "Owl Statue",
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d4_4e,d4beak",
@@ -1380,6 +1449,7 @@
                         "name": "First Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "hookshot"
@@ -1398,6 +1468,7 @@
                         "name": "Compass Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_helmasaur,$k_keese"
@@ -1416,6 +1487,7 @@
                         "name": "Stone Beak",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_helmasaur,$k_keese,d5sk:1,[d5sk:1]"
@@ -1434,6 +1506,7 @@
                         "name": "Chest across the gap",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_helmasaur,$k_keese,hookshot,d5sk:1,[d5sk:1]",
@@ -1453,6 +1526,7 @@
                         "name": "Chest after Round 1",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,d5sk:1,[d5sk:1]",
@@ -1472,6 +1546,7 @@
                         "name": "Hookshot Chest 1",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,hookshot,d5sk:1,[d5sk:1]",
@@ -1492,6 +1567,7 @@
                         "name": "Hookshot Chest 2",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,hookshot,d5sk:1,[d5sk:1]",
@@ -1511,6 +1587,7 @@
                         "name": "Hookshot Chest 3",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,hookshot,d5sk:1,[d5sk:1]",
@@ -1530,6 +1607,7 @@
                         "name": "After Round 3",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,feather,d5sk:1,[d5sk:1]",
@@ -1551,6 +1629,7 @@
                         "name": "Nightmare Key through the water",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,hookshot,flippers,d5sk:1,[d5sk:1]",
@@ -1575,6 +1654,7 @@
                         "name": "Ceiling Key near Round 4",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$crystal,feather,$k_keese,$k_helmasaur"
@@ -1593,6 +1673,7 @@
                         "name": "Master Stalfos Round 4",
                         "sections": [
                             {
+                                "name": "Hookshot Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,$crystal,feather,d5sk:1,[d5sk:1]"
@@ -1611,6 +1692,7 @@
                         "name": "Slime Eel",
                         "sections": [
                             {
+                                "name": "Boss",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,$k_star,$k_slimeeel,feather,d5bk,d5sk:1,[d5sk:1]",
@@ -1630,6 +1712,7 @@
                         "name": "Wind Marimba",
                         "sections": [
                             {
+                                "name": "Instrument",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,$k_star,$k_slimeeel,feather,d5bk,d5sk:1,[d5sk:1]",
@@ -1650,6 +1733,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d5_7f,d5beak"
@@ -1669,6 +1753,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d5_5g,feather,d5beak"
@@ -1698,6 +1783,7 @@
                         "name": "Kill the Wizzrobes",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_wizzrobe"
@@ -1716,6 +1802,7 @@
                         "name": "Use the Elephant",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "bracelet2"
@@ -1734,6 +1821,7 @@
                         "name": "Power Bracelet 2 Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_wizzrobe,$k_minimoldorm,$k_zolg,bombs,feather",
@@ -1753,6 +1841,7 @@
                         "name": "More Wizzrobe Killing",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_wizzrobe,$switchfar,$pot"
@@ -1771,6 +1860,7 @@
                         "name": "Beak Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$switchfar,$pot",
@@ -1791,6 +1881,7 @@
                         "name": "Compass Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$switchfar,$pot",
@@ -1811,6 +1902,7 @@
                         "name": "North Wizzrobe Blocks",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$switchfar,$pot",
@@ -1831,6 +1923,7 @@
                         "name": "Northwest Horsehead",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$switchfar,$pot,bracelet2",
@@ -1850,6 +1943,7 @@
                         "name": "Southeast Blade Trap",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_wizzrobe,$switch,bracelet2,feather",
@@ -1867,9 +1961,10 @@
                         ]
                     },
                     {
-                        "name": "Key drop in tile room",
+                        "name": "Tile Room Key Drop",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_rover,bombs,bracelet2,feather,d6sk:1,[d6sk:1]",
@@ -1890,6 +1985,7 @@
                         "name": "Northeast Horsehead",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_rover,$k_pol,bombs,bracelet2,feather,d6sk:2,[d6sk:2]",
@@ -1910,6 +2006,7 @@
                         "name": "North Pot Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_rover,$k_pol,$k_dodongo,hookshot,bombs,bracelet2,feather,d6sk:3,[d6sk:3]",
@@ -1930,6 +2027,7 @@
                         "name": "Chest in the water",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_wizzrobe,bracelet2",
@@ -1950,6 +2048,7 @@
                         "name": "Facade",
                         "sections": [
                             {
+                                "name": "Boss",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_rover,$k_facade,$k_wizzrobe,$k_zolg,bombs,bracelet2,feather,d6bk,d6sk:1,[d6sk:1]",
@@ -1970,6 +2069,7 @@
                         "name": "Coral Triangle",
                         "sections": [
                             {
+                                "name": "Instrument",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_rover,$k_facade,$k_wizzrobe,$k_zolg,bombs,bracelet2,feather,d6bk,d6sk:1,[d6sk:1]",
@@ -1991,6 +2091,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "d6beak"
@@ -2010,6 +2111,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "bracelet2,$k_wizzrobe,d6beak"
@@ -2029,6 +2131,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d6_4h,bombs,hookshot,d6sk:2,[d6sk:3],d6beak",
@@ -2056,9 +2159,10 @@
                 ],
                 "children": [
                     {
-                        "name": "Like Like Key",
+                        "name": "Like Like Key Drop",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_likelike"
@@ -2077,6 +2181,7 @@
                         "name": "Mirror Shield Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d7_2d,$switch"
@@ -2095,6 +2200,7 @@
                         "name": "East Ledge",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d7_2d,$switch"
@@ -2113,6 +2219,7 @@
                         "name": "Horseheads",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d7_2d"
@@ -2131,6 +2238,7 @@
                         "name": "Three-of-a-kind",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d7_2d,$k_3oak,feather",
@@ -2150,6 +2258,7 @@
                         "name": "Hinox",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d7_2d,$k_hinox,$switch"
@@ -2168,6 +2277,7 @@
                         "name": "West Ledge",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d7_2d,$switch"
@@ -2186,6 +2296,7 @@
                         "name": "Stone Beak",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d7_2d"
@@ -2204,6 +2315,7 @@
                         "name": "Three-of-a-kind Hookshot Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d7_2d,$switch,$k_3oak,bombs,hookshot"
@@ -2222,6 +2334,7 @@
                         "name": "Grim Creeper (Not Sans Undertale)",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d7_2d,$switch,$k_grimcreeper"
@@ -2240,6 +2353,7 @@
                         "name": "Conveyor Horseheads",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d7_2f"
@@ -2258,6 +2372,7 @@
                         "name": "Evil Eagle",
                         "sections": [
                             {
+                                "name": "Boss",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d7_2f,$k_evileagle"
@@ -2276,6 +2391,7 @@
                         "name": "Organ of Evening Calm",
                         "sections": [
                             {
+                                "name": "Instrument",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d7_2f,$k_evileagle"
@@ -2295,6 +2411,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d7_2d,d7beak"
@@ -2314,6 +2431,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d7_2d,d7beak"
@@ -2333,6 +2451,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$crystal_switch,bombs,d7beak"
@@ -2362,6 +2481,7 @@
                         "name": "After Hinox Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_6b",
@@ -2381,6 +2501,7 @@
                         "name": "Light Torches",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_6b,rod",
@@ -2400,6 +2521,7 @@
                         "name": "Sparks Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_6b,feather",
@@ -2421,6 +2543,7 @@
                         "name": "West Vire",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_6b,$k_bones,$k_vire",
@@ -2440,6 +2563,7 @@
                         "name": "Southwest Vacuum Zol Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_6b,$k_bones",
@@ -2459,6 +2583,7 @@
                         "name": "East of Pots",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "feather",
@@ -2478,6 +2603,7 @@
                         "name": "East Roomba",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "feather,$pot","feather,rooster,badpets","[l_adv],$dashjump"
@@ -2493,9 +2619,10 @@
                         ]
                     },
                     {
-                        "name": "Far Southeast",
+                        "name": "Snakes Southeast",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "feather,$pot","feather,rooster,badpets"
@@ -2511,9 +2638,10 @@
                         ]
                     },
                     {
-                        "name": "Surrounded by blocks",
+                        "name": "Surrounded By Blocks",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "feather"
@@ -2532,6 +2660,7 @@
                         "name": "Arrow Statue",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_4c,bow",
@@ -2551,6 +2680,7 @@
                         "name": "Beamos Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_4c",
@@ -2567,9 +2697,10 @@
                         ]
                     },
                     {
-                        "name": "Left Exit Hookshot Chest",
+                        "name": "Northwest Hookshot Ledge",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_4c,feather,hookshot",
@@ -2590,6 +2721,7 @@
                         "name": "Dodongos",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_4c,bombs",
@@ -2609,6 +2741,7 @@
                         "name": "Gibdos Key Drop",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_4c,$k_gibdo",
@@ -2629,6 +2762,7 @@
                         "name": "North Hookshot Ledge",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_4c,feather,hookshot",
@@ -2649,6 +2783,7 @@
                         "name": "Rod Chest after Blaino",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_blaino,feather,bombs,hookshot,d8sk:1,[d8sk:7]"
@@ -2667,6 +2802,7 @@
                         "name": "Northwest Roomba after Cueball",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_cueball,feather,rod,d8sk:1,[d8sk:7]"
@@ -2685,6 +2821,7 @@
                         "name": "Hothead",
                         "sections": [
                             {
+                                "name": "Boss",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_hothead,feather,rod,d8bk"
@@ -2703,6 +2840,7 @@
                         "name": "Thunder Drum",
                         "sections": [
                             {
+                                "name": "Instrument",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_hothead,feather,rod,d8bk"
@@ -2722,6 +2860,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_owl_smasher",
@@ -2742,6 +2881,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "feather,d8sk:1,[d8sk:2],d8beak",
@@ -2762,6 +2902,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d8_4c,d8beak"
@@ -2789,6 +2930,7 @@
                         "name": "Match the Colors",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_goblin_heavy,$switch"
@@ -2810,6 +2952,7 @@
                         ],
                         "sections": [
                             {
+                                "name": "Rupees",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_goblin_heavy,bombs"
@@ -2825,9 +2968,10 @@
                         ]
                     },
                     {
-                        "name": "Orb Enemey Chest",
+                        "name": "Orb Enemy Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_goblin_heavy,$k_orb"
@@ -2846,6 +2990,7 @@
                         "name": "South Loop Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_goblin_heavy"
@@ -2864,6 +3009,7 @@
                         "name": "Match More Colors",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_goblin_heavy,$switch"
@@ -2879,9 +3025,10 @@
                         ]
                     },
                     {
-                        "name": "After Blob Boss",
+                        "name": "After Blob Mini-Boss",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_goblin_heavy,$k_blob,d0sk:1,[d0sk:2]"
@@ -2900,6 +3047,7 @@
                         "name": "Zol Pot Room Chest",
                         "sections": [
                             {
+                                "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_goblin_heavy,$k_stonehinox,$k_zolr_heavy,$k_zolg_heavy,$pot,d0sk:1,[d0sk:2]"
@@ -2918,6 +3066,7 @@
                         "name": "Four Orb Enemies",
                         "sections": [
                             {
+                                "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_goblin_heavy,$k_stonehinox,$k_zolr_heavy,$k_zolg_heavy,$k_orb,$pot,d0sk:1,[d0sk:2]"
@@ -2936,6 +3085,7 @@
                         "name": "Fairy Queen",
                         "sections": [
                             {
+                                "name": "Red|Blue Tunic",
                                 "item_count": 2,
                                 "hosted_item": "fairyq",
                                 "access_rules": [
@@ -2956,6 +3106,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_goblin_heavy,d0beak"
@@ -2975,6 +3126,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$d0_6d|true, [$d0_6d],d0sk:1,[d0sk:2],d0beak,$pot"
@@ -2994,6 +3146,7 @@
                         "visibility_rules": ["owlstatue"],
                         "sections": [
                             {
+                                "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
                                     "$k_goblin_heavy,d0beak"

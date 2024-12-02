@@ -232,53 +232,56 @@
           {
             "type": "itemgrid",
             "h_alignment": "center",
-            "item_margin": "2,0",
-            "item_size": 55,
+            "item_margin": "9,6",
+            "item_size": 70,
             "rows": [
               [
                 "classic_off",
                 "opencastle",
                 "dungeon_er_off",
-                "openmabe",
+                "openmabe"
+              ],
+              [
                 "openmamu",
-                "faststalfos"
+                "faststalfos",
+                "s_never"
               ]
             ]
           },
           {
             "type": "itemgrid",
-            "header": "Tail Cave | Bottle Grotto | Key Cavern",
+            //"header": "Tail Cave | Bottle Grotto | Key Cavern",
             "h_alignment": "center",
-            "margin": "5,5",
-            "item_margin": "-5,0",
-            "item_size": 60,
+            "margin": "54,5",
+            "item_margin": "10,5",
+            "item_size": 65,
             "rows": [
               [
-                "","tcdX","","bgdX","","kcdX",""
-              ]
-            ]
-          },
-          {
-            "type": "itemgrid",
-            "h_alignment": "center",
-            "margin": "5,5",
-            "item_margin": "-5,0",
-            "item_size": 60,
-            "rows": [
-              [
-                "","atdX","","cmdX","","fsdX",""
+                "tcdX","bgdX","kcdX"
               ]
             ]
           },
           {
             "type": "itemgrid",
             "h_alignment": "center",
-            "margin": "5,5",
-            "item_margin": "-5,0",
-            "item_size": 60,
+            "margin": "54,5",
+            "item_margin": "10,5",
+            "item_size": 65,
             "rows": [
               [
-                "","etdX","","trdX","","cddX",""
+                "atdX","cmdX","fsdX"
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "margin": "54,5",
+            "item_margin": "10,5",
+            "item_size": 65,
+            "rows": [
+              [
+                "etdX","trdX","cddX"
               ]
             ]
           }

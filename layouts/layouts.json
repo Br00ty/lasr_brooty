@@ -15,8 +15,9 @@
                     "content": [
                         {
                             "type": "group",
-                            "background": "#212121",
+                            //"background": "#212121",
                             "header": "Items",
+                            "header_background": "#000000",
                             "dock": "top",
                             "content": {
                                 "type": "layout",
