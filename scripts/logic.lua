@@ -482,6 +482,7 @@ function crystal_switch()
     return (sword() or bombs() or bow() or hookshot() or boomerang() or rod())
 end
 
+-- Breaking a pot; throwing one (at a door or an enemy) needs bracelet()
 function pot()
     return (bracelet() or bombs() or sword2())
 end
@@ -565,8 +566,9 @@ function bottlegrotto_classic_adv()
     return (bottlegrotto_classic() or (swamp_adv() and k_flower()))
 end
 
+-- Kiki's bridge next to Kanalet Castle, built as with LASR's Completed Bridge setting (on by default)
 function bridge()
-    return bracelet()
+    return plains()
 end
 
 function catfishmaw()
@@ -612,12 +614,21 @@ function egg()
     return (bracelet() and has("ocarina") and has("ballad") and instruments())
 end
 
+-- The Face Shrine's door, without the Face Key: with Dungeon ER it leads to whichever dungeon its pin marks
+function faceshrine_door()
+    return (river() and (hookshot() or rooster()))
+end
+
+function faceshrine_door_g()
+    return (armosmaze() and bracelet() and boots() and feather() and sword())
+end
+
 function faceshrine()
-    return (river() and (hookshot() or rooster()) and ((has("face") and has("dungeon_er_off")) or (has("dungeon_er_on") and fs_dungeon())))
+    return (faceshrine_door() and ((has("face") and has("dungeon_er_off")) or (has("dungeon_er_on") and fs_dungeon())))
 end
 
 function faceshrine_g1()
-    return (faceshrine() or (armosmaze() and bracelet() and boots() and feather() and sword() and has("face")))
+    return (faceshrine() or (faceshrine_door_g() and has("face")))
 end
 
 function faceshrine_g2()
@@ -629,11 +640,12 @@ function ghostgrave()
 end
 
 function ghosthouse()
-    return bracelet()
+    return ((beach() and bracelet()) or (plains() and (dashjump() or rooster())))
 end
 
+-- Also up the river from the prairie, through the rapids or the Tal Tal river
 function heights()
-    return bracelet()
+    return (bracelet() or (taltal_river() and water()) or (rapids() and (hookshot() or water())))
 end
 
 function heights_g()
@@ -645,11 +657,11 @@ function f_out()
 end
 
 function kanalet()
-    return (bracelet() and feather())
+    return (bridge() and bush() and feather())
 end
 
 function keycavern()
-    return (bracelet() and (feather() or water()) and has("slime"))
+    return (plains() and (feather() or water()) and has("slime"))
 end
 
 function mabe()
@@ -665,7 +677,7 @@ function plains()
 end
 
 function pothole()
-    return (bracelet()) -- 0 and has("goldleaf",5)
+    return plains()
 end
 
 function pothole2()

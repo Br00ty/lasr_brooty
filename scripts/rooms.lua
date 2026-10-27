@@ -23,8 +23,8 @@ function d2_2f()
     return (d2_4c() and pot() and (feather() or (rooster() and badpets())))
 end
 
-function d2_4c()
-    return (d2_7d() and crystal_switch() and (feather() or (rooster() and badpets())) and k_hinox() and has("d2sk", 3))
+function d2_4c() -- has("d2sk", 3)
+    return (d2_7d() and crystal_switch() and (feather() or (rooster() and badpets())) and k_hinox())
 end
 
 function d2_4g()
@@ -168,7 +168,7 @@ function d8_6b_adv()
 end
 
 function d8_owl_smasher()
-    return feather() and (pot() or (rooster and badpets())) and has("d8beak")
+    return feather() and (pot() or (rooster() and badpets())) and has("d8beak")
 end
 
 function d8_8d()

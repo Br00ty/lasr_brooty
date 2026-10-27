@@ -531,8 +531,7 @@
                                 "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$switch,$k_hinox,$k_pol_heavy,$k_keese,$k_stalfosspear,feather,powder,d2sk:1,[d2sk:3]",
-                                    "$switch,$k_hinox,$k_pol_heavy,$k_keese,$k_stalfosspear,feather,rod,d2sk:1,[d2sk:3]"
+                                    "$d2_2f,$k_pol_heavy,$k_keese,$k_stalfosspear,d2sk:1,[d2sk:3]"
                                 ]
                             }
                         ],
@@ -633,7 +632,7 @@
                                 "name": "Owl",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$d2_4c,d2beak"
+                                    "$d2_4c,d2beak,d2sk:3"
                                 ]
                             }
                         ],
@@ -1610,10 +1609,10 @@
                                 "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,feather,d5sk:1,[d5sk:1]",
-                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,hookshot,d5sk:1,[d5sk:1]",
-                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,faststalfos,feather,d5sk:1,[d5sk:1]",
-                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,faststalfos,hookshot,d5sk:1,[d5sk:1]"
+                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,$pot,$k_zolg,feather,d5sk:1,[d5sk:1]",
+                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,$k_masterstalfos,$pot,$k_zolg,hookshot,d5sk:1,[d5sk:1]",
+                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,faststalfos,$pot,$k_zolg,feather,d5sk:1,[d5sk:1]",
+                                    "$k_helmasaur,$k_keese,$k_stalfosred,$k_stalfosyellow,faststalfos,$pot,$k_zolg,hookshot,d5sk:1,[d5sk:1]"
                                 ]
                             }
                         ],
@@ -1884,7 +1883,7 @@
                                 "name": "Chest",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$switchfar,$pot",
+                                    "$d6_3a",
                                     "[l_gli],$faceshrine_g2,bracelet",
                                     "[l_gli],$faceshrine_g2,bombs"
                                 ]
@@ -1905,7 +1904,7 @@
                                 "name": "Key Drop",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "$switchfar,$pot",
+                                    "$d6_3a,$switch,$k_wizzrobe",
                                     "[l_gli],$faceshrine_g2,$switch,$k_wizzrobe,bracelet",
                                     "[l_gli],$faceshrine_g2,$k_wizzrobe,bombs"
                                 ]
